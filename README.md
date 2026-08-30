@@ -7,7 +7,7 @@ encoding the large subunit of Rubisco.
 **Status.** Part A is complete and independently reproduced. Part B has run at
 the L1 prompt level across four arms.
 
-## 📄 The two documents that matter
+## Methods and Results
 
 | | |
 |---|---|
