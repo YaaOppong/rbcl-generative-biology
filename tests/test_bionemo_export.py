@@ -26,10 +26,25 @@ import pytest
 
 from src.train.bionemo_export import export, lineage_for, write_fasta
 
+_TAXIDS: dict[str, int] = {}
+
+
+def _taxid(organism: str) -> int:
+    """A stable, collision-free taxid per organism.
+
+    This was `abs(hash(organism)) % 100000`. Python randomises string hashing
+    per process, so every run assigned different taxids to the fixture's 50
+    organisms, and in ~2% of runs two of them collided into one id. That put a
+    single species in both train and val_novel and fired the export's leakage
+    guard -- a fixture bug that reads exactly like a leakage bug, failing
+    roughly one CI run in fifty with an alarming and untrue error.
+    """
+    return _TAXIDS.setdefault(organism, 10_000 + len(_TAXIDS))
+
 
 def _rec(acc, clade, organism, seq="ATG" + "GCT" * 400):
     return {"accession": acc, "clade": clade, "organism": organism,
-            "taxid": abs(hash(organism)) % 100000, "sequence": seq}
+            "taxid": _taxid(organism), "sequence": seq}
 
 
 @pytest.fixture

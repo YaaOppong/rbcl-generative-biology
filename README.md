@@ -44,6 +44,8 @@ experiments.
 
 ## Install
 
+Python 3.10 or newer (`src/data/frame_audit.py` uses `zip(strict=)`).
+
 ```bash
 git clone https://github.com/YaaOppong/rbcl-generative-biology
 cd rbcl-generative-biology

@@ -509,8 +509,8 @@ Verify with `python -m src.data.og2_audit --verify-partition` (network).
 ## 11. Reproduction
 
 ```bash
-pip install -e ".[dev]"
-pytest -q                      # 158 tests, CPU-only; torch-dependent modules skip
+pip install -e ".[dev]"        # needs Python >= 3.10
+pytest -q                      # 158 CPU-only; 202 with torch installed, as CI runs it
 
 # --- data (network) ---
 python -m src.data.discover_accessions --out data/rbcl_fullcds_accessions.csv
