@@ -1,0 +1,87 @@
+{
+  "written_utc": "2026-08-25T09:21:45.420396+00:00",
+  "git": {
+    "commit": "766d53fb11da8c0a47fb5267cc3ae8729c77b381",
+    "commit_short": "766d53f",
+    "branch": "main",
+    "describe": "766d53f",
+    "remote": "https://github.com/YaaOppong/rbcl-generative-biology.git",
+    "dirty": false,
+    "dirty_file_count": 0,
+    "dirty_files": [],
+    "in_git_checkout": false,
+    "source": "launcher"
+  },
+  "config": {
+    "model": "evo2_7b",
+    "data": "data/all_fullcds.jsonl",
+    "max_length": 1600,
+    "batch_size": 4,
+    "grad_accum": 8,
+    "lr": 0.0001,
+    "epochs": 3,
+    "warmup_ratio": 0.03,
+    "seed": 0,
+    "val_fraction": 0.2,
+    "novel_share": 0.5,
+    "early_stopping_patience": 2,
+    "out_dir": "results/all_fullcds_seed0",
+    "lora": {
+      "rank": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_modules": [
+        "inner_mha_cls.Wqkv",
+        "inner_mha_cls.out_proj",
+        "mlp.l1",
+        "mlp.l2",
+        "mlp.l3",
+        "out_filter_dense"
+      ]
+    }
+  },
+  "config_sha256": "d4e267c708a53b8c4088d02383f2d920ddf6e30ffc628d408c38c56ae173a35e",
+  "inputs": [
+    {
+      "path": "data/prompts_corpus.csv",
+      "size_bytes": 826482,
+      "mtime_utc": "2026-08-21T19:57:36.001415+00:00",
+      "sha256": "ecb40c73f400425a828dc8abd3da95e56f5c15d00083930f9a08dbfc0dadd2f6"
+    }
+  ],
+  "packages": {
+    "evo2": "0.5.5",
+    "torch": "2.7.1",
+    "vortex": null,
+    "transformer_engine": null,
+    "flash_attn": "2.8.0.post2",
+    "numpy": "2.5.2",
+    "biopython": "1.88"
+  },
+  "python": "3.12.1",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.35",
+  "gpu": {
+    "cuda_available": true,
+    "device_count": 1,
+    "device_name": "NVIDIA H100 80GB HBM3",
+    "cuda_version": "12.6"
+  },
+  "compute_job_id": "sb-MrsOwW8TfdgcPZm5nGtOXX",
+  "hostname_masked": true,
+  "stage": "generate_ab",
+  "part": "A",
+  "entrypoint": "scripts/generate_ab.py",
+  "arms": [
+    "base"
+  ],
+  "adapters": {},
+  "levels": "L1_donor_90",
+  "replicates": "0",
+  "total_len": 1800,
+  "batch_size": 4,
+  "temperature": 0.7,
+  "top_k": 4,
+  "top_p": 1.0,
+  "censoring_note": "total_len 1800 vs longest natural rbcL CDS 1467 nt; Part A's 1500 censored 2.2% of its generations",
+  "top_k_note": "inherited from ArcInstitute/evo2's Evo2.generate default, not tuned here; held constant across every arm"
+}

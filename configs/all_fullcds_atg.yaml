@@ -1,0 +1,41 @@
+# ALL full-CDS rbcL, additionally requiring an intact ATG start codon.
+#
+# The paired arm to configs/all_fullcds.yaml. Its only difference is the start
+# codon gate, so the comparison isolates that one decision.
+#
+# The gate is confounded with clade and that is the point of measuring it: algal
+# barcode primers sit downstream of the start, so Red algae are 17.2% ATG and
+# Brown algae 17.7% against 96-100% for Eudicots, Mosses and Monocots. Requiring
+# it roughly halves the algal share. Records it removes are 5'-truncated by a
+# median of 12 codons and at most 24; the earliest active-site residue is 175,
+# so nothing catalytic is in the missing region.
+#
+# If this arm matches all_fullcds, the truncation is immaterial and the cleaner
+# corpus should be preferred. If it is worse on the algal clades, the gate is
+# selecting against the clades under study.
+
+model: evo2_7b
+data: data/all_fullcds_atg.jsonl
+max_length: 1600
+batch_size: 4
+grad_accum: 8
+lr: 1.0e-4
+epochs: 3
+warmup_ratio: 0.03
+seed: 0
+val_fraction: 0.2         # total held back
+novel_share: 0.5          # half to val_novel (species-disjoint), half to val_seen
+early_stopping_patience: 2
+out_dir: results/all_fullcds_atg_seed0
+lora:
+  rank: 16
+  alpha: 32
+  dropout: 0.05
+  # Target names verified against ArcInstitute/evo2 -> Zymrael/vortex
+  # StripedHyena source (vortex/model/{model,layers,attention}.py):
+  #   attention blocks: inner_mha_cls.{Wqkv, out_proj}
+  #   all blocks:       mlp.{l1, l2, l3}   (gated MLP: l1/l2 up, l3 down)
+  #   hyena blocks:     out_filter_dense
+  # blocks.N.projections is TELinear, which subclasses nn.Module (not
+  # nn.Linear) and returns (out, bias) -- deliberately excluded.
+  target_modules: [inner_mha_cls.Wqkv, inner_mha_cls.out_proj, mlp.l1, mlp.l2, mlp.l3, out_filter_dense]

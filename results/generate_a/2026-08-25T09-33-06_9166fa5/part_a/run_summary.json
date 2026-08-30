@@ -1,0 +1,35 @@
+{
+  "stage": "generate_ab",
+  "part": "A",
+  "t_start": 1787650421.0243042,
+  "torch": "2.7.1+cu126",
+  "commit": "9166fa51889e4ea62f1c75a2283501e72408ba82",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "arms": [
+    "base"
+  ],
+  "adapters": {},
+  "adapter_verified": null,
+  "total_len": 1800,
+  "levels_run": [
+    "L0_shared_seed",
+    "L1_donor_90",
+    "L2_donor_210",
+    "L3_donor_450",
+    "L4_donor_900"
+  ],
+  "replicates_run": [
+    0
+  ],
+  "n_prompts": 600,
+  "load_info": {
+    "model_name": "evo2_7b",
+    "fp8_patch_applied": false,
+    "self_healing_gate": true
+  },
+  "model": "evo2_7b",
+  "fell_back": false,
+  "generate_base_s": 3331.8,
+  "base_rows": 600,
+  "t_total_s": 3345.9
+}

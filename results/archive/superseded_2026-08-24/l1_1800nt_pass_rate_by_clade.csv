@@ -1,0 +1,13 @@
+tax_group,b2_balanced,base,n,delta
+Green algae,1.0000,0.0000,9,1.0000
+Other green,1.0000,0.0000,2,1.0000
+Red algae,1.0000,0.0000,10,1.0000
+Mosses,1.0000,0.0769,13,0.9231
+SAR/other protist,1.0000,0.1818,11,0.8182
+Brown algae,1.0000,0.2000,5,0.8000
+Ferns,0.8000,0.6000,5,0.2000
+Liverworts,1.0000,0.7273,11,0.2727
+Eudicots,1.0000,0.8846,26,0.1154
+Monocots,1.0000,0.9091,11,0.0909
+Conifers,1.0000,1.0000,2,0.0000
+Other angiosperms,1.0000,1.0000,9,0.0000

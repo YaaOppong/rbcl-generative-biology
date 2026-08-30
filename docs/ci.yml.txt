@@ -1,0 +1,18 @@
+# MOVED to .github/workflows/ci.yml
+
+This file was a placeholder. The workflow could not be committed at the time
+because the token used for the initial push did not carry the `workflow` scope,
+and GitHub refuses workflow files from such tokens by design.
+
+The live workflow now lives at `.github/workflows/ci.yml`. It runs on push to
+main and on pull requests, against Python 3.10 and 3.12:
+
+  * installs CPU torch, then the package with its dev extras
+  * `ruff check src tests scripts` -- note `scripts` is included, which it was
+    not in the original draft; excluding it is why E402 and unclosed-handle
+    findings there went unnoticed until the workflow was first enabled
+  * `pytest -q`
+
+Evo 2 itself is not installed in CI. The torch-dependent test modules exercise
+adapter injection and the loss on toy tensors, which needs torch but not a GPU;
+without torch they skip rather than error.

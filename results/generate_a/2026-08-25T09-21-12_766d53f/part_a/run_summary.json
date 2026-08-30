@@ -1,0 +1,31 @@
+{
+  "stage": "generate_ab",
+  "part": "A",
+  "t_start": 1787649705.4765124,
+  "torch": "2.7.1+cu126",
+  "commit": "766d53fb11da8c0a47fb5267cc3ae8729c77b381",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "arms": [
+    "base"
+  ],
+  "adapters": {},
+  "adapter_verified": null,
+  "total_len": 1800,
+  "levels_run": [
+    "L1_donor_90"
+  ],
+  "replicates_run": [
+    0
+  ],
+  "n_prompts": 120,
+  "load_info": {
+    "model_name": "evo2_7b",
+    "fp8_patch_applied": false,
+    "self_healing_gate": true
+  },
+  "model": "evo2_7b",
+  "fell_back": false,
+  "generate_base_s": 601.3,
+  "base_rows": 120,
+  "t_total_s": 615.0
+}

@@ -1,0 +1,44 @@
+# Sequences are fetched, not committed -- see data/README.md
+data/*.jsonl
+# NOT the corpus provenance: it carries the QC rejection counts (how many records
+# failed the complete-CDS gate, the ambiguity gate, the start-codon gate) and the
+# input digest. Those numbers belong in the methods section, and the corpus
+# itself is gitignored above, so this file is the only record of what was built.
+data/*.fasta
+# EXCEPT the Spinacia oleracea P00875 reference (475 aa, UniProt, fetched
+# 2026-08-30). It is not sequence data in the sense above -- it is the fixed
+# coordinate system the active-site harness maps every generation onto, and
+# without it results/part_a/tables/l1_active_site_*.csv cannot be regenerated
+# from a fresh clone. Committing it is what makes those tables reproducible.
+!data/spinacia_P00875.fasta
+
+# Run outputs -- deliberately split.
+#
+# IGNORED: weights, raw logs, convenience symlinks. Large or regenerable, and
+# useless in a diff.
+results/**/adapter_*.pt
+results/**/*.ckpt
+results/**/*.log
+results/**/stdout.txt
+results/**/latest
+*.tar.gz
+# .tgz too: the harvester writes results/modal_*/out.tgz, which CONTAINS the
+# adapter. *.tar.gz alone did not match it, so a `git add -A` after a run would
+# have committed the weights the rule above exists to keep out.
+*.tgz
+#
+# TRACKED (do NOT add these): provenance.json, run_summary.json, history.json,
+# config.used.yaml, error.txt, generations.csv and the metrics tables. They are
+# the analysis record -- small, diff-able, and the only thing linking a result to
+# the code and data that produced it. Note data/*.jsonl is ignored above, so the
+# input sha256 inside provenance.json is the ONLY anchor from a result back to
+# its exact corpus bytes. error.txt is tracked on purpose: three failed B2 runs
+# produced four real fixes, and that trail is evidence.
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+.DS_Store

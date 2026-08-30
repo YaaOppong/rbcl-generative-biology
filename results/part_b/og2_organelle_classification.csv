@@ -1,0 +1,5 @@
+organelle_class,n_records,total_nt,mean_nt,pct_records,pct_nt
+photosynthetic plastid,14608,2235595257,153039.11,45.31,79.37
+mitochondrion,17613,580596288,32964.08,54.63,20.61
+apicoplast (rbcL-less),17,573797,33752.76,0.05,0.02
+unclassified,2,62164,31082.0,0.01,0.0

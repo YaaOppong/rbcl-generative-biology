@@ -1,0 +1,511 @@
+acc,organism,clade,arm
+LC899187.1,"Pyropia akasakae UM-AK7 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complet",Red algae,B1_sparse_clade
+LC899186.1,"Pyropia akasakae UM-AK2 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complet",Red algae,B1_sparse_clade
+LC899185.1,"Pyropia akasakae UM-AK1 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complet",Red algae,B1_sparse_clade
+LC859596.1,"Trichocolea japonica TNS:Osaku s.n. chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subu",Liverworts,B1_sparse_clade
+LC859595.1,"Trichocolea japonica TNS:Osaku 2409-035 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large ",Liverworts,B1_sparse_clade
+LC859594.1,"Trichocolea japonica TNS:Osaku 2408-029 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large ",Liverworts,B1_sparse_clade
+LC859593.1,"Trichocolea japonica TNS:Osaku 2406-020 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large ",Liverworts,B1_sparse_clade
+LC859592.1,"Trichocolea japonica TNS:M. Higuchi 53740 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase larg",Liverworts,B1_sparse_clade
+LC176260.1,"Weisiopsis anomala chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds",Mosses,B1_sparse_clade
+AB970712.1,"Clastobryellina orientalis chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, comp",Mosses,B1_sparse_clade
+AB970711.1,"Clastobryellina orientalis chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, comp",Mosses,B1_sparse_clade
+AB853079.1,"Timmiella anomala chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds,",Mosses,B1_sparse_clade
+AB853073.1,"Hypnodontopsis apiculatus chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, compl",Mosses,B1_sparse_clade
+LC924964.1,"Myuroclada maximowiczii TNS:MH:257334 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large su",Mosses,B1_sparse_clade
+LC924950.1,"Calohypnum plumiforme TNS:MH:256414 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subu",Mosses,B1_sparse_clade
+LC924949.1,"Calohypnum plumiforme TNS:MH:258474 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subu",Mosses,B1_sparse_clade
+LC924948.1,"Calohypnum plumiforme TNS:MH:257329 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subu",Mosses,B1_sparse_clade
+LC924944.1,"Pylaisiadelpha yokohamae TNS:MH:256171 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924943.1,"Pylaisiadelpha yokohamae TNS:MH:250857 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924942.1,"Pylaisiadelpha yokohamae TNS:MH:258506 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924941.1,"Pylaisiadelpha yokohamae TNS:MH:250882 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924940.1,"Pylaisiadelpha yokohamae TNS:MH:258482 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924939.1,"Pylaisiadelpha yokohamae TNS:MH:258488 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924938.1,"Pylaisiadelpha yokohamae TNS:MH:256087 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924937.1,"Pylaisiadelpha yokohamae TNS:MH:257361 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924936.1,"Pylaisiadelpha yokohamae TNS:MH:257105 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924935.1,"Pylaisiadelpha yokohamae TNS:MH:257393 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924934.1,"Pylaisiadelpha yokohamae TNS:MH:256177 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924933.1,"Pylaisiadelpha yokohamae TNS:MH:256583 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924932.1,"Pylaisiadelpha yokohamae TNS:MH:250870 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924931.1,"Pylaisiadelpha yokohamae TNS:MH:257358 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924930.1,"Pylaisiadelpha yokohamae TNS:MH:253524 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924929.1,"Pylaisiadelpha yokohamae TNS:MH:250843 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924928.1,"Pylaisiadelpha yokohamae TNS:MH:253523 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924927.1,"Pylaisiadelpha yokohamae TNS:MH:256201 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924926.1,"Pylaisiadelpha yokohamae TNS:MH:256477 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924925.1,"Pylaisiadelpha yokohamae TNS:MH:258498 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924924.1,"Pylaisiadelpha yokohamae TNS:MH:258421 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924923.1,"Pylaisiadelpha yokohamae TNS:MH:258478 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924922.1,"Pylaisiadelpha yokohamae TNS:MH:256047 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924921.1,"Pylaisiadelpha yokohamae TNS:MH:253494 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924878.1,"Orthotrichum consobrinum TNS:MH:257366 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924877.1,"Orthotrichum consobrinum TNS:MH:256188 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B1_sparse_clade
+LC924831.1,"Ceratodon purpureus TNS:MH:256515 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subuni",Mosses,B1_sparse_clade
+LC924830.1,"Ceratodon purpureus TNS:MH:256186 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subuni",Mosses,B1_sparse_clade
+LC924778.1,"Acrolejeunea pusilla TNS:MH:258398 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subun",Liverworts,B1_sparse_clade
+LC924777.1,"Acrolejeunea pusilla TNS:MH:257339 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subun",Liverworts,B1_sparse_clade
+LC924776.1,"Acrolejeunea pusilla TNS:MH:256191 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subun",Liverworts,B1_sparse_clade
+LC924775.1,"Acrolejeunea pusilla TNS:MH:256328 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subun",Liverworts,B1_sparse_clade
+LC924774.1,"Acrolejeunea pusilla TNS:MH:256347 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subun",Liverworts,B1_sparse_clade
+LC924773.1,"Acrolejeunea pusilla TNS:MH:256339 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subun",Liverworts,B1_sparse_clade
+LC924765.1,"Porella ulophylla TNS:MH:257691 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit,",Liverworts,B1_sparse_clade
+LC924764.1,"Porella ulophylla TNS:MH:257362 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit,",Liverworts,B1_sparse_clade
+LC924763.1,"Porella ulophylla TNS:MH:256196 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit,",Liverworts,B1_sparse_clade
+LC924737.1,"Conocephalum orientale TNS:MH:257179 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Liverworts,B1_sparse_clade
+LC924736.1,"Conocephalum orientale TNS:MH:256384 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Liverworts,B1_sparse_clade
+LC924735.1,"Conocephalum orientale TNS:MH:256373 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Liverworts,B1_sparse_clade
+LC924734.1,"Conocephalum orientale TNS:MH:256354 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Liverworts,B1_sparse_clade
+LC924733.1,"Conocephalum orientale TNS:MH:256342 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Liverworts,B1_sparse_clade
+LC924732.1,"Conocephalum orientale TNS:MH:256322 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Liverworts,B1_sparse_clade
+LC376047.1,"Hattoria yakushimensis NICH:T. Katagiri 4281 chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase l",Liverworts,B1_sparse_clade
+LC272005.1,"Fissidens subangustus chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Mosses,B1_sparse_clade
+LC884819.1,"Cyanidium caldarium SAG16.91 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, co",Red algae,B1_sparse_clade
+AB071411.1,"Mastopoma subfiliferum chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete",Mosses,B1_sparse_clade
+AB050950.1,"Filibryum ogatae chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds",Mosses,B1_sparse_clade
+AB029389.1,"Myuroclada maximowiczii chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complet",Mosses,B1_sparse_clade
+AB029384.1,"Calohypnum plumiforme chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Mosses,B1_sparse_clade
+LC858740.1,"Cyathodium cavernarum NICH:T.-X. Zheng 17804 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase l",Liverworts,B1_sparse_clade
+LC858739.1,"Cyathodium cavernarum NICH:T.-X. Zheng 17801 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase l",Liverworts,B1_sparse_clade
+LC858738.1,"Cyathodium tuberosum PE:L. Luo 769 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subun",Liverworts,B1_sparse_clade
+PV575775.1,"Sargassum hemiphyllum var. chinense haplotype 5 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gen",Brown algae,B1_sparse_clade
+PV575774.1,"Sargassum hemiphyllum var. chinense haplotype 4 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gen",Brown algae,B1_sparse_clade
+PV575773.1,"Sargassum hemiphyllum var. chinense haplotype 3 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gen",Brown algae,B1_sparse_clade
+PV575772.1,"Sargassum hemiphyllum var. chinense haplotype 2 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gen",Brown algae,B1_sparse_clade
+PV575771.1,"Sargassum hemiphyllum var. chinense haplotype 1 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gen",Brown algae,B1_sparse_clade
+LC791202.1,"Pleurozia subinflata NICH: T. Katagiri 4278 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase la",Liverworts,B1_sparse_clade
+LC791194.1,"Porella ulophylla TNS: Y. Inoue 8267 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Liverworts,B1_sparse_clade
+AB540052.1,"Gloiopeltis complanata chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete",Red algae,B1_sparse_clade
+AB540051.1,"Gloiopeltis complanata chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete",Red algae,B1_sparse_clade
+AB540050.1,"Gloiopeltis complanata chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete",Red algae,B1_sparse_clade
+AB540049.1,"Gloiopeltis complanata chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete",Red algae,B1_sparse_clade
+AB540048.1,"Gloiopeltis complanata chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete",Red algae,B1_sparse_clade
+AB540047.1,"Gloiopeltis sp. Nomozaki/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, c",Red algae,B1_sparse_clade
+AB540046.1,"Gloiopeltis sp. Oiso/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, compl",Red algae,B1_sparse_clade
+AB540045.1,"Gloiopeltis sp. Nakai/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comp",Red algae,B1_sparse_clade
+AB540044.1,"Gloiopeltis sp. Tebajima/2004 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, c",Red algae,B1_sparse_clade
+AB540043.1,"Gloiopeltis sp. Wakayama/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, c",Red algae,B1_sparse_clade
+AB540042.1,"Gloiopeltis sp. Goza/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, compl",Red algae,B1_sparse_clade
+AB540041.1,"Gloiopeltis sp. Touji/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comp",Red algae,B1_sparse_clade
+AB540040.1,"Gloiopeltis sp. Oura/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, compl",Red algae,B1_sparse_clade
+AB540039.1,"Gloiopeltis sp. Katsuura/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, c",Red algae,B1_sparse_clade
+AB540038.1,"Gloiopeltis sp. Choshi/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, com",Red algae,B1_sparse_clade
+AB540037.1,"Gloiopeltis sp. Oarai/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comp",Red algae,B1_sparse_clade
+AB540036.1,"Gloiopeltis sp. Kawajiri/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, c",Red algae,B1_sparse_clade
+AB540035.1,"Gloiopeltis sp. Izura/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comp",Red algae,B1_sparse_clade
+AB540034.1,"Gloiopeltis sp. Jyodogahama/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit",Red algae,B1_sparse_clade
+AB540033.1,"Gloiopeltis sp. Masaki/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, com",Red algae,B1_sparse_clade
+AB540032.1,"Gloiopeltis sp. Tanesashi/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, ",Red algae,B1_sparse_clade
+AB540031.1,"Gloiopeltis sp. Kita-kanegasawa/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Red algae,B1_sparse_clade
+AB540030.1,"Gloiopeltis sp. Ohata/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comp",Red algae,B1_sparse_clade
+AB159659.1,"Nemalionopsis tortuosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete",Red algae,B1_sparse_clade
+AB159651.1,"Thorea gaudichaudii chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cd",Red algae,B1_sparse_clade
+AB159650.1,"Thorea gaudichaudii chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cd",Red algae,B1_sparse_clade
+AB159649.1,"Thorea gaudichaudii chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cd",Red algae,B1_sparse_clade
+OR359632.1,"Amoenothamnion planktonicum ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chl",Red algae,B1_sparse_clade
+OQ863312.1,"Laurencia sp. A25 isolate B1 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chl",Red algae,B1_sparse_clade
+OQ863300.1,"Laurencia catarinensis isolate PD4141 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial",Red algae,B1_sparse_clade
+LC493039.1,"Colpomenia borea Ru_1 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, partial c",Brown algae,B1_sparse_clade
+LC493038.1,"Colpomenia borea Jp_1 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, partial c",Brown algae,B1_sparse_clade
+LC744577.1,"Timmiella anomala TNS: Y. Inoue 8408 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Mosses,B1_sparse_clade
+LC744573.1,"Orthotrichum consobrinum TNS: Y. Inoue 8170 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase la",Mosses,B1_sparse_clade
+ON568338.1,"Scytosiphon sp. Atlantic complex sp. 1 voucher BBB:MEC224 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit ",Brown algae,B1_sparse_clade
+LC723702.1,"Schistochila sciurea chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete c",Liverworts,B1_sparse_clade
+LC723699.1,"Schistochila sciurea chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete c",Liverworts,B1_sparse_clade
+LC702103.1,"Calohypnum plumiforme TNS:MH:247276 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subu",Mosses,B1_sparse_clade
+AB476577.1,"Porella ulophylla chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds,",Liverworts,B1_sparse_clade
+MK875448.1,"Gloiopeltis sp. JP5 voucher Hiroshi Kawai:KU-d16001 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B1_sparse_clade
+MK875447.1,"Gloiopeltis sp. JP5 voucher Hiroshi Kawai:KU-d14317 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B1_sparse_clade
+MK875446.1,"Gloiopeltis sp. JP4 voucher Hiroshi Kawai:KU-d20089 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B1_sparse_clade
+MK875445.1,"Gloiopeltis sp. JP4 voucher Hiroshi Kawai:KU-d17987 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B1_sparse_clade
+MK875444.1,"Gloiopeltis sp. JP3 voucher Hiroshi Kawai:KU-d20672 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B1_sparse_clade
+MK875443.1,"Gloiopeltis sp. JP3 voucher Hiroshi Kawai:KU-d18945 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B1_sparse_clade
+MK875442.1,"Gloiopeltis sp. JP2 voucher Hiroshi Kawai:KU-d18266 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B1_sparse_clade
+MK875441.1,"Gloiopeltis sp. JP2 voucher Hiroshi Kawai:KU-d18220 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B1_sparse_clade
+MK875440.1,"Gloiopeltis sp. JP1 voucher Hiroshi Kawai:KU-d14096 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B1_sparse_clade
+MK875439.1,"Gloiopeltis sp. JP1 voucher Hiroshi Kawai:KU-d5018 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) ",Red algae,B1_sparse_clade
+MK875405.1,"Gloiopeltis complanata voucher Hiroshi Kawai:KU-d18205 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rb",Red algae,B1_sparse_clade
+MK875404.1,"Gloiopeltis complanata voucher Hiroshi Kawai:KU-d18256 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rb",Red algae,B1_sparse_clade
+MK875403.1,"Gloiopeltis complanata voucher Hiroshi Kawai:KU-d14549 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rb",Red algae,B1_sparse_clade
+MN636854.1,"Laurencia intricata voucher ADN-5 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds",Red algae,B1_sparse_clade
+EF547821.1,"Aneura sp. Wickett 473 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloropl",Liverworts,B1_sparse_clade
+EF547820.1,"Aneura sp. Wickett 468 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloropl",Liverworts,B1_sparse_clade
+EF547819.1,"Aneura sp. Shaw 670 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplast",Liverworts,B1_sparse_clade
+EF547818.1,"Aneura sp. Shaw 702 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplast",Liverworts,B1_sparse_clade
+EF547817.1,"Aneura sp. Shaw 697 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplast",Liverworts,B1_sparse_clade
+MH704452.1,"Laurencia sp. voucher SP399934 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; c",Red algae,B1_sparse_clade
+MH704451.1,"Laurencia sp. voucher SP365433 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; c",Red algae,B1_sparse_clade
+MH704450.1,"Laurencia sp. voucher ALCB114309 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds;",Red algae,B1_sparse_clade
+MG251837.1,"Hydroclathrus rapanuii voucher SAP115251 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, part",Brown algae,B1_sparse_clade
+LC270395.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+LC270394.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+LC270393.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+LC270392.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+LC270391.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+LC270390.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+LC270389.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+LC270388.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+LC270387.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+LC270386.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+MG209348.1,"Gloiopeltis complanata voucher GIGAR553 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B1_sparse_clade
+MG209347.1,"Gloiopeltis complanata voucher GIGAR552 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B1_sparse_clade
+MG209346.1,"Gloiopeltis complanata voucher GIGAR360 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B1_sparse_clade
+MG209345.1,"Gloiopeltis complanata voucher GIGAR359 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B1_sparse_clade
+MG209344.1,"Gloiopeltis complanata voucher GIGAR358 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B1_sparse_clade
+MG209343.1,"Gloiopeltis complanata voucher GIGAR551 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B1_sparse_clade
+MG209342.1,"Gloiopeltis complanata voucher GIGAR364 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B1_sparse_clade
+MG209341.1,"Gloiopeltis complanata voucher GIGAR363 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B1_sparse_clade
+MG209340.1,"Gloiopeltis complanata voucher GIGAR541 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B1_sparse_clade
+LC060517.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B1_sparse_clade
+LC060516.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B1_sparse_clade
+LC060515.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B1_sparse_clade
+LC060513.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B1_sparse_clade
+LC060512.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B1_sparse_clade
+LC060511.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B1_sparse_clade
+LC060509.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B1_sparse_clade
+LC060508.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B1_sparse_clade
+LC060507.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B1_sparse_clade
+LC060506.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B1_sparse_clade
+LC060505.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B1_sparse_clade
+LC060504.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B1_sparse_clade
+LC060503.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B1_sparse_clade
+LC060502.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B1_sparse_clade
+LC060501.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B1_sparse_clade
+LC060500.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B1_sparse_clade
+LC060499.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B1_sparse_clade
+LC060498.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B1_sparse_clade
+LC060497.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B1_sparse_clade
+LC060496.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B1_sparse_clade
+LC060495.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B1_sparse_clade
+LC060494.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B1_sparse_clade
+LC060493.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B1_sparse_clade
+EF658644.1,"Laurencia intricata ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",Red algae,B1_sparse_clade
+EF658643.1,"Laurencia intricata ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplast",Red algae,B1_sparse_clade
+KY927733.1,"Laurencia sp. morphotype G voucher D821 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B1_sparse_clade
+LC145073.1,"Haplomitrium hookeri chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete c",Liverworts,B1_sparse_clade
+LC145072.1,"Haplomitrium hookeri chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete c",Liverworts,B1_sparse_clade
+AY996366.1,"Spermatochnus paradoxus strain SAG 10.82 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, comp",Brown algae,B1_sparse_clade
+KX146183.1,"Laurencia sp. voucher HEC16009 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; c",Red algae,B1_sparse_clade
+KX146182.1,"Laurencia sp. voucher JML0132 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; ch",Red algae,B1_sparse_clade
+KX146181.1,"Laurencia sp. voucher JML0097 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; ch",Red algae,B1_sparse_clade
+KX146180.1,"Laurencia sp. voucher JML0141 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; ch",Red algae,B1_sparse_clade
+KX146179.1,"Laurencia sp. voucher ODC1082 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; ch",Red algae,B1_sparse_clade
+KX146178.1,"Laurencia sp. voucher JML0150 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; ch",Red algae,B1_sparse_clade
+KX146177.1,"Laurencia sp. voucher JML0216 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; ch",Red algae,B1_sparse_clade
+KX146176.1,"Laurencia sp. voucher HEC15902 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; c",Red algae,B1_sparse_clade
+KT804669.1,"Filibryum ogatae voucher Wonhee1468 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B1_sparse_clade
+KT804668.1,"Filibryum ogatae voucher Wonhee1443 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B1_sparse_clade
+KT804667.1,"Filibryum ogatae voucher Wonhee1441 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B1_sparse_clade
+KT804666.1,"Filibryum ogatae voucher Wonhee1431 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B1_sparse_clade
+KT804665.1,"Filibryum ogatae voucher Wonhee1400 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B1_sparse_clade
+KT804664.1,"Filibryum ogatae voucher Wonhee1357 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B1_sparse_clade
+KT804663.1,"Filibryum ogatae voucher Wonhee1267 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B1_sparse_clade
+KT804662.1,"Filibryum ogatae voucher Wonhee1260 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B1_sparse_clade
+KT804661.1,"Filibryum ogatae voucher Wonhee1041 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B1_sparse_clade
+DQ286008.1,"Cyathodium tuberosum ribulose-1,5-biphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",Liverworts,B1_sparse_clade
+AY588410.1,"Laurencia intricata ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",Red algae,B1_sparse_clade
+AY346095.1,"Acanthorrhynchium papillatum ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; ch",Mosses,B1_sparse_clade
+GU330220.1,"Laurencia sp. JDL-2010 voucher UAMIZ-1052 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, com",Red algae,B1_sparse_clade
+GU330219.1,"Laurencia sp. JDL-2010 voucher UAMIZ-1051 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, com",Red algae,B1_sparse_clade
+GU330218.1,"Laurencia sp. JDL-2010 voucher UAMIZ-1050 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, com",Red algae,B1_sparse_clade
+GQ149490.1,"Laurencia intricata voucher UAMIZ:1017 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, comple",Red algae,B1_sparse_clade
+GQ149489.1,"Laurencia intricata voucher UAMIZ:1004 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, comple",Red algae,B1_sparse_clade
+AF465809.1,"Laurencia intricata from Mexico ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; ",Red algae,B1_sparse_clade
+AB914722.1,"Timmiella anomala chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds",Mosses,B1_sparse_clade
+GU330238.1,"Laurencia intricata voucher SP365.669 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complet",Red algae,B1_sparse_clade
+AB279617.1,"Orthotrichum consobrinum chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Mosses,B1_sparse_clade
+AB469771.1,"Pohlia annotina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+AB469770.1,"Pohlia annotina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+AB469769.1,"Pohlia annotina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+AB469552.1,"Pohlia annotina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+AB469551.1,"Pohlia annotina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+AB469549.1,"Pohlia annotina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B1_sparse_clade
+AB051224.1,"Acanthorrhynchium papillatum chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, co",Mosses,B1_sparse_clade
+OP237580.1,"Baolia bracteata isolate p2-7 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237579.1,"Baolia bracteata isolate p2-6 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237578.1,"Baolia bracteata isolate p2-5 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237577.1,"Baolia bracteata isolate p2-4 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237576.1,"Baolia bracteata isolate p2-3 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237575.1,"Baolia bracteata isolate p2-2 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237574.1,"Baolia bracteata isolate p2-1 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237573.1,"Baolia bracteata isolate p1-9 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237572.1,"Baolia bracteata isolate p1-8 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237571.1,"Baolia bracteata isolate p1-7 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237570.1,"Baolia bracteata isolate p1-6 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237569.1,"Baolia bracteata isolate p1-5 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237568.1,"Baolia bracteata isolate p1-4 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237567.1,"Baolia bracteata isolate p1-3 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237566.1,"Baolia bracteata isolate p1-2 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP237565.1,"Baolia bracteata isolate p1-1 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+PZ584714.1,"Paulinella sp. B8128-2 isolate 5 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds",Other SAR/protist,B2_balanced
+PZ584713.1,"Paulinella sp. B8128-1 isolate 9 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds",Other SAR/protist,B2_balanced
+LC899187.1,"Pyropia akasakae UM-AK7 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complet",Red algae,B2_balanced
+LC899186.1,"Pyropia akasakae UM-AK2 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complet",Red algae,B2_balanced
+LC899185.1,"Pyropia akasakae UM-AK1 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complet",Red algae,B2_balanced
+LC859596.1,"Trichocolea japonica TNS:Osaku s.n. chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subu",Liverworts,B2_balanced
+LC859595.1,"Trichocolea japonica TNS:Osaku 2409-035 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large ",Liverworts,B2_balanced
+LC859594.1,"Trichocolea japonica TNS:Osaku 2408-029 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large ",Liverworts,B2_balanced
+LC859593.1,"Trichocolea japonica TNS:Osaku 2406-020 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large ",Liverworts,B2_balanced
+LC859592.1,"Trichocolea japonica TNS:M. Higuchi 53740 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase larg",Liverworts,B2_balanced
+LC176260.1,"Weisiopsis anomala chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds",Mosses,B2_balanced
+AB970712.1,"Clastobryellina orientalis chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, comp",Mosses,B2_balanced
+AB970711.1,"Clastobryellina orientalis chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, comp",Mosses,B2_balanced
+AB853079.1,"Timmiella anomala chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds,",Mosses,B2_balanced
+AB853073.1,"Hypnodontopsis apiculatus chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, compl",Mosses,B2_balanced
+LC924964.1,"Myuroclada maximowiczii TNS:MH:257334 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large su",Mosses,B2_balanced
+LC924950.1,"Calohypnum plumiforme TNS:MH:256414 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subu",Mosses,B2_balanced
+LC924949.1,"Calohypnum plumiforme TNS:MH:258474 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subu",Mosses,B2_balanced
+LC924948.1,"Calohypnum plumiforme TNS:MH:257329 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subu",Mosses,B2_balanced
+LC924944.1,"Pylaisiadelpha yokohamae TNS:MH:256171 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924943.1,"Pylaisiadelpha yokohamae TNS:MH:250857 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924942.1,"Pylaisiadelpha yokohamae TNS:MH:258506 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924941.1,"Pylaisiadelpha yokohamae TNS:MH:250882 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924940.1,"Pylaisiadelpha yokohamae TNS:MH:258482 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924939.1,"Pylaisiadelpha yokohamae TNS:MH:258488 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924938.1,"Pylaisiadelpha yokohamae TNS:MH:256087 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924937.1,"Pylaisiadelpha yokohamae TNS:MH:257361 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924936.1,"Pylaisiadelpha yokohamae TNS:MH:257105 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924935.1,"Pylaisiadelpha yokohamae TNS:MH:257393 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924934.1,"Pylaisiadelpha yokohamae TNS:MH:256177 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924933.1,"Pylaisiadelpha yokohamae TNS:MH:256583 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924932.1,"Pylaisiadelpha yokohamae TNS:MH:250870 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924931.1,"Pylaisiadelpha yokohamae TNS:MH:257358 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924930.1,"Pylaisiadelpha yokohamae TNS:MH:253524 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924929.1,"Pylaisiadelpha yokohamae TNS:MH:250843 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924928.1,"Pylaisiadelpha yokohamae TNS:MH:253523 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924927.1,"Pylaisiadelpha yokohamae TNS:MH:256201 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924926.1,"Pylaisiadelpha yokohamae TNS:MH:256477 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924925.1,"Pylaisiadelpha yokohamae TNS:MH:258498 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924924.1,"Pylaisiadelpha yokohamae TNS:MH:258421 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924923.1,"Pylaisiadelpha yokohamae TNS:MH:258478 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924922.1,"Pylaisiadelpha yokohamae TNS:MH:256047 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924921.1,"Pylaisiadelpha yokohamae TNS:MH:253494 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924878.1,"Orthotrichum consobrinum TNS:MH:257366 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924877.1,"Orthotrichum consobrinum TNS:MH:256188 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large s",Mosses,B2_balanced
+LC924831.1,"Ceratodon purpureus TNS:MH:256515 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subuni",Mosses,B2_balanced
+LC924830.1,"Ceratodon purpureus TNS:MH:256186 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subuni",Mosses,B2_balanced
+LC924778.1,"Acrolejeunea pusilla TNS:MH:258398 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subun",Liverworts,B2_balanced
+LC924777.1,"Acrolejeunea pusilla TNS:MH:257339 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subun",Liverworts,B2_balanced
+LC924776.1,"Acrolejeunea pusilla TNS:MH:256191 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subun",Liverworts,B2_balanced
+LC924775.1,"Acrolejeunea pusilla TNS:MH:256328 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subun",Liverworts,B2_balanced
+LC924774.1,"Acrolejeunea pusilla TNS:MH:256347 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subun",Liverworts,B2_balanced
+LC924773.1,"Acrolejeunea pusilla TNS:MH:256339 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subun",Liverworts,B2_balanced
+LC924765.1,"Porella ulophylla TNS:MH:257691 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit,",Liverworts,B2_balanced
+LC924764.1,"Porella ulophylla TNS:MH:257362 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit,",Liverworts,B2_balanced
+LC924763.1,"Porella ulophylla TNS:MH:256196 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit,",Liverworts,B2_balanced
+LC924737.1,"Conocephalum orientale TNS:MH:257179 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Liverworts,B2_balanced
+LC924736.1,"Conocephalum orientale TNS:MH:256384 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Liverworts,B2_balanced
+LC924735.1,"Conocephalum orientale TNS:MH:256373 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Liverworts,B2_balanced
+LC924734.1,"Conocephalum orientale TNS:MH:256354 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Liverworts,B2_balanced
+LC924733.1,"Conocephalum orientale TNS:MH:256342 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Liverworts,B2_balanced
+LC924732.1,"Conocephalum orientale TNS:MH:256322 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Liverworts,B2_balanced
+LC376047.1,"Hattoria yakushimensis NICH:T. Katagiri 4281 chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase l",Liverworts,B2_balanced
+LC272005.1,"Fissidens subangustus chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Mosses,B2_balanced
+LC884819.1,"Cyanidium caldarium SAG16.91 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, co",Red algae,B2_balanced
+PX924757.1,"Augea capensis voucher DUB934 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+AB071411.1,"Mastopoma subfiliferum chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete",Mosses,B2_balanced
+AB050950.1,"Filibryum ogatae chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds",Mosses,B2_balanced
+AB029389.1,"Myuroclada maximowiczii chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complet",Mosses,B2_balanced
+AB029384.1,"Calohypnum plumiforme chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Mosses,B2_balanced
+PQ213023.1,"Vaucheria litorea ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplast",Other SAR/protist,B2_balanced
+PV999913.1,"Pseudoderbesia epilithica isolate HV06614a ribulose 1,5-bisphosphate carboxylase large subunit (rbcL) gene, complete cds",Green algae,B2_balanced
+PV999912.1,"Pseudoderbesia epilithica isolate HV06710 ribulose 1,5-bisphosphate carboxylase large subunit (rbcL) gene, complete cds;",Green algae,B2_balanced
+PV999901.1,"Pseudoderbesia sp. HV-2025c isolate HV01289 ribulose 1,5-bisphosphate carboxylase large subunit (rbcL) gene, complete cd",Green algae,B2_balanced
+PV999900.1,"Pseudoderbesia sp. HV-2025c isolate HV01288 ribulose 1,5-bisphosphate carboxylase large subunit (rbcL) gene, complete cd",Green algae,B2_balanced
+LC858740.1,"Cyathodium cavernarum NICH:T.-X. Zheng 17804 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase l",Liverworts,B2_balanced
+LC858739.1,"Cyathodium cavernarum NICH:T.-X. Zheng 17801 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase l",Liverworts,B2_balanced
+LC858738.1,"Cyathodium tuberosum PE:L. Luo 769 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subun",Liverworts,B2_balanced
+OR165493.1,"Tradescantia fluminensis voucher JH181024001 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, ",Monocots,B2_balanced
+OR165438.1,"Cyanotis obtusa voucher 2002-213 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds",Monocots,B2_balanced
+PV575775.1,"Sargassum hemiphyllum var. chinense haplotype 5 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gen",Brown algae,B2_balanced
+PV575774.1,"Sargassum hemiphyllum var. chinense haplotype 4 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gen",Brown algae,B2_balanced
+PV575773.1,"Sargassum hemiphyllum var. chinense haplotype 3 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gen",Brown algae,B2_balanced
+PV575772.1,"Sargassum hemiphyllum var. chinense haplotype 2 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gen",Brown algae,B2_balanced
+PV575771.1,"Sargassum hemiphyllum var. chinense haplotype 1 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gen",Brown algae,B2_balanced
+PQ791846.1,"Arachnochrysis pilardiaziae ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chl",Other SAR/protist,B2_balanced
+PQ791840.1,"Pelagomonas calceolata ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloropl",Other SAR/protist,B2_balanced
+PQ031145.1,"Mallomonas splendens strain CCMP 1782 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complet",Other SAR/protist,B2_balanced
+PQ031144.1,"Mallomonas splendens strain AU07B ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cd",Other SAR/protist,B2_balanced
+PQ031131.1,"Mallomonas annulata strain CZ23C ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds",Other SAR/protist,B2_balanced
+PQ031130.1,"Mallomonas annulata strain CZ34K ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds",Other SAR/protist,B2_balanced
+PQ031125.1,"Mallomonas kalinae strain CZ41B ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds;",Other SAR/protist,B2_balanced
+PQ031124.1,"Mallomonas kalinae strain CCMP 479 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete c",Other SAR/protist,B2_balanced
+PQ031123.1,"Mallomonas striata strain CZ33H ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds;",Other SAR/protist,B2_balanced
+PQ031122.1,"Mallomonas flora strain CZ53C ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Other SAR/protist,B2_balanced
+PQ031121.1,"Mallomonas flora strain CZ35K ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Other SAR/protist,B2_balanced
+PP263658.1,"Daphniphyllum macropodum subsp. humile isolate G6IMc ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL",Eudicots,B2_balanced
+PP263657.1,"Daphniphyllum macropodum isolate F2IMa ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, comple",Eudicots,B2_balanced
+PP263656.1,"Daphniphyllum macropodum isolate E2IMa ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, comple",Eudicots,B2_balanced
+PP263655.1,"Daphniphyllum macropodum isolate D4IMcd ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, compl",Eudicots,B2_balanced
+PP263654.1,"Daphniphyllum macropodum isolate C3IMa ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, comple",Eudicots,B2_balanced
+PP263653.1,"Daphniphyllum macropodum subsp. humile isolate B3IMa ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL",Eudicots,B2_balanced
+PP263652.1,"Daphniphyllum macropodum isolate A3IMc ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, comple",Eudicots,B2_balanced
+OP584916.1,"Baolia bracteata isolate p1-5 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP584909.1,"Baolia bracteata isolate p2-3 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP584908.1,"Baolia bracteata isolate p2-2 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+OP584907.1,"Baolia bracteata isolate p2-1 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Eudicots,B2_balanced
+LC791202.1,"Pleurozia subinflata NICH: T. Katagiri 4278 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase la",Liverworts,B2_balanced
+LC791194.1,"Porella ulophylla TNS: Y. Inoue 8267 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Liverworts,B2_balanced
+AB540052.1,"Gloiopeltis complanata chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete",Red algae,B2_balanced
+AB540051.1,"Gloiopeltis complanata chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete",Red algae,B2_balanced
+AB540050.1,"Gloiopeltis complanata chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete",Red algae,B2_balanced
+AB540049.1,"Gloiopeltis complanata chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete",Red algae,B2_balanced
+AB540048.1,"Gloiopeltis complanata chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete",Red algae,B2_balanced
+AB540047.1,"Gloiopeltis sp. Nomozaki/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, c",Red algae,B2_balanced
+AB540046.1,"Gloiopeltis sp. Oiso/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, compl",Red algae,B2_balanced
+AB540045.1,"Gloiopeltis sp. Nakai/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comp",Red algae,B2_balanced
+AB540044.1,"Gloiopeltis sp. Tebajima/2004 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, c",Red algae,B2_balanced
+AB540043.1,"Gloiopeltis sp. Wakayama/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, c",Red algae,B2_balanced
+AB540042.1,"Gloiopeltis sp. Goza/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, compl",Red algae,B2_balanced
+AB540041.1,"Gloiopeltis sp. Touji/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comp",Red algae,B2_balanced
+AB540040.1,"Gloiopeltis sp. Oura/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, compl",Red algae,B2_balanced
+AB540039.1,"Gloiopeltis sp. Katsuura/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, c",Red algae,B2_balanced
+AB540038.1,"Gloiopeltis sp. Choshi/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, com",Red algae,B2_balanced
+AB540037.1,"Gloiopeltis sp. Oarai/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comp",Red algae,B2_balanced
+AB540036.1,"Gloiopeltis sp. Kawajiri/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, c",Red algae,B2_balanced
+AB540035.1,"Gloiopeltis sp. Izura/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comp",Red algae,B2_balanced
+AB540034.1,"Gloiopeltis sp. Jyodogahama/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit",Red algae,B2_balanced
+AB540033.1,"Gloiopeltis sp. Masaki/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, com",Red algae,B2_balanced
+AB540032.1,"Gloiopeltis sp. Tanesashi/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, ",Red algae,B2_balanced
+AB540031.1,"Gloiopeltis sp. Kita-kanegasawa/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Red algae,B2_balanced
+AB540030.1,"Gloiopeltis sp. Ohata/2003 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comp",Red algae,B2_balanced
+AB159659.1,"Nemalionopsis tortuosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete",Red algae,B2_balanced
+AB159651.1,"Thorea gaudichaudii chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cd",Red algae,B2_balanced
+AB159650.1,"Thorea gaudichaudii chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cd",Red algae,B2_balanced
+AB159649.1,"Thorea gaudichaudii chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cd",Red algae,B2_balanced
+OR359632.1,"Amoenothamnion planktonicum ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chl",Red algae,B2_balanced
+OQ863312.1,"Laurencia sp. A25 isolate B1 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chl",Red algae,B2_balanced
+OQ863300.1,"Laurencia catarinensis isolate PD4141 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial",Red algae,B2_balanced
+LC493039.1,"Colpomenia borea Ru_1 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, partial c",Brown algae,B2_balanced
+LC493038.1,"Colpomenia borea Jp_1 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, partial c",Brown algae,B2_balanced
+ON920851.1,"Pseudostaurastrum enorme strain SAG 11.85 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, com",Other SAR/protist,B2_balanced
+MZ133428.1,"Corbierea radiosa ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplast",Green algae,B2_balanced
+LC744577.1,"Timmiella anomala TNS: Y. Inoue 8408 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large sub",Mosses,B2_balanced
+LC744573.1,"Orthotrichum consobrinum TNS: Y. Inoue 8170 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase la",Mosses,B2_balanced
+OP330067.1,"Asplenium trichomanes voucher CBU<SKOR>:2020-0100-A ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Ferns,B2_balanced
+ON568338.1,"Scytosiphon sp. Atlantic complex sp. 1 voucher BBB:MEC224 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit ",Brown algae,B2_balanced
+LC723702.1,"Schistochila sciurea chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete c",Liverworts,B2_balanced
+LC723699.1,"Schistochila sciurea chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete c",Liverworts,B2_balanced
+OL504528.1,"Smilax weniae voucher HZU:P.Li WMZ333 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complet",Monocots,B2_balanced
+ON684489.1,"Juniperus navicularis isolate BPTPS039 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, comple",Conifers,B2_balanced
+MW524049.1,"Dryopteris fragrans ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplast",Ferns,B2_balanced
+LC702103.1,"Calohypnum plumiforme TNS:MH:247276 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subu",Mosses,B2_balanced
+AB476577.1,"Porella ulophylla chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds,",Liverworts,B2_balanced
+OK588987.1,"Limnocharis flava isolate LL5 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; c",Monocots,B2_balanced
+OK588986.1,"Helanthium bolivianum isolate ZX2 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cd",Monocots,B2_balanced
+OK588984.1,"Echinodorus paniculatus isolate ZX6 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete ",Monocots,B2_balanced
+OK588972.1,"Baldellia ranunculoides isolate Z1 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete c",Monocots,B2_balanced
+MN030175.1,"Botrypus virginianus ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplas",Ferns,B2_balanced
+MK295222.1,"Chlorella sp. FACHB-1531 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloro",Green algae,B2_balanced
+MK295220.1,"Pseudochlorella pringsheimii voucher FACHB-962 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene",Green algae,B2_balanced
+MK295219.1,"Chlorella sp. 64.01 voucher FACHB-752 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complet",Green algae,B2_balanced
+MK295216.1,"Pseudochlorella pringsheimii voucher FACHB-40 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene,",Green algae,B2_balanced
+MW267923.1,"Zygnema circumcarinatum culture SAG:698-1b ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, co",Charophytes,B2_balanced
+MT439865.1,"Glomerochrysis psammophila strain CS-1322 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, com",Other SAR/protist,B2_balanced
+MN793055.1,"Chara vulgaris isolate 13 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chlor",Charophytes,B2_balanced
+MK875448.1,"Gloiopeltis sp. JP5 voucher Hiroshi Kawai:KU-d16001 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B2_balanced
+MK875447.1,"Gloiopeltis sp. JP5 voucher Hiroshi Kawai:KU-d14317 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B2_balanced
+MK875446.1,"Gloiopeltis sp. JP4 voucher Hiroshi Kawai:KU-d20089 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B2_balanced
+MK875445.1,"Gloiopeltis sp. JP4 voucher Hiroshi Kawai:KU-d17987 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B2_balanced
+MK875444.1,"Gloiopeltis sp. JP3 voucher Hiroshi Kawai:KU-d20672 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B2_balanced
+MK875443.1,"Gloiopeltis sp. JP3 voucher Hiroshi Kawai:KU-d18945 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B2_balanced
+MK875442.1,"Gloiopeltis sp. JP2 voucher Hiroshi Kawai:KU-d18266 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B2_balanced
+MK875441.1,"Gloiopeltis sp. JP2 voucher Hiroshi Kawai:KU-d18220 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B2_balanced
+MK875440.1,"Gloiopeltis sp. JP1 voucher Hiroshi Kawai:KU-d14096 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL)",Red algae,B2_balanced
+MK875439.1,"Gloiopeltis sp. JP1 voucher Hiroshi Kawai:KU-d5018 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) ",Red algae,B2_balanced
+MK875405.1,"Gloiopeltis complanata voucher Hiroshi Kawai:KU-d18205 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rb",Red algae,B2_balanced
+MK875404.1,"Gloiopeltis complanata voucher Hiroshi Kawai:KU-d18256 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rb",Red algae,B2_balanced
+MK875403.1,"Gloiopeltis complanata voucher Hiroshi Kawai:KU-d14549 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rb",Red algae,B2_balanced
+MN636854.1,"Laurencia intricata voucher ADN-5 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds",Red algae,B2_balanced
+MN601490.1,"Clematis sp. DPP-2019a ribulose 1,5-bisphosphate carboxylaseoxygenase large subunit (rbcL) gene, complete cds; chloropla",Other angiosperms,B2_balanced
+EF547821.1,"Aneura sp. Wickett 473 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloropl",Liverworts,B2_balanced
+EF547820.1,"Aneura sp. Wickett 468 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloropl",Liverworts,B2_balanced
+EF547819.1,"Aneura sp. Shaw 670 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplast",Liverworts,B2_balanced
+EF547818.1,"Aneura sp. Shaw 702 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplast",Liverworts,B2_balanced
+EF547817.1,"Aneura sp. Shaw 697 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplast",Liverworts,B2_balanced
+MK806439.1,"Lepisorus jakonensis voucher C.F. Zhao LZ_8 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, c",Ferns,B2_balanced
+MH704452.1,"Laurencia sp. voucher SP399934 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; c",Red algae,B2_balanced
+MH704451.1,"Laurencia sp. voucher SP365433 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; c",Red algae,B2_balanced
+MH704450.1,"Laurencia sp. voucher ALCB114309 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds;",Red algae,B2_balanced
+MH545335.1,"Halicoryne sp. HV04044 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloropl",Green algae,B2_balanced
+MH545292.1,"Batophora occidentalis ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloropl",Green algae,B2_balanced
+MH172437.1,"Pectinopitys harmsiana voucher DGK 01.011 (UC) ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene",Conifers,B2_balanced
+MG251837.1,"Hydroclathrus rapanuii voucher SAP115251 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, part",Brown algae,B2_balanced
+LC270395.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+LC270394.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+LC270393.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+LC270392.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+LC270391.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+LC270390.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+LC270389.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+LC270388.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+LC270387.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+LC270386.1,"Pohlia annotina chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+MG209348.1,"Gloiopeltis complanata voucher GIGAR553 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B2_balanced
+MG209347.1,"Gloiopeltis complanata voucher GIGAR552 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B2_balanced
+MG209346.1,"Gloiopeltis complanata voucher GIGAR360 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B2_balanced
+MG209345.1,"Gloiopeltis complanata voucher GIGAR359 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B2_balanced
+MG209344.1,"Gloiopeltis complanata voucher GIGAR358 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B2_balanced
+MG209343.1,"Gloiopeltis complanata voucher GIGAR551 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B2_balanced
+MG209342.1,"Gloiopeltis complanata voucher GIGAR364 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B2_balanced
+MG209341.1,"Gloiopeltis complanata voucher GIGAR363 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B2_balanced
+MG209340.1,"Gloiopeltis complanata voucher GIGAR541 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, parti",Red algae,B2_balanced
+MH270460.1,"Macleaya microcarpa ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplast",Other angiosperms,B2_balanced
+LC060517.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B2_balanced
+LC060516.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B2_balanced
+LC060515.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B2_balanced
+LC060513.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B2_balanced
+LC060512.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B2_balanced
+LC060511.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B2_balanced
+LC060509.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B2_balanced
+LC060508.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B2_balanced
+LC060507.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B2_balanced
+LC060506.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B2_balanced
+LC060505.1,"Acinetospora asiatica chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete ",Brown algae,B2_balanced
+LC060504.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B2_balanced
+LC060503.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B2_balanced
+LC060502.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B2_balanced
+LC060501.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B2_balanced
+LC060500.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B2_balanced
+LC060499.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B2_balanced
+LC060498.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B2_balanced
+LC060497.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B2_balanced
+LC060496.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B2_balanced
+LC060495.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B2_balanced
+LC060494.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B2_balanced
+LC060493.1,"Acinetospora filamentosa chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Brown algae,B2_balanced
+KT693213.1,"Hormotilopsis gelatinosa strain UTEX B104 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) mRNA, com",Green algae,B2_balanced
+KU645804.1,"Asimina incana voucher Abbott 14200 (FLAS) ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, co",Magnoliids,B2_balanced
+KU645803.1,"Cananga odorata voucher Chase 219 (NCU) ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, compl",Magnoliids,B2_balanced
+LC145073.1,"Haplomitrium hookeri chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete c",Liverworts,B2_balanced
+LC145072.1,"Haplomitrium hookeri chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, complete c",Liverworts,B2_balanced
+AY996366.1,"Spermatochnus paradoxus strain SAG 10.82 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, comp",Brown algae,B2_balanced
+KT804669.1,"Filibryum ogatae voucher Wonhee1468 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B2_balanced
+KT804668.1,"Filibryum ogatae voucher Wonhee1443 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B2_balanced
+KT804667.1,"Filibryum ogatae voucher Wonhee1441 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B2_balanced
+KT804666.1,"Filibryum ogatae voucher Wonhee1431 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B2_balanced
+KT804665.1,"Filibryum ogatae voucher Wonhee1400 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B2_balanced
+KT804664.1,"Filibryum ogatae voucher Wonhee1357 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B2_balanced
+KT804663.1,"Filibryum ogatae voucher Wonhee1267 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B2_balanced
+KT804662.1,"Filibryum ogatae voucher Wonhee1260 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B2_balanced
+KT804661.1,"Filibryum ogatae voucher Wonhee1041 (KB, HIRO) ribulose 1,5-bisphosphate carboxylase/oxygenase (rbcL) gene, partial cds;",Mosses,B2_balanced
+LC200423.1,"Selenastrum capricornutum chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, compl",Green algae,B2_balanced
+DQ286008.1,"Cyathodium tuberosum ribulose-1,5-biphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",Liverworts,B2_balanced
+AY858644.1,"Platanus orientalis ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplast",Other angiosperms,B2_balanced
+AY841602.1,"Cananga odorata ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",Magnoliids,B2_balanced
+AY346095.1,"Acanthorrhynchium papillatum ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; ch",Mosses,B2_balanced
+FJ976123.1,"Cananga odorata ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, partial cds; chloroplast",Magnoliids,B2_balanced
+AB914722.1,"Timmiella anomala chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds",Mosses,B2_balanced
+KR069063.1,"Chlorella sp. Wu-G23 ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, complete cds; chloroplas",Green algae,B2_balanced
+AB279617.1,"Orthotrichum consobrinum chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, comple",Mosses,B2_balanced
+U89898.1,"Pelagomonas calceolata ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit (rbcL) gene, chloroplast gene encod",Other SAR/protist,B2_balanced
+AB260911.1,"Chlorella sp. IFRPD 1018 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, partia",Green algae,B2_balanced
+AB260910.1,"Chlorella sp. IFRPD 1014 chloroplast rbcL gene for ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit, partia",Green algae,B2_balanced
+AB469771.1,"Pohlia annotina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+AB469770.1,"Pohlia annotina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+AB469769.1,"Pohlia annotina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+AB469552.1,"Pohlia annotina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+AB469551.1,"Pohlia annotina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+AB469549.1,"Pohlia annotina chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, complete cds, s",Mosses,B2_balanced
+AB051224.1,"Acanthorrhynchium papillatum chloroplast rbcL gene for ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit, co",Mosses,B2_balanced

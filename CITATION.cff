@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the repository. An associated manuscript is in preparation."
+title: "rbcL / Evo 2 — generative biology on a taxonomically structured gene family"
+authors:
+  - family-names: Oppong
+    given-names: Yaa
+    alias: YaaOppong
+abstract: >-
+  Prompt-conditioned generation and LoRA finetuning of
+  the Evo 2 genomic foundation model on rbcL, the plastid gene encoding the
+  Rubisco large subunit. Includes a shared evaluation harness and an analysis
+  of clade-structured coverage gaps in the model's plastid training data.
+version: 0.1.0
+date-released: "2026-08-20"
+license: MIT
+repository-code: "https://github.com/YaaOppong/rbcl-generative-biology"
+keywords:
+  - genomic language models
+  - Evo 2
+  - LoRA
+  - rbcL
+  - Rubisco
+  - sequence generation
+references:
+  - type: article
+    title: "Genome modelling and design across all domains of life with Evo 2"
+    authors:
+      - family-names: Brixi
+        given-names: Garyk
+      - family-names: Durrant
+        given-names: Matthew G.
+      - family-names: Ku
+        given-names: Jerome
+      - family-names: Hsu
+        given-names: Patrick D.
+      - family-names: Hie
+        given-names: Brian L.
+    journal: Nature
+    volume: 652
+    issue: 8112
+    start: 1349
+    end: 1361
+    year: 2026
+    doi: 10.1038/s41586-026-10176-5
+    notes: >-
+      The model used throughout. 62 authors; first five listed. Preprint:
+      bioRxiv 10.1101/2025.02.18.638918 (2025). Trained on 9.3T nucleotides;
+      OpenGenome2 is the training corpus whose plastid partition Part A audits.
+  - type: article
+    title: "Sequence modeling and design from molecular to genome scale with Evo"
+    authors:
+      - family-names: Nguyen
+        given-names: Eric
+    journal: Science
+    year: 2024
+    notes: "Evo 1 — the predecessor model, cited for architectural lineage only."
+  - type: article
+    title: "Mining rbcL genes reveals novel Rubisco kinetics"
+    authors:
+      - family-names: Iqbal
+        given-names: Wasim Ahmad
+      - family-names: Lisitsa
+        given-names: Andrei
+      - family-names: Kapralov
+        given-names: Maxim V.
+    journal: "Journal of Experimental Botany"
+    year: 2023
+    doi: 10.1093/jxb/erac368
+    notes: "Kinetics oracle reimplemented from this work (reported as a negative result)"

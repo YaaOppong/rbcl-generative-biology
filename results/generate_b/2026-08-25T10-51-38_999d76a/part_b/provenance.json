@@ -1,0 +1,112 @@
+{
+  "written_utc": "2026-08-25T10:52:12.818786+00:00",
+  "git": {
+    "commit": "999d76abd0d3adeff95a667398e628f8ea6816ab",
+    "commit_short": "999d76a",
+    "branch": "main",
+    "describe": "999d76a",
+    "remote": "https://github.com/YaaOppong/rbcl-generative-biology.git",
+    "dirty": false,
+    "dirty_file_count": 0,
+    "dirty_files": [],
+    "in_git_checkout": false,
+    "source": "launcher"
+  },
+  "config": {
+    "model": "evo2_7b",
+    "data": "data/all_fullcds.jsonl",
+    "max_length": 1600,
+    "batch_size": 4,
+    "grad_accum": 8,
+    "lr": 0.0001,
+    "epochs": 3,
+    "warmup_ratio": 0.03,
+    "seed": 0,
+    "val_fraction": 0.2,
+    "novel_share": 0.5,
+    "early_stopping_patience": 2,
+    "out_dir": "results/all_fullcds_seed0",
+    "lora": {
+      "rank": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_modules": [
+        "inner_mha_cls.Wqkv",
+        "inner_mha_cls.out_proj",
+        "mlp.l1",
+        "mlp.l2",
+        "mlp.l3",
+        "out_filter_dense"
+      ]
+    }
+  },
+  "config_sha256": "d4e267c708a53b8c4088d02383f2d920ddf6e30ffc628d408c38c56ae173a35e",
+  "inputs": [
+    {
+      "path": "data/prompts_corpus.csv",
+      "size_bytes": 826482,
+      "mtime_utc": "2026-08-21T19:57:36.001415+00:00",
+      "sha256": "ecb40c73f400425a828dc8abd3da95e56f5c15d00083930f9a08dbfc0dadd2f6"
+    }
+  ],
+  "packages": {
+    "evo2": "0.5.5",
+    "torch": "2.7.1",
+    "vortex": null,
+    "transformer_engine": null,
+    "flash_attn": "2.8.0.post2",
+    "numpy": "2.5.2",
+    "biopython": "1.88"
+  },
+  "python": "3.12.1",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.35",
+  "gpu": {
+    "cuda_available": true,
+    "device_count": 1,
+    "device_name": "NVIDIA H100 80GB HBM3",
+    "cuda_version": "12.6"
+  },
+  "compute_job_id": "sb-8A1vZ0tlRUHPZkTU74Nu56",
+  "hostname_masked": true,
+  "stage": "generate_ab",
+  "part": "B",
+  "entrypoint": "scripts/generate_ab.py",
+  "arms": [
+    "base",
+    "all_fullcds",
+    "all_fullcds_atg",
+    "b1_sparse_clade"
+  ],
+  "adapters": {
+    "all_fullcds": {
+      "tag": "all_fullcds",
+      "path": "/weights/adapters/all_fullcds_adapter_best.pt",
+      "sha256": "b618a5c288fc3ad5994d8d34e24feadb654dd856add21bc0ca095c6784ac6c5b",
+      "verified": true,
+      "lora_config_from": "configs/all_fullcds.yaml"
+    },
+    "all_fullcds_atg": {
+      "tag": "all_fullcds_atg",
+      "path": "/weights/adapters/all_fullcds_atg_adapter_best.pt",
+      "sha256": "9fb3e9bf5e938e7dc8a2067c7b7a246c2b91207868011106d145a8f3e0a50f1e",
+      "verified": true,
+      "lora_config_from": "configs/all_fullcds_atg.yaml"
+    },
+    "b1_sparse_clade": {
+      "tag": "b1_sparse_clade",
+      "path": "/weights/adapters/b1_sparse_clade_adapter_best.pt",
+      "sha256": "8f737d1714ce3566b14f027a51e02b623c95b0f80cf0840bdab29358c19484df",
+      "verified": true,
+      "lora_config_from": "configs/b1_sparse_clade.yaml"
+    }
+  },
+  "levels": "L1_donor_90",
+  "replicates": "0",
+  "total_len": 1800,
+  "batch_size": 4,
+  "temperature": 0.7,
+  "top_k": 4,
+  "top_p": 1.0,
+  "censoring_note": "total_len 1800 vs longest natural rbcL CDS 1467 nt; Part A's 1500 censored 2.2% of its generations",
+  "top_k_note": "inherited from ArcInstitute/evo2's Evo2.generate default, not tuned here; held constant across every arm"
+}

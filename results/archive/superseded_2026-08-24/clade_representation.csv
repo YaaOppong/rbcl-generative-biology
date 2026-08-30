@@ -1,0 +1,27 @@
+clade,taxon,rbcl_records,rbcl_fullcds,gb_genomes,refseq_genomes,evo2_seen,barcode_per_genome,headroom,evo2_share_pct
+Mosses,Bryophyta,5130,780,173,51,51.0,100.6,15.29,0.34
+Diatoms,Bacillariophyta,7367,1266,406,98,98.0,75.2,12.92,0.66
+Liverworts,Marchantiophyta,5358,448,187,44,44.0,121.8,10.18,0.3
+Red algae,Rhodophyta,24360,2338,725,232,232.0,105.0,10.08,1.57
+Brown algae,Phaeophyceae,6537,354,349,68,68.0,96.1,5.21,0.46
+Eustigmatophytes,Eustigmatophyceae,296,38,73,19,19.0,15.6,2.0,0.13
+Green algae,Chlorophyta,12656,284,665,201,201.0,63.0,1.41,1.36
+Conifers,Pinopsida,5879,261,1176,219,219.0,26.8,1.19,1.48
+Magnoliids,Magnoliidae,8611,456,1964,451,451.0,19.1,1.01,3.05
+Ferns,Polypodiopsida,22187,212,845,222,222.0,99.9,0.95,1.5
+Eudicots,eudicotyledons,184534,6462,41613,9141,9141.0,20.2,0.71,61.77
+Glaucophytes,Glaucophyta,17,3,11,5,5.0,3.4,0.6,0.03
+Monocots,Liliopsida,63594,1862,14587,3218,3218.0,19.8,0.58,21.75
+Lycophytes,Lycopodiopsida,2704,32,225,63,63.0,42.9,0.51,0.43
+Hornworts,Anthocerotophyta,327,2,10,4,4.0,81.8,0.5,0.03
+Cycads,Cycadopsida,904,13,148,30,30.0,30.1,0.43,0.2
+Gnetophytes,Gnetidae,551,5,93,12,12.0,45.9,0.42,0.08
+Dinoflagellates,Dinophyceae,367,1,9,3,3.0,122.3,0.33,0.02
+Haptophytes,Haptophyta,409,2,84,15,15.0,27.3,0.13,0.1
+Zygnematophyceae,Zygnematophyceae,1243,1,,12,,,0.08,0.08
+Cryptophytes,Cryptophyceae,2719,0,38,8,8.0,339.9,0.0,0.05
+Euglenids,Euglenida,49,0,62,28,28.0,1.8,0.0,0.19
+Chlorarachniophytes,Chlorarachniophyceae,11,0,4,1,1.0,11.0,0.0,0.01
+Klebsormidiophyceae,Klebsormidiophyceae,275,0,,14,,,0.0,0.09
+Ginkgo,Ginkgoopsida,129,5,96,0,0.0,,,0.0
+Streptophyte algae,Charophyta,0,0,0,0,0.0,,,0.0

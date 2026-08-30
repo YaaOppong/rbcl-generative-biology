@@ -1,0 +1,24 @@
+batch_size: 4
+data: data/all_fullcds.jsonl
+early_stopping_patience: 2
+epochs: 3
+grad_accum: 8
+lora:
+  alpha: 32
+  dropout: 0.05
+  rank: 16
+  target_modules:
+  - inner_mha_cls.Wqkv
+  - inner_mha_cls.out_proj
+  - mlp.l1
+  - mlp.l2
+  - mlp.l3
+  - out_filter_dense
+lr: 0.0001
+max_length: 1600
+model: evo2_7b
+novel_share: 0.5
+out_dir: out/all_fullcds/train
+seed: 0
+val_fraction: 0.2
+warmup_ratio: 0.03

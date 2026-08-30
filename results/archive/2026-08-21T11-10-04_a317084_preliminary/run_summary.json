@@ -1,0 +1,90 @@
+{
+  "t_start": 1787310604.669127,
+  "torch": "2.7.1+cu126",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "config": "configs/b2_balanced.yaml",
+  "data": "data/b2.jsonl",
+  "load_failures": {
+    "evo2_1b_base": "FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/lib/python3.12/site-packages/evo2/tmp/evo2_1b_base-nofp8-3o6__cuu.yml'"
+  },
+  "load_info": {
+    "model_name": "evo2_7b",
+    "fp8_patch_applied": false,
+    "self_healing_gate": true
+  },
+  "model": "evo2_7b",
+  "fell_back": true,
+  "train_s": 1788.1,
+  "train_exit": 0,
+  "train_tail": "         \n                    INFO     StripedHyena - INFO - Parameter count  model.py:704\n                             for block 29: 205606912                            \n                    INFO     StripedHyena - INFO - Assigned         model.py:703\n                             layer_idx=30 to device='cuda:0'                    \n                    INFO     StripedHyena - INFO - Parameter count  model.py:704\n                             for block 30: 205705216                            \n                    INFO     StripedHyena - INFO - Assigned         model.py:703\n                             layer_idx=31 to device='cuda:0'                    \n                    INFO     StripedHyena - INFO - Parameter count  model.py:704\n                             for block 31: 205533184                            \n                    INFO     StripedHyena - INFO - Initialized      model.py:723\n                             model                                              \n                    INFO     vortex.model.utils - INFO - Loading     utils.py:92\n                             /__modal/volumes/vo-dVhLf1OAouKA9hSdEnl            \n                             k6N/hub/models--arcinstitute--evo2_7b/s            \n                             napshots/bda0089f92582d5baabf0f22d9fc85            \n                             f3588f6b58/evo2_7b.pt                              \nExtra keys in state_dict: {'unembed.weight', 'blocks.10.mixer.attn._extra_state', 'blocks.24.mixer.attn._extra_state', 'blocks.31.mixer.attn._extra_state', 'blocks.24.mixer.dense._extra_state', 'blocks.19.projections._extra_state', 'blocks.29.projections._extra_state', 'blocks.14.projections._extra_state', 'blocks.16.mixer.mixer.filter.t', 'blocks.16.projections._extra_state', 'blocks.26.projections._extra_state', 'blocks.15.projections._extra_state', 'blocks.25.projections._extra_state', 'blocks.31.mixer.dense._extra_state', 'blocks.8.projections._extra_state', 'blocks.9.projections._extra_state', 'blocks.0.projections._extra_state', 'blocks.1.projections._extra_state', 'blocks.2.projections._extra_state', 'blocks.4.projections._extra_state', 'blocks.5.projections._extra_state', 'blocks.6.projections._extra_state', 'blocks.7.projections._extra_state', 'blocks.3.mixer.dense._extra_state', 'blocks.11.projections._extra_state', 'blocks.21.projections._extra_state', 'blocks.17.mixer.attn._extra_state', 'blocks.3.mixer.attn._extra_state', 'blocks.2.mixer.mixer.filter.t', 'blocks.6.mixer.mixer.filter.t', 'blocks.9.mixer.mixer.filter.t', 'blocks.18.projections._extra_state', 'blocks.28.projections._extra_state', 'blocks.23.mixer.mixer.filter.t', 'blocks.13.mixer.mixer.filter.t', 'blocks.23.projections._extra_state', 'blocks.13.projections._extra_state', 'blocks.20.projections._extra_state', 'blocks.30.projections._extra_state', 'blocks.12.projections._extra_state', 'blocks.22.projections._extra_state', 'blocks.27.projections._extra_state', 'blocks.17.mixer.dense._extra_state', 'blocks.10.mixer.dense._extra_state', 'blocks.20.mixer.mixer.filter.t', 'blocks.30.mixer.mixer.filter.t', 'blocks.27.mixer.mixer.filter.t'}\n[08/21/26 11:10:25] INFO     StripedHyena - INFO - Adjusting Wqkv  model.py:1008\n                             for column split (permuting rows)                  \ntrainable 29,097,984 / 6,610,820,864 params (0.44%)\nepoch -1 val_seen 0.3072 val_novel 0.2799 (base model, no adapters trained)\nepoch 0 val_seen 0.1623 val_novel 0.1596 gap +0.0027\nepoch 1 val_seen 0.1350 val_novel 0.1365 gap -0.0015\nepoch 2 val_seen 0.1302 val_novel 0.1340 gap -0.0038\n/usr/local/lib/python3.12/site-packages/evo2/models.py:282: UserWarning: Transformer Engine not installed. Falling back to bf16 projections (use_fp8_input_projections=False). \n  warnings.warn(\n\n  0%|          | 0/32 [00:00<?, ?it/s]\n 12%|\u2588\u258e        | 4/32 [00:00<00:00, 37.53it/s]\n 38%|\u2588\u2588\u2588\u258a      | 12/32 [00:00<00:00, 60.87it/s]\n 94%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258d| 30/32 [00:00<00:00, 113.55it/s]\n100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 32/32 [00:00<00:00, 100.23it/s]\n",
+  "history": [
+    {
+      "epoch": -1,
+      "val_seen": 0.307162491590497,
+      "val_novel": 0.2798937692207344
+    },
+    {
+      "epoch": 0,
+      "val_seen": 0.16231070325320457,
+      "val_novel": 0.15960230625097868,
+      "memorisation_gap": 0.0027083970022258874
+    },
+    {
+      "epoch": 1,
+      "val_seen": 0.13495537673856164,
+      "val_novel": 0.1364686644040364,
+      "memorisation_gap": -0.0015132876654747607
+    },
+    {
+      "epoch": 2,
+      "val_seen": 0.1301587969452884,
+      "val_novel": 0.13396633907379296,
+      "memorisation_gap": -0.003807542128504565
+    }
+  ],
+  "n_prompts": 62,
+  "prompt_clades": {
+    "ANA-grade": 2,
+    "Brown algae": 4,
+    "Charophytes": 2,
+    "Conifers": 4,
+    "Cycads": 2,
+    "Diatoms": 4,
+    "Eudicots": 4,
+    "Ferns": 4,
+    "Green algae": 4,
+    "Haptophytes": 1,
+    "Liverworts": 4,
+    "Lycophytes": 3,
+    "Magnoliids": 4,
+    "Monocots": 4,
+    "Mosses": 4,
+    "Other SAR/protist": 4,
+    "Other angiosperms": 4,
+    "Red algae": 4
+  },
+  "adapter_load": {
+    "adapter_best.pt": {
+      "tensors": 266,
+      "unexpected": 0
+    }
+  },
+  "generate_s": 597.1,
+  "eval": {
+    "base": {
+      "n": 62,
+      "stop_free_frac": 0.8065,
+      "mean_gc": 0.3806,
+      "mean_acgt": 0.9999,
+      "mean_internal_stops": 0.919
+    },
+    "finetuned": {
+      "n": 62,
+      "stop_free_frac": 1.0,
+      "mean_gc": 0.3882,
+      "mean_acgt": 1.0,
+      "mean_internal_stops": 0.0
+    }
+  },
+  "t_total_s": 2401.6
+}

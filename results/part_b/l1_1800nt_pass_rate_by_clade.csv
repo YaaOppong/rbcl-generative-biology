@@ -1,0 +1,13 @@
+tax_group,all_fullcds,all_fullcds_atg,b1_sparse_clade,base
+Brown algae,1.0000,1.0000,1.0000,0.1429
+Conifers,1.0000,1.0000,1.0000,1.0000
+Eudicots,0.9630,1.0000,0.9630,0.8519
+Ferns,0.8000,0.8000,1.0000,0.6000
+Green algae,1.0000,1.0000,1.0000,0.0000
+Liverworts,1.0000,1.0000,1.0000,0.7273
+Monocots,1.0000,0.9091,0.9091,0.9091
+Mosses,1.0000,1.0000,1.0000,0.0714
+Other angiosperms,1.0000,1.0000,1.0000,1.0000
+Other green,1.0000,1.0000,1.0000,0.0000
+Red algae,1.0000,1.0000,1.0000,0.0000
+SAR/other protist,1.0000,1.0000,1.0000,0.1818

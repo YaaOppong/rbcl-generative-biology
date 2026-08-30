@@ -1,0 +1,17 @@
+prompt_id,level_name,tax_group,stored_cds_len,recomputed_cds_len,stored_full_length,recomputed_full_length
+LC924964.1_L1_donor_90_r1,L1_donor_90,Mosses,1476.0000,1476.0000,False,True
+PQ791840.1_L1_donor_90_r0,L1_donor_90,SAR/other protist,1500.0000,1500.0000,False,True
+PX743843.1_L1_donor_90_r0,L1_donor_90,Other angiosperms,1476.0000,1476.0000,False,True
+PX744100.1_L1_donor_90_r0,L1_donor_90,Eudicots,1497.0000,1497.0000,False,True
+AB540047.1_L2_donor_210_r1,L2_donor_210,Red algae,1485.0000,1485.0000,False,True
+AB540051.1_L2_donor_210_r2,L2_donor_210,Red algae,1473.0000,1473.0000,False,True
+OQ863312.1_L2_donor_210_r0,L2_donor_210,Red algae,1473.0000,1473.0000,False,True
+PX744315.1_L2_donor_210_r0,L2_donor_210,Eudicots,1476.0000,1476.0000,False,True
+LC060504.1_L3_donor_450_r1,L3_donor_450,Brown algae,1473.0000,1473.0000,False,True
+MN793055.1_L3_donor_450_r1,L3_donor_450,Other green,1476.0000,1476.0000,False,True
+PQ213023.1_L3_donor_450_r0,L3_donor_450,SAR/other protist,1473.0000,1473.0000,False,True
+PQ213023.1_L3_donor_450_r2,L3_donor_450,SAR/other protist,1473.0000,1473.0000,False,True
+PQ791840.1_L3_donor_450_r1,L3_donor_450,SAR/other protist,1473.0000,1473.0000,False,True
+PX744315.1_L3_donor_450_r2,L3_donor_450,Eudicots,1479.0000,1479.0000,False,True
+LC060504.1_L4_donor_900_r1,L4_donor_900,Brown algae,1473.0000,1473.0000,False,True
+MG251837.1_L4_donor_900_r0,L4_donor_900,Brown algae,1473.0000,1473.0000,False,True

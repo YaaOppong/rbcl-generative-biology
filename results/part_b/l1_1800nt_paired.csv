@@ -1,0 +1,481 @@
+prompt_id,donor_acc,tax_group,arm,full_length,read_through,cds_len_recomputed,containment_own_corpus
+AB050950.1_L1_donor_90_r0,AB050950.1,Mosses,all_fullcds,True,False,1428.0000,1.0000
+AB071411.1_L1_donor_90_r0,AB071411.1,Mosses,all_fullcds,True,False,1428.0000,0.9986
+AB159651.1_L1_donor_90_r0,AB159651.1,Red algae,all_fullcds,True,False,1467.0000,0.6852
+AB159659.1_L1_donor_90_r0,AB159659.1,Red algae,all_fullcds,True,False,1467.0000,0.4972
+AB540047.1_L1_donor_90_r0,AB540047.1,Red algae,all_fullcds,True,False,1467.0000,0.8767
+AB540051.1_L1_donor_90_r0,AB540051.1,Red algae,all_fullcds,True,False,1467.0000,0.8322
+AB540052.1_L1_donor_90_r0,AB540052.1,Red algae,all_fullcds,True,False,1467.0000,0.8238
+AB853073.1_L1_donor_90_r0,AB853073.1,Mosses,all_fullcds,True,False,1428.0000,0.9427
+AB853079.1_L1_donor_90_r0,AB853079.1,Mosses,all_fullcds,True,False,1428.0000,1.0000
+AB970712.1_L1_donor_90_r0,AB970712.1,Mosses,all_fullcds,True,False,1428.0000,0.9599
+AY346095.1_L1_donor_90_r0,AY346095.1,Mosses,all_fullcds,True,False,1428.0000,0.9835
+AY858644.1_L1_donor_90_r0,AY858644.1,Other angiosperms,all_fullcds,True,False,1428.0000,0.9771
+AY996366.1_L1_donor_90_r0,AY996366.1,Brown algae,all_fullcds,True,False,1467.0000,0.8189
+EF547818.1_L1_donor_90_r0,EF547818.1,Liverworts,all_fullcds,True,False,1428.0000,0.6285
+EF658643.1_L1_donor_90_r0,EF658643.1,Red algae,all_fullcds,True,False,1467.0000,0.7960
+EU713367.1_L1_donor_90_r0,EU713367.1,Eudicots,all_fullcds,True,False,1428.0000,0.7910
+FJ438476.1_L1_donor_90_r0,FJ438476.1,Green algae,all_fullcds,True,False,1428.0000,0.5061
+KT693213.1_L1_donor_90_r0,KT693213.1,Green algae,all_fullcds,True,False,1428.0000,0.4209
+KU645801.1_L1_donor_90_r0,KU645801.1,Eudicots,all_fullcds,True,False,1428.0000,0.9513
+KU645803.1_L1_donor_90_r0,KU645803.1,Other angiosperms,all_fullcds,True,False,1428.0000,1.0000
+KU645804.1_L1_donor_90_r0,KU645804.1,Other angiosperms,all_fullcds,True,False,1443.0000,0.9745
+LC060504.1_L1_donor_90_r0,LC060504.1,Brown algae,all_fullcds,True,False,1467.0000,0.8858
+LC060517.1_L1_donor_90_r0,LC060517.1,Brown algae,all_fullcds,True,False,1467.0000,0.9255
+LC145073.1_L1_donor_90_r0,LC145073.1,Liverworts,all_fullcds,True,False,1428.0000,0.8447
+LC176260.1_L1_donor_90_r0,LC176260.1,Mosses,all_fullcds,True,False,1428.0000,0.9578
+LC200423.1_L1_donor_90_r0,LC200423.1,Green algae,all_fullcds,True,False,1428.0000,0.3386
+LC270392.1_L1_donor_90_r0,LC270392.1,Mosses,all_fullcds,True,False,1428.0000,0.9384
+LC272005.1_L1_donor_90_r0,LC272005.1,Mosses,all_fullcds,True,False,1428.0000,1.0000
+LC376047.1_L1_donor_90_r0,LC376047.1,Liverworts,all_fullcds,True,False,1428.0000,0.8597
+LC493039.1_L1_donor_90_r0,LC493039.1,Brown algae,all_fullcds,True,False,1467.0000,0.9854
+LC723702.1_L1_donor_90_r0,LC723702.1,Liverworts,all_fullcds,True,False,1428.0000,0.7087
+LC735540.1_L1_donor_90_r0,LC735540.1,Eudicots,all_fullcds,True,False,1428.0000,1.0000
+LC791202.1_L1_donor_90_r0,LC791202.1,Liverworts,all_fullcds,True,False,1428.0000,0.7810
+LC858738.1_L1_donor_90_r0,LC858738.1,Liverworts,all_fullcds,True,False,1428.0000,0.8175
+LC858740.1_L1_donor_90_r0,LC858740.1,Liverworts,all_fullcds,True,False,1428.0000,0.7416
+LC859596.1_L1_donor_90_r0,LC859596.1,Liverworts,all_fullcds,True,False,1428.0000,0.8969
+LC884819.1_L1_donor_90_r0,LC884819.1,Red algae,all_fullcds,True,False,1467.0000,0.4756
+LC899187.1_L1_donor_90_r0,LC899187.1,Red algae,all_fullcds,True,False,1467.0000,0.9206
+LC924737.1_L1_donor_90_r0,LC924737.1,Liverworts,all_fullcds,True,False,1428.0000,0.8003
+LC924765.1_L1_donor_90_r0,LC924765.1,Liverworts,all_fullcds,True,False,1428.0000,0.7230
+LC924778.1_L1_donor_90_r0,LC924778.1,Liverworts,all_fullcds,True,False,1428.0000,0.6779
+LC924831.1_L1_donor_90_r0,LC924831.1,Mosses,all_fullcds,True,False,1428.0000,0.9878
+LC924878.1_L1_donor_90_r0,LC924878.1,Mosses,all_fullcds,True,False,1428.0000,1.0000
+LC924944.1_L1_donor_90_r0,LC924944.1,Mosses,all_fullcds,True,False,1428.0000,0.9764
+LC924950.1_L1_donor_90_r0,LC924950.1,Mosses,all_fullcds,True,False,1428.0000,0.9599
+LC924964.1_L1_donor_90_r0,LC924964.1,Mosses,all_fullcds,True,False,1428.0000,0.9470
+MG251837.1_L1_donor_90_r0,MG251837.1,Brown algae,all_fullcds,True,False,1467.0000,0.9422
+MH172437.1_L1_donor_90_r0,MH172437.1,Conifers,all_fullcds,True,False,1428.0000,0.9320
+MH270460.1_L1_donor_90_r0,MH270460.1,Other angiosperms,all_fullcds,True,False,1428.0000,1.0000
+MH390671.1_L1_donor_90_r0,MH390671.1,Eudicots,all_fullcds,True,False,1428.0000,0.9792
+MH390672.1_L1_donor_90_r0,MH390672.1,Eudicots,all_fullcds,True,False,1440.0000,1.0000
+MH545292.1_L1_donor_90_r0,MH545292.1,Green algae,all_fullcds,True,False,1428.0000,0.4531
+MH545335.1_L1_donor_90_r0,MH545335.1,Green algae,all_fullcds,True,False,1425.0000,0.4577
+MH616272.1_L1_donor_90_r0,MH616272.1,Monocots,all_fullcds,True,False,1443.0000,0.9108
+MH661965.1_L1_donor_90_r0,MH661965.1,Monocots,all_fullcds,True,False,1455.0000,0.9628
+MK295219.1_L1_donor_90_r0,MK295219.1,Green algae,all_fullcds,True,False,1428.0000,0.4531
+MK295220.1_L1_donor_90_r0,MK295220.1,Green algae,all_fullcds,True,False,1428.0000,0.5183
+MK806439.1_L1_donor_90_r0,MK806439.1,Ferns,all_fullcds,False,False,462.0000,0.0882
+MN030175.1_L1_donor_90_r0,MN030175.1,Ferns,all_fullcds,True,False,1428.0000,0.7094
+MN601490.1_L1_donor_90_r0,MN601490.1,Other angiosperms,all_fullcds,True,False,1428.0000,0.9284
+MN793055.1_L1_donor_90_r0,MN793055.1,Other green,all_fullcds,True,False,1428.0000,0.6628
+MT439865.1_L1_donor_90_r0,MT439865.1,SAR/other protist,all_fullcds,True,False,1473.0000,0.8239
+MW267923.1_L1_donor_90_r0,MW267923.1,Other green,all_fullcds,True,False,1428.0000,0.7037
+MW524049.1_L1_donor_90_r0,MW524049.1,Ferns,all_fullcds,True,False,1428.0000,0.3443
+MZ133428.1_L1_donor_90_r0,MZ133428.1,Green algae,all_fullcds,True,False,1428.0000,0.3171
+MZ714562.1_L1_donor_90_r0,MZ714562.1,Eudicots,all_fullcds,True,False,1428.0000,0.2921
+OK588964.1_L1_donor_90_r0,OK588964.1,Monocots,all_fullcds,True,False,1428.0000,0.8790
+OK588972.1_L1_donor_90_r0,OK588972.1,Monocots,all_fullcds,True,False,1440.0000,0.9588
+OK588984.1_L1_donor_90_r0,OK588984.1,Monocots,all_fullcds,True,False,1431.0000,0.9679
+OK588986.1_L1_donor_90_r0,OK588986.1,Monocots,all_fullcds,True,False,1428.0000,0.9893
+OK588987.1_L1_donor_90_r0,OK588987.1,Monocots,all_fullcds,True,False,1428.0000,0.8783
+OL504528.1_L1_donor_90_r0,OL504528.1,Monocots,all_fullcds,True,False,1428.0000,1.0000
+ON568338.1_L1_donor_90_r0,ON568338.1,Brown algae,all_fullcds,True,False,1467.0000,0.9770
+ON684489.1_L1_donor_90_r0,ON684489.1,Conifers,all_fullcds,True,False,1428.0000,0.9921
+ON920851.1_L1_donor_90_r0,ON920851.1,SAR/other protist,all_fullcds,True,False,1464.0000,0.6364
+ON933796.1_L1_donor_90_r0,ON933796.1,Eudicots,all_fullcds,True,False,1449.0000,0.9958
+OP237580.1_L1_donor_90_r0,OP237580.1,Eudicots,all_fullcds,True,False,1428.0000,0.9986
+OP330067.1_L1_donor_90_r0,OP330067.1,Ferns,all_fullcds,True,False,1428.0000,0.2634
+OQ863300.1_L1_donor_90_r0,OQ863300.1,Red algae,all_fullcds,True,False,1467.0000,0.8113
+OQ863312.1_L1_donor_90_r0,OQ863312.1,Red algae,all_fullcds,True,False,1467.0000,0.7235
+OQ868456.1_L1_donor_90_r0,OQ868456.1,Ferns,all_fullcds,True,False,1428.0000,0.6986
+OR165438.1_L1_donor_90_r0,OR165438.1,Monocots,all_fullcds,True,False,1437.0000,0.9346
+OR165493.1_L1_donor_90_r0,OR165493.1,Monocots,all_fullcds,True,False,1431.0000,0.9843
+OR359632.1_L1_donor_90_r0,OR359632.1,Red algae,all_fullcds,True,False,1467.0000,0.7820
+PP263658.1_L1_donor_90_r0,PP263658.1,Eudicots,all_fullcds,True,False,1449.0000,1.0000
+PQ031122.1_L1_donor_90_r0,PQ031122.1,SAR/other protist,all_fullcds,True,False,1461.0000,0.3622
+PQ031123.1_L1_donor_90_r0,PQ031123.1,SAR/other protist,all_fullcds,True,False,1464.0000,0.3985
+PQ031125.1_L1_donor_90_r0,PQ031125.1,SAR/other protist,all_fullcds,True,False,1461.0000,0.5231
+PQ031131.1_L1_donor_90_r0,PQ031131.1,SAR/other protist,all_fullcds,True,False,1464.0000,0.5939
+PQ031145.1_L1_donor_90_r0,PQ031145.1,SAR/other protist,all_fullcds,True,False,1464.0000,0.6748
+PQ213023.1_L1_donor_90_r0,PQ213023.1,SAR/other protist,all_fullcds,True,False,1473.0000,0.7732
+PQ791840.1_L1_donor_90_r0,PQ791840.1,SAR/other protist,all_fullcds,True,False,1473.0000,0.9140
+PQ791846.1_L1_donor_90_r0,PQ791846.1,SAR/other protist,all_fullcds,True,False,1473.0000,0.6158
+PV575775.1_L1_donor_90_r0,PV575775.1,Brown algae,all_fullcds,True,False,1467.0000,0.7981
+PV999901.1_L1_donor_90_r0,PV999901.1,Green algae,all_fullcds,True,False,1428.0000,0.2942
+PV999913.1_L1_donor_90_r0,PV999913.1,Green algae,all_fullcds,True,False,1428.0000,0.4875
+PX743792.1_L1_donor_90_r0,PX743792.1,Monocots,all_fullcds,True,False,1434.0000,1.0000
+PX743818.1_L1_donor_90_r0,PX743818.1,Other angiosperms,all_fullcds,True,False,1449.0000,0.9922
+PX743828.1_L1_donor_90_r0,PX743828.1,Other angiosperms,all_fullcds,True,False,1449.0000,0.9944
+PX743839.1_L1_donor_90_r0,PX743839.1,Other angiosperms,all_fullcds,True,False,1428.0000,0.9256
+PX743843.1_L1_donor_90_r0,PX743843.1,Other angiosperms,all_fullcds,True,False,1440.0000,0.9517
+PX743855.1_L1_donor_90_r0,PX743855.1,Eudicots,all_fullcds,True,False,1428.0000,0.9950
+PX743950.1_L1_donor_90_r0,PX743950.1,Eudicots,all_fullcds,True,False,1458.0000,1.0000
+PX743996.1_L1_donor_90_r0,PX743996.1,Eudicots,all_fullcds,True,False,1428.0000,0.9843
+PX743998.1_L1_donor_90_r0,PX743998.1,Eudicots,all_fullcds,True,False,1428.0000,1.0000
+PX744014.1_L1_donor_90_r0,PX744014.1,Eudicots,all_fullcds,True,False,1428.0000,0.9950
+PX744018.1_L1_donor_90_r0,PX744018.1,Eudicots,all_fullcds,False,False,291.0000,0.0192
+PX744022.1_L1_donor_90_r0,PX744022.1,Eudicots,all_fullcds,True,False,1428.0000,1.0000
+PX744047.1_L1_donor_90_r0,PX744047.1,Eudicots,all_fullcds,True,False,1428.0000,0.9785
+PX744060.1_L1_donor_90_r0,PX744060.1,Eudicots,all_fullcds,True,False,1428.0000,0.9893
+PX744100.1_L1_donor_90_r0,PX744100.1,Eudicots,all_fullcds,True,False,1428.0000,0.9986
+PX744121.1_L1_donor_90_r0,PX744121.1,Eudicots,all_fullcds,True,False,1428.0000,0.9907
+PX744240.1_L1_donor_90_r0,PX744240.1,Eudicots,all_fullcds,True,False,1455.0000,0.9930
+PX744248.1_L1_donor_90_r0,PX744248.1,Eudicots,all_fullcds,True,False,1428.0000,0.8497
+PX744249.1_L1_donor_90_r0,PX744249.1,Eudicots,all_fullcds,True,False,1428.0000,1.0000
+PX744267.1_L1_donor_90_r0,PX744267.1,Eudicots,all_fullcds,True,False,1458.0000,0.9965
+PX744315.1_L1_donor_90_r0,PX744315.1,Eudicots,all_fullcds,True,False,1449.0000,1.0000
+PX744322.1_L1_donor_90_r0,PX744322.1,Eudicots,all_fullcds,True,False,1428.0000,0.9986
+PX924757.1_L1_donor_90_r0,PX924757.1,Eudicots,all_fullcds,True,False,1428.0000,1.0000
+PZ584713.1_L1_donor_90_r0,PZ584713.1,SAR/other protist,all_fullcds,True,False,1404.0000,0.0874
+AB050950.1_L1_donor_90_r0,AB050950.1,Mosses,all_fullcds_atg,True,False,1428.0000,1.0000
+AB071411.1_L1_donor_90_r0,AB071411.1,Mosses,all_fullcds_atg,True,False,1428.0000,1.0000
+AB159651.1_L1_donor_90_r0,AB159651.1,Red algae,all_fullcds_atg,True,False,1467.0000,0.3245
+AB159659.1_L1_donor_90_r0,AB159659.1,Red algae,all_fullcds_atg,True,False,1467.0000,0.4220
+AB540047.1_L1_donor_90_r0,AB540047.1,Red algae,all_fullcds_atg,True,False,1467.0000,0.4937
+AB540051.1_L1_donor_90_r0,AB540051.1,Red algae,all_fullcds_atg,True,False,1467.0000,0.3760
+AB540052.1_L1_donor_90_r0,AB540052.1,Red algae,all_fullcds_atg,True,False,1467.0000,0.3760
+AB853073.1_L1_donor_90_r0,AB853073.1,Mosses,all_fullcds_atg,True,False,1428.0000,0.9463
+AB853079.1_L1_donor_90_r0,AB853079.1,Mosses,all_fullcds_atg,True,False,1428.0000,1.0000
+AB970712.1_L1_donor_90_r0,AB970712.1,Mosses,all_fullcds_atg,True,False,1428.0000,0.9864
+AY346095.1_L1_donor_90_r0,AY346095.1,Mosses,all_fullcds_atg,True,False,1428.0000,0.9649
+AY858644.1_L1_donor_90_r0,AY858644.1,Other angiosperms,all_fullcds_atg,True,False,1428.0000,0.9757
+AY996366.1_L1_donor_90_r0,AY996366.1,Brown algae,all_fullcds_atg,True,False,1467.0000,0.7744
+EF547818.1_L1_donor_90_r0,EF547818.1,Liverworts,all_fullcds_atg,True,False,1428.0000,0.6636
+EF658643.1_L1_donor_90_r0,EF658643.1,Red algae,all_fullcds_atg,True,False,1467.0000,0.5139
+EU713367.1_L1_donor_90_r0,EU713367.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.8160
+FJ438476.1_L1_donor_90_r0,FJ438476.1,Green algae,all_fullcds_atg,True,False,1425.0000,0.5545
+KT693213.1_L1_donor_90_r0,KT693213.1,Green algae,all_fullcds_atg,True,False,1428.0000,0.3393
+KU645801.1_L1_donor_90_r0,KU645801.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9306
+KU645803.1_L1_donor_90_r0,KU645803.1,Other angiosperms,all_fullcds_atg,True,False,1428.0000,0.9542
+KU645804.1_L1_donor_90_r0,KU645804.1,Other angiosperms,all_fullcds_atg,True,False,1434.0000,0.9373
+LC060504.1_L1_donor_90_r0,LC060504.1,Brown algae,all_fullcds_atg,True,False,1467.0000,0.8370
+LC060517.1_L1_donor_90_r0,LC060517.1,Brown algae,all_fullcds_atg,True,False,1467.0000,0.8600
+LC145073.1_L1_donor_90_r0,LC145073.1,Liverworts,all_fullcds_atg,True,False,1428.0000,0.6951
+LC176260.1_L1_donor_90_r0,LC176260.1,Mosses,all_fullcds_atg,True,False,1428.0000,0.9449
+LC200423.1_L1_donor_90_r0,LC200423.1,Green algae,all_fullcds_atg,True,False,1428.0000,0.4188
+LC270392.1_L1_donor_90_r0,LC270392.1,Mosses,all_fullcds_atg,True,False,1428.0000,0.9578
+LC272005.1_L1_donor_90_r0,LC272005.1,Mosses,all_fullcds_atg,True,False,1428.0000,1.0000
+LC376047.1_L1_donor_90_r0,LC376047.1,Liverworts,all_fullcds_atg,True,False,1428.0000,0.8647
+LC493039.1_L1_donor_90_r0,LC493039.1,Brown algae,all_fullcds_atg,True,False,1467.0000,0.8266
+LC723702.1_L1_donor_90_r0,LC723702.1,Liverworts,all_fullcds_atg,True,False,1428.0000,0.6836
+LC735540.1_L1_donor_90_r0,LC735540.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9936
+LC791202.1_L1_donor_90_r0,LC791202.1,Liverworts,all_fullcds_atg,True,False,1428.0000,0.7702
+LC858738.1_L1_donor_90_r0,LC858738.1,Liverworts,all_fullcds_atg,True,False,1428.0000,0.8554
+LC858740.1_L1_donor_90_r0,LC858740.1,Liverworts,all_fullcds_atg,True,False,1428.0000,0.7602
+LC859596.1_L1_donor_90_r0,LC859596.1,Liverworts,all_fullcds_atg,True,False,1428.0000,0.7008
+LC884819.1_L1_donor_90_r0,LC884819.1,Red algae,all_fullcds_atg,True,False,1467.0000,0.2291
+LC899187.1_L1_donor_90_r0,LC899187.1,Red algae,all_fullcds_atg,True,False,1467.0000,0.5411
+LC924737.1_L1_donor_90_r0,LC924737.1,Liverworts,all_fullcds_atg,True,False,1434.0000,0.7049
+LC924765.1_L1_donor_90_r0,LC924765.1,Liverworts,all_fullcds_atg,True,False,1428.0000,0.9256
+LC924778.1_L1_donor_90_r0,LC924778.1,Liverworts,all_fullcds_atg,True,False,1428.0000,0.8669
+LC924831.1_L1_donor_90_r0,LC924831.1,Mosses,all_fullcds_atg,True,False,1428.0000,1.0000
+LC924878.1_L1_donor_90_r0,LC924878.1,Mosses,all_fullcds_atg,True,False,1428.0000,1.0000
+LC924944.1_L1_donor_90_r0,LC924944.1,Mosses,all_fullcds_atg,True,False,1428.0000,0.9893
+LC924950.1_L1_donor_90_r0,LC924950.1,Mosses,all_fullcds_atg,True,False,1428.0000,1.0000
+LC924964.1_L1_donor_90_r0,LC924964.1,Mosses,all_fullcds_atg,True,False,1428.0000,0.9964
+MG251837.1_L1_donor_90_r0,MG251837.1,Brown algae,all_fullcds_atg,True,False,1467.0000,0.7911
+MH172437.1_L1_donor_90_r0,MH172437.1,Conifers,all_fullcds_atg,True,False,1428.0000,0.9520
+MH270460.1_L1_donor_90_r0,MH270460.1,Other angiosperms,all_fullcds_atg,True,False,1428.0000,0.9864
+MH390671.1_L1_donor_90_r0,MH390671.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9878
+MH390672.1_L1_donor_90_r0,MH390672.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9914
+MH545292.1_L1_donor_90_r0,MH545292.1,Green algae,all_fullcds_atg,True,False,1425.0000,0.5172
+MH545335.1_L1_donor_90_r0,MH545335.1,Green algae,all_fullcds_atg,True,False,1422.0000,0.5435
+MH616272.1_L1_donor_90_r0,MH616272.1,Monocots,all_fullcds_atg,True,False,1443.0000,0.9242
+MH661965.1_L1_donor_90_r0,MH661965.1,Monocots,all_fullcds_atg,True,False,1461.0000,0.9301
+MK295219.1_L1_donor_90_r0,MK295219.1,Green algae,all_fullcds_atg,True,False,1425.0000,0.6908
+MK295220.1_L1_donor_90_r0,MK295220.1,Green algae,all_fullcds_atg,True,False,1428.0000,0.3214
+MK806439.1_L1_donor_90_r0,MK806439.1,Ferns,all_fullcds_atg,False,False,213.0000,0.2088
+MN030175.1_L1_donor_90_r0,MN030175.1,Ferns,all_fullcds_atg,True,False,1440.0000,0.7807
+MN601490.1_L1_donor_90_r0,MN601490.1,Other angiosperms,all_fullcds_atg,True,False,1428.0000,0.9592
+MN793055.1_L1_donor_90_r0,MN793055.1,Other green,all_fullcds_atg,True,False,1428.0000,0.6586
+MT439865.1_L1_donor_90_r0,MT439865.1,SAR/other protist,all_fullcds_atg,True,False,1473.0000,0.7212
+MW267923.1_L1_donor_90_r0,MW267923.1,Other green,all_fullcds_atg,True,False,1428.0000,0.5225
+MW524049.1_L1_donor_90_r0,MW524049.1,Ferns,all_fullcds_atg,True,False,1428.0000,0.3930
+MZ133428.1_L1_donor_90_r0,MZ133428.1,Green algae,all_fullcds_atg,True,False,1428.0000,0.4796
+MZ714562.1_L1_donor_90_r0,MZ714562.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.2491
+OK588964.1_L1_donor_90_r0,OK588964.1,Monocots,all_fullcds_atg,True,False,1428.0000,0.9485
+OK588972.1_L1_donor_90_r0,OK588972.1,Monocots,all_fullcds_atg,True,False,1428.0000,0.9979
+OK588984.1_L1_donor_90_r0,OK588984.1,Monocots,all_fullcds_atg,True,False,1443.0000,0.7982
+OK588986.1_L1_donor_90_r0,OK588986.1,Monocots,all_fullcds_atg,True,False,1428.0000,0.9778
+OK588987.1_L1_donor_90_r0,OK588987.1,Monocots,all_fullcds_atg,True,False,1428.0000,0.7280
+OL504528.1_L1_donor_90_r0,OL504528.1,Monocots,all_fullcds_atg,True,False,1428.0000,0.9928
+ON568338.1_L1_donor_90_r0,ON568338.1,Brown algae,all_fullcds_atg,True,False,1467.0000,0.9603
+ON684489.1_L1_donor_90_r0,ON684489.1,Conifers,all_fullcds_atg,True,False,1428.0000,1.0000
+ON920851.1_L1_donor_90_r0,ON920851.1,SAR/other protist,all_fullcds_atg,True,False,1467.0000,0.5007
+ON933796.1_L1_donor_90_r0,ON933796.1,Eudicots,all_fullcds_atg,True,False,1449.0000,0.9774
+OP237580.1_L1_donor_90_r0,OP237580.1,Eudicots,all_fullcds_atg,True,False,1440.0000,0.9134
+OP330067.1_L1_donor_90_r0,OP330067.1,Ferns,all_fullcds_atg,True,False,1428.0000,0.2341
+OQ863300.1_L1_donor_90_r0,OQ863300.1,Red algae,all_fullcds_atg,True,False,1467.0000,0.5306
+OQ863312.1_L1_donor_90_r0,OQ863312.1,Red algae,all_fullcds_atg,True,False,1467.0000,0.6323
+OQ868456.1_L1_donor_90_r0,OQ868456.1,Ferns,all_fullcds_atg,True,False,1428.0000,0.3751
+OR165438.1_L1_donor_90_r0,OR165438.1,Monocots,all_fullcds_atg,True,False,1431.0000,0.9979
+OR165493.1_L1_donor_90_r0,OR165493.1,Monocots,all_fullcds_atg,False,True,,
+OR359632.1_L1_donor_90_r0,OR359632.1,Red algae,all_fullcds_atg,True,False,1467.0000,0.6114
+PP263658.1_L1_donor_90_r0,PP263658.1,Eudicots,all_fullcds_atg,True,False,1449.0000,0.9986
+PQ031122.1_L1_donor_90_r0,PQ031122.1,SAR/other protist,all_fullcds_atg,True,False,1461.0000,0.2517
+PQ031123.1_L1_donor_90_r0,PQ031123.1,SAR/other protist,all_fullcds_atg,True,False,1464.0000,0.2519
+PQ031125.1_L1_donor_90_r0,PQ031125.1,SAR/other protist,all_fullcds_atg,True,False,1464.0000,0.5199
+PQ031131.1_L1_donor_90_r0,PQ031131.1,SAR/other protist,all_fullcds_atg,True,False,1470.0000,0.5400
+PQ031145.1_L1_donor_90_r0,PQ031145.1,SAR/other protist,all_fullcds_atg,True,False,1458.0000,0.4723
+PQ213023.1_L1_donor_90_r0,PQ213023.1,SAR/other protist,all_fullcds_atg,True,False,1473.0000,0.6075
+PQ791840.1_L1_donor_90_r0,PQ791840.1,SAR/other protist,all_fullcds_atg,True,False,1473.0000,0.7441
+PQ791846.1_L1_donor_90_r0,PQ791846.1,SAR/other protist,all_fullcds_atg,True,False,1473.0000,0.3329
+PV575775.1_L1_donor_90_r0,PV575775.1,Brown algae,all_fullcds_atg,True,False,1467.0000,0.6657
+PV999901.1_L1_donor_90_r0,PV999901.1,Green algae,all_fullcds_atg,True,False,1428.0000,0.3064
+PV999913.1_L1_donor_90_r0,PV999913.1,Green algae,all_fullcds_atg,True,False,1425.0000,0.6772
+PX743792.1_L1_donor_90_r0,PX743792.1,Monocots,all_fullcds_atg,True,False,1434.0000,0.9857
+PX743818.1_L1_donor_90_r0,PX743818.1,Other angiosperms,all_fullcds_atg,True,False,1449.0000,0.9845
+PX743828.1_L1_donor_90_r0,PX743828.1,Other angiosperms,all_fullcds_atg,True,False,1449.0000,0.9887
+PX743839.1_L1_donor_90_r0,PX743839.1,Other angiosperms,all_fullcds_atg,True,False,1428.0000,0.9148
+PX743843.1_L1_donor_90_r0,PX743843.1,Other angiosperms,all_fullcds_atg,True,False,1443.0000,0.9632
+PX743855.1_L1_donor_90_r0,PX743855.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9921
+PX743950.1_L1_donor_90_r0,PX743950.1,Eudicots,all_fullcds_atg,True,False,1434.0000,1.0000
+PX743996.1_L1_donor_90_r0,PX743996.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9749
+PX743998.1_L1_donor_90_r0,PX743998.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9850
+PX744014.1_L1_donor_90_r0,PX744014.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9771
+PX744018.1_L1_donor_90_r0,PX744018.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9298
+PX744022.1_L1_donor_90_r0,PX744022.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9785
+PX744047.1_L1_donor_90_r0,PX744047.1,Eudicots,all_fullcds_atg,True,False,1443.0000,0.8881
+PX744060.1_L1_donor_90_r0,PX744060.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9893
+PX744100.1_L1_donor_90_r0,PX744100.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9843
+PX744121.1_L1_donor_90_r0,PX744121.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9642
+PX744240.1_L1_donor_90_r0,PX744240.1,Eudicots,all_fullcds_atg,True,False,1455.0000,0.9691
+PX744248.1_L1_donor_90_r0,PX744248.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9026
+PX744249.1_L1_donor_90_r0,PX744249.1,Eudicots,all_fullcds_atg,True,False,1434.0000,1.0000
+PX744267.1_L1_donor_90_r0,PX744267.1,Eudicots,all_fullcds_atg,True,False,1458.0000,1.0000
+PX744315.1_L1_donor_90_r0,PX744315.1,Eudicots,all_fullcds_atg,True,False,1455.0000,0.9740
+PX744322.1_L1_donor_90_r0,PX744322.1,Eudicots,all_fullcds_atg,True,False,1428.0000,1.0000
+PX924757.1_L1_donor_90_r0,PX924757.1,Eudicots,all_fullcds_atg,True,False,1428.0000,0.9792
+PZ584713.1_L1_donor_90_r0,PZ584713.1,SAR/other protist,all_fullcds_atg,True,False,1437.0000,0.0462
+AB050950.1_L1_donor_90_r0,AB050950.1,Mosses,b1_sparse_clade,True,False,1428.0000,0.9971
+AB071411.1_L1_donor_90_r0,AB071411.1,Mosses,b1_sparse_clade,True,False,1428.0000,0.9599
+AB159651.1_L1_donor_90_r0,AB159651.1,Red algae,b1_sparse_clade,True,False,1467.0000,0.6302
+AB159659.1_L1_donor_90_r0,AB159659.1,Red algae,b1_sparse_clade,True,False,1467.0000,0.6309
+AB540047.1_L1_donor_90_r0,AB540047.1,Red algae,b1_sparse_clade,True,False,1467.0000,0.6435
+AB540051.1_L1_donor_90_r0,AB540051.1,Red algae,b1_sparse_clade,True,False,1467.0000,0.6469
+AB540052.1_L1_donor_90_r0,AB540052.1,Red algae,b1_sparse_clade,True,False,1467.0000,0.7667
+AB853073.1_L1_donor_90_r0,AB853073.1,Mosses,b1_sparse_clade,True,False,1428.0000,0.9370
+AB853079.1_L1_donor_90_r0,AB853079.1,Mosses,b1_sparse_clade,True,False,1428.0000,1.0000
+AB970712.1_L1_donor_90_r0,AB970712.1,Mosses,b1_sparse_clade,True,False,1428.0000,0.9613
+AY346095.1_L1_donor_90_r0,AY346095.1,Mosses,b1_sparse_clade,True,False,1428.0000,0.9535
+AY858644.1_L1_donor_90_r0,AY858644.1,Other angiosperms,b1_sparse_clade,True,False,1428.0000,0.4510
+AY996366.1_L1_donor_90_r0,AY996366.1,Brown algae,b1_sparse_clade,True,False,1467.0000,0.8628
+EF547818.1_L1_donor_90_r0,EF547818.1,Liverworts,b1_sparse_clade,True,False,1428.0000,0.6757
+EF658643.1_L1_donor_90_r0,EF658643.1,Red algae,b1_sparse_clade,True,False,1467.0000,0.7117
+EU713367.1_L1_donor_90_r0,EU713367.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.7738
+FJ438476.1_L1_donor_90_r0,FJ438476.1,Green algae,b1_sparse_clade,True,False,1428.0000,0.1668
+KT693213.1_L1_donor_90_r0,KT693213.1,Green algae,b1_sparse_clade,True,False,1428.0000,0.5054
+KU645801.1_L1_donor_90_r0,KU645801.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.5798
+KU645803.1_L1_donor_90_r0,KU645803.1,Other angiosperms,b1_sparse_clade,True,False,1428.0000,0.8490
+KU645804.1_L1_donor_90_r0,KU645804.1,Other angiosperms,b1_sparse_clade,True,False,1428.0000,0.6915
+LC060504.1_L1_donor_90_r0,LC060504.1,Brown algae,b1_sparse_clade,True,False,1467.0000,0.8489
+LC060517.1_L1_donor_90_r0,LC060517.1,Brown algae,b1_sparse_clade,True,False,1467.0000,0.8712
+LC145073.1_L1_donor_90_r0,LC145073.1,Liverworts,b1_sparse_clade,True,False,1428.0000,0.7144
+LC176260.1_L1_donor_90_r0,LC176260.1,Mosses,b1_sparse_clade,True,False,1428.0000,0.9470
+LC200423.1_L1_donor_90_r0,LC200423.1,Green algae,b1_sparse_clade,True,False,1428.0000,0.2634
+LC270392.1_L1_donor_90_r0,LC270392.1,Mosses,b1_sparse_clade,True,False,1428.0000,0.9778
+LC272005.1_L1_donor_90_r0,LC272005.1,Mosses,b1_sparse_clade,True,False,1428.0000,1.0000
+LC376047.1_L1_donor_90_r0,LC376047.1,Liverworts,b1_sparse_clade,True,False,1428.0000,0.9298
+LC493039.1_L1_donor_90_r0,LC493039.1,Brown algae,b1_sparse_clade,True,False,1467.0000,0.8238
+LC723702.1_L1_donor_90_r0,LC723702.1,Liverworts,b1_sparse_clade,True,False,1428.0000,0.6757
+LC735540.1_L1_donor_90_r0,LC735540.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.8117
+LC791202.1_L1_donor_90_r0,LC791202.1,Liverworts,b1_sparse_clade,True,False,1428.0000,0.7530
+LC858738.1_L1_donor_90_r0,LC858738.1,Liverworts,b1_sparse_clade,True,False,1428.0000,0.7638
+LC858740.1_L1_donor_90_r0,LC858740.1,Liverworts,b1_sparse_clade,True,False,1428.0000,0.7989
+LC859596.1_L1_donor_90_r0,LC859596.1,Liverworts,b1_sparse_clade,True,False,1428.0000,0.5655
+LC884819.1_L1_donor_90_r0,LC884819.1,Red algae,b1_sparse_clade,True,False,1467.0000,0.4833
+LC899187.1_L1_donor_90_r0,LC899187.1,Red algae,b1_sparse_clade,True,False,1473.0000,0.7857
+LC924737.1_L1_donor_90_r0,LC924737.1,Liverworts,b1_sparse_clade,True,False,1428.0000,0.8125
+LC924765.1_L1_donor_90_r0,LC924765.1,Liverworts,b1_sparse_clade,True,False,1428.0000,0.7824
+LC924778.1_L1_donor_90_r0,LC924778.1,Liverworts,b1_sparse_clade,True,False,1428.0000,0.8647
+LC924831.1_L1_donor_90_r0,LC924831.1,Mosses,b1_sparse_clade,True,False,1428.0000,1.0000
+LC924878.1_L1_donor_90_r0,LC924878.1,Mosses,b1_sparse_clade,True,False,1428.0000,0.9878
+LC924944.1_L1_donor_90_r0,LC924944.1,Mosses,b1_sparse_clade,True,False,1428.0000,0.9635
+LC924950.1_L1_donor_90_r0,LC924950.1,Mosses,b1_sparse_clade,True,False,1428.0000,0.9785
+LC924964.1_L1_donor_90_r0,LC924964.1,Mosses,b1_sparse_clade,True,False,1428.0000,0.9735
+MG251837.1_L1_donor_90_r0,MG251837.1,Brown algae,b1_sparse_clade,True,False,1467.0000,0.8942
+MH172437.1_L1_donor_90_r0,MH172437.1,Conifers,b1_sparse_clade,True,False,1428.0000,0.9320
+MH270460.1_L1_donor_90_r0,MH270460.1,Other angiosperms,b1_sparse_clade,True,False,1428.0000,0.6736
+MH390671.1_L1_donor_90_r0,MH390671.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.7437
+MH390672.1_L1_donor_90_r0,MH390672.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.6399
+MH545292.1_L1_donor_90_r0,MH545292.1,Green algae,b1_sparse_clade,True,False,1428.0000,0.6829
+MH545335.1_L1_donor_90_r0,MH545335.1,Green algae,b1_sparse_clade,True,False,1425.0000,0.6664
+MH616272.1_L1_donor_90_r0,MH616272.1,Monocots,b1_sparse_clade,True,False,1428.0000,0.6750
+MH661965.1_L1_donor_90_r0,MH661965.1,Monocots,b1_sparse_clade,True,False,1449.0000,0.9055
+MK295219.1_L1_donor_90_r0,MK295219.1,Green algae,b1_sparse_clade,True,False,1428.0000,0.6815
+MK295220.1_L1_donor_90_r0,MK295220.1,Green algae,b1_sparse_clade,True,False,1428.0000,0.8475
+MK806439.1_L1_donor_90_r0,MK806439.1,Ferns,b1_sparse_clade,True,False,1428.0000,0.2770
+MN030175.1_L1_donor_90_r0,MN030175.1,Ferns,b1_sparse_clade,True,False,1428.0000,0.7094
+MN601490.1_L1_donor_90_r0,MN601490.1,Other angiosperms,b1_sparse_clade,True,False,1428.0000,0.7523
+MN793055.1_L1_donor_90_r0,MN793055.1,Other green,b1_sparse_clade,True,False,1428.0000,0.7022
+MT439865.1_L1_donor_90_r0,MT439865.1,SAR/other protist,b1_sparse_clade,True,False,1473.0000,0.8904
+MW267923.1_L1_donor_90_r0,MW267923.1,Other green,b1_sparse_clade,True,False,1428.0000,0.7223
+MW524049.1_L1_donor_90_r0,MW524049.1,Ferns,b1_sparse_clade,True,False,1428.0000,0.5540
+MZ133428.1_L1_donor_90_r0,MZ133428.1,Green algae,b1_sparse_clade,True,False,1428.0000,0.4474
+MZ714562.1_L1_donor_90_r0,MZ714562.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.5820
+OK588964.1_L1_donor_90_r0,OK588964.1,Monocots,b1_sparse_clade,False,True,,
+OK588972.1_L1_donor_90_r0,OK588972.1,Monocots,b1_sparse_clade,True,False,1428.0000,0.9012
+OK588984.1_L1_donor_90_r0,OK588984.1,Monocots,b1_sparse_clade,True,False,1428.0000,0.8103
+OK588986.1_L1_donor_90_r0,OK588986.1,Monocots,b1_sparse_clade,True,False,1428.0000,0.7480
+OK588987.1_L1_donor_90_r0,OK588987.1,Monocots,b1_sparse_clade,True,False,1428.0000,0.7559
+OL504528.1_L1_donor_90_r0,OL504528.1,Monocots,b1_sparse_clade,True,False,1428.0000,0.7445
+ON568338.1_L1_donor_90_r0,ON568338.1,Brown algae,b1_sparse_clade,True,False,1467.0000,0.9422
+ON684489.1_L1_donor_90_r0,ON684489.1,Conifers,b1_sparse_clade,True,False,1428.0000,0.9105
+ON920851.1_L1_donor_90_r0,ON920851.1,SAR/other protist,b1_sparse_clade,True,False,1467.0000,0.6734
+ON933796.1_L1_donor_90_r0,ON933796.1,Eudicots,b1_sparse_clade,True,False,1449.0000,0.7038
+OP237580.1_L1_donor_90_r0,OP237580.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.8168
+OP330067.1_L1_donor_90_r0,OP330067.1,Ferns,b1_sparse_clade,True,False,1428.0000,0.2756
+OQ863300.1_L1_donor_90_r0,OQ863300.1,Red algae,b1_sparse_clade,True,False,1467.0000,0.7403
+OQ863312.1_L1_donor_90_r0,OQ863312.1,Red algae,b1_sparse_clade,True,False,1467.0000,0.8106
+OQ868456.1_L1_donor_90_r0,OQ868456.1,Ferns,b1_sparse_clade,True,False,1428.0000,0.7853
+OR165438.1_L1_donor_90_r0,OR165438.1,Monocots,b1_sparse_clade,True,False,1428.0000,0.6607
+OR165493.1_L1_donor_90_r0,OR165493.1,Monocots,b1_sparse_clade,True,False,1428.0000,0.6285
+OR359632.1_L1_donor_90_r0,OR359632.1,Red algae,b1_sparse_clade,True,False,1467.0000,0.7946
+PP263658.1_L1_donor_90_r0,PP263658.1,Eudicots,b1_sparse_clade,True,False,1449.0000,0.5889
+PQ031122.1_L1_donor_90_r0,PQ031122.1,SAR/other protist,b1_sparse_clade,True,False,1461.0000,0.4476
+PQ031123.1_L1_donor_90_r0,PQ031123.1,SAR/other protist,b1_sparse_clade,True,False,1464.0000,0.3252
+PQ031125.1_L1_donor_90_r0,PQ031125.1,SAR/other protist,b1_sparse_clade,True,False,1464.0000,0.4543
+PQ031131.1_L1_donor_90_r0,PQ031131.1,SAR/other protist,b1_sparse_clade,True,False,1464.0000,0.4731
+PQ031145.1_L1_donor_90_r0,PQ031145.1,SAR/other protist,b1_sparse_clade,True,False,1464.0000,0.4271
+PQ213023.1_L1_donor_90_r0,PQ213023.1,SAR/other protist,b1_sparse_clade,True,False,1473.0000,0.8426
+PQ791840.1_L1_donor_90_r0,PQ791840.1,SAR/other protist,b1_sparse_clade,True,False,1473.0000,0.8384
+PQ791846.1_L1_donor_90_r0,PQ791846.1,SAR/other protist,b1_sparse_clade,True,False,1473.0000,0.8308
+PV575775.1_L1_donor_90_r0,PV575775.1,Brown algae,b1_sparse_clade,True,False,1473.0000,0.5236
+PV999901.1_L1_donor_90_r0,PV999901.1,Green algae,b1_sparse_clade,True,False,1428.0000,0.6314
+PV999913.1_L1_donor_90_r0,PV999913.1,Green algae,b1_sparse_clade,True,False,1428.0000,0.4968
+PX743792.1_L1_donor_90_r0,PX743792.1,Monocots,b1_sparse_clade,True,False,1428.0000,0.7602
+PX743818.1_L1_donor_90_r0,PX743818.1,Other angiosperms,b1_sparse_clade,True,False,1449.0000,0.1467
+PX743828.1_L1_donor_90_r0,PX743828.1,Other angiosperms,b1_sparse_clade,True,False,1449.0000,0.7489
+PX743839.1_L1_donor_90_r0,PX743839.1,Other angiosperms,b1_sparse_clade,True,False,1428.0000,0.7674
+PX743843.1_L1_donor_90_r0,PX743843.1,Other angiosperms,b1_sparse_clade,True,False,1428.0000,0.7280
+PX743855.1_L1_donor_90_r0,PX743855.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.6986
+PX743950.1_L1_donor_90_r0,PX743950.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.7752
+PX743996.1_L1_donor_90_r0,PX743996.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.8067
+PX743998.1_L1_donor_90_r0,PX743998.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.6729
+PX744014.1_L1_donor_90_r0,PX744014.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.6743
+PX744018.1_L1_donor_90_r0,PX744018.1,Eudicots,b1_sparse_clade,False,False,633.0000,0.0000
+PX744022.1_L1_donor_90_r0,PX744022.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.7688
+PX744047.1_L1_donor_90_r0,PX744047.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.6271
+PX744060.1_L1_donor_90_r0,PX744060.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.6893
+PX744100.1_L1_donor_90_r0,PX744100.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.7144
+PX744121.1_L1_donor_90_r0,PX744121.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.7709
+PX744240.1_L1_donor_90_r0,PX744240.1,Eudicots,b1_sparse_clade,True,False,1449.0000,0.6072
+PX744248.1_L1_donor_90_r0,PX744248.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.7087
+PX744249.1_L1_donor_90_r0,PX744249.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.8561
+PX744267.1_L1_donor_90_r0,PX744267.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.7137
+PX744315.1_L1_donor_90_r0,PX744315.1,Eudicots,b1_sparse_clade,True,False,1449.0000,0.7017
+PX744322.1_L1_donor_90_r0,PX744322.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.7895
+PX924757.1_L1_donor_90_r0,PX924757.1,Eudicots,b1_sparse_clade,True,False,1428.0000,0.7323
+PZ584713.1_L1_donor_90_r0,PZ584713.1,SAR/other protist,b1_sparse_clade,True,False,1431.0000,0.4336
+AB050950.1_L1_donor_90_r0,AB050950.1,Mosses,base,False,False,267.0000,
+AB071411.1_L1_donor_90_r0,AB071411.1,Mosses,base,False,False,1233.0000,
+AB159651.1_L1_donor_90_r0,AB159651.1,Red algae,base,False,False,396.0000,
+AB159659.1_L1_donor_90_r0,AB159659.1,Red algae,base,False,True,,
+AB540047.1_L1_donor_90_r0,AB540047.1,Red algae,base,False,False,1029.0000,
+AB540051.1_L1_donor_90_r0,AB540051.1,Red algae,base,False,False,297.0000,
+AB540052.1_L1_donor_90_r0,AB540052.1,Red algae,base,False,False,360.0000,
+AB853073.1_L1_donor_90_r0,AB853073.1,Mosses,base,False,False,510.0000,
+AB853079.1_L1_donor_90_r0,AB853079.1,Mosses,base,True,False,1434.0000,
+AB970712.1_L1_donor_90_r0,AB970712.1,Mosses,base,False,False,1224.0000,
+AY346095.1_L1_donor_90_r0,AY346095.1,Mosses,base,False,True,,
+AY858644.1_L1_donor_90_r0,AY858644.1,Other angiosperms,base,True,False,1428.0000,
+AY996366.1_L1_donor_90_r0,AY996366.1,Brown algae,base,False,False,462.0000,
+EF547818.1_L1_donor_90_r0,EF547818.1,Liverworts,base,True,False,1428.0000,
+EF658643.1_L1_donor_90_r0,EF658643.1,Red algae,base,False,False,153.0000,
+EU713367.1_L1_donor_90_r0,EU713367.1,Eudicots,base,True,False,1428.0000,
+FJ438476.1_L1_donor_90_r0,FJ438476.1,Green algae,base,False,False,687.0000,
+KT693213.1_L1_donor_90_r0,KT693213.1,Green algae,base,False,False,660.0000,
+KU645801.1_L1_donor_90_r0,KU645801.1,Eudicots,base,True,False,1428.0000,
+KU645803.1_L1_donor_90_r0,KU645803.1,Other angiosperms,base,True,False,1428.0000,
+KU645804.1_L1_donor_90_r0,KU645804.1,Other angiosperms,base,True,False,1428.0000,
+LC060504.1_L1_donor_90_r0,LC060504.1,Brown algae,base,False,False,660.0000,
+LC060517.1_L1_donor_90_r0,LC060517.1,Brown algae,base,False,True,,
+LC145073.1_L1_donor_90_r0,LC145073.1,Liverworts,base,False,False,1116.0000,
+LC176260.1_L1_donor_90_r0,LC176260.1,Mosses,base,False,False,198.0000,
+LC200423.1_L1_donor_90_r0,LC200423.1,Green algae,base,False,False,405.0000,
+LC270392.1_L1_donor_90_r0,LC270392.1,Mosses,base,False,False,360.0000,
+LC272005.1_L1_donor_90_r0,LC272005.1,Mosses,base,False,False,162.0000,
+LC376047.1_L1_donor_90_r0,LC376047.1,Liverworts,base,True,False,1428.0000,
+LC493039.1_L1_donor_90_r0,LC493039.1,Brown algae,base,True,False,1533.0000,
+LC723702.1_L1_donor_90_r0,LC723702.1,Liverworts,base,True,False,1428.0000,
+LC735540.1_L1_donor_90_r0,LC735540.1,Eudicots,base,True,False,1428.0000,
+LC791202.1_L1_donor_90_r0,LC791202.1,Liverworts,base,False,False,975.0000,
+LC858738.1_L1_donor_90_r0,LC858738.1,Liverworts,base,True,False,1428.0000,
+LC858740.1_L1_donor_90_r0,LC858740.1,Liverworts,base,True,False,1428.0000,
+LC859596.1_L1_donor_90_r0,LC859596.1,Liverworts,base,True,False,1455.0000,
+LC884819.1_L1_donor_90_r0,LC884819.1,Red algae,base,False,False,144.0000,
+LC899187.1_L1_donor_90_r0,LC899187.1,Red algae,base,False,False,453.0000,
+LC924737.1_L1_donor_90_r0,LC924737.1,Liverworts,base,True,False,1428.0000,
+LC924765.1_L1_donor_90_r0,LC924765.1,Liverworts,base,False,False,258.0000,
+LC924778.1_L1_donor_90_r0,LC924778.1,Liverworts,base,True,False,1458.0000,
+LC924831.1_L1_donor_90_r0,LC924831.1,Mosses,base,False,False,222.0000,
+LC924878.1_L1_donor_90_r0,LC924878.1,Mosses,base,False,False,693.0000,
+LC924944.1_L1_donor_90_r0,LC924944.1,Mosses,base,False,False,261.0000,
+LC924950.1_L1_donor_90_r0,LC924950.1,Mosses,base,False,False,228.0000,
+LC924964.1_L1_donor_90_r0,LC924964.1,Mosses,base,False,False,357.0000,
+MG251837.1_L1_donor_90_r0,MG251837.1,Brown algae,base,False,False,483.0000,
+MH172437.1_L1_donor_90_r0,MH172437.1,Conifers,base,True,False,1428.0000,
+MH270460.1_L1_donor_90_r0,MH270460.1,Other angiosperms,base,True,False,1428.0000,
+MH390671.1_L1_donor_90_r0,MH390671.1,Eudicots,base,True,False,1428.0000,
+MH390672.1_L1_donor_90_r0,MH390672.1,Eudicots,base,True,False,1428.0000,
+MH545292.1_L1_donor_90_r0,MH545292.1,Green algae,base,False,False,285.0000,
+MH545335.1_L1_donor_90_r0,MH545335.1,Green algae,base,False,False,255.0000,
+MH616272.1_L1_donor_90_r0,MH616272.1,Monocots,base,False,False,342.0000,
+MH661965.1_L1_donor_90_r0,MH661965.1,Monocots,base,True,False,1461.0000,
+MK295219.1_L1_donor_90_r0,MK295219.1,Green algae,base,False,False,453.0000,
+MK295220.1_L1_donor_90_r0,MK295220.1,Green algae,base,False,False,1272.0000,
+MK806439.1_L1_donor_90_r0,MK806439.1,Ferns,base,True,False,1428.0000,
+MN030175.1_L1_donor_90_r0,MN030175.1,Ferns,base,True,False,1428.0000,
+MN601490.1_L1_donor_90_r0,MN601490.1,Other angiosperms,base,True,False,1428.0000,
+MN793055.1_L1_donor_90_r0,MN793055.1,Other green,base,False,False,1152.0000,
+MT439865.1_L1_donor_90_r0,MT439865.1,SAR/other protist,base,False,False,198.0000,
+MW267923.1_L1_donor_90_r0,MW267923.1,Other green,base,False,False,756.0000,
+MW524049.1_L1_donor_90_r0,MW524049.1,Ferns,base,False,False,1749.0000,
+MZ133428.1_L1_donor_90_r0,MZ133428.1,Green algae,base,False,False,1374.0000,
+MZ714562.1_L1_donor_90_r0,MZ714562.1,Eudicots,base,False,False,324.0000,
+OK588964.1_L1_donor_90_r0,OK588964.1,Monocots,base,True,False,1428.0000,
+OK588972.1_L1_donor_90_r0,OK588972.1,Monocots,base,True,False,1428.0000,
+OK588984.1_L1_donor_90_r0,OK588984.1,Monocots,base,True,False,1440.0000,
+OK588986.1_L1_donor_90_r0,OK588986.1,Monocots,base,True,False,1428.0000,
+OK588987.1_L1_donor_90_r0,OK588987.1,Monocots,base,True,False,1428.0000,
+OL504528.1_L1_donor_90_r0,OL504528.1,Monocots,base,True,False,1428.0000,
+ON568338.1_L1_donor_90_r0,ON568338.1,Brown algae,base,False,False,579.0000,
+ON684489.1_L1_donor_90_r0,ON684489.1,Conifers,base,True,False,1428.0000,
+ON920851.1_L1_donor_90_r0,ON920851.1,SAR/other protist,base,False,False,1014.0000,
+ON933796.1_L1_donor_90_r0,ON933796.1,Eudicots,base,True,False,1449.0000,
+OP237580.1_L1_donor_90_r0,OP237580.1,Eudicots,base,True,False,1434.0000,
+OP330067.1_L1_donor_90_r0,OP330067.1,Ferns,base,False,False,987.0000,
+OQ863300.1_L1_donor_90_r0,OQ863300.1,Red algae,base,False,False,1080.0000,
+OQ863312.1_L1_donor_90_r0,OQ863312.1,Red algae,base,False,False,678.0000,
+OQ868456.1_L1_donor_90_r0,OQ868456.1,Ferns,base,True,False,1434.0000,
+OR165438.1_L1_donor_90_r0,OR165438.1,Monocots,base,True,False,1428.0000,
+OR165493.1_L1_donor_90_r0,OR165493.1,Monocots,base,True,False,1434.0000,
+OR359632.1_L1_donor_90_r0,OR359632.1,Red algae,base,False,False,1767.0000,
+PP263658.1_L1_donor_90_r0,PP263658.1,Eudicots,base,True,False,1449.0000,
+PQ031122.1_L1_donor_90_r0,PQ031122.1,SAR/other protist,base,True,False,1464.0000,
+PQ031123.1_L1_donor_90_r0,PQ031123.1,SAR/other protist,base,False,False,246.0000,
+PQ031125.1_L1_donor_90_r0,PQ031125.1,SAR/other protist,base,False,False,1608.0000,
+PQ031131.1_L1_donor_90_r0,PQ031131.1,SAR/other protist,base,False,False,1311.0000,
+PQ031145.1_L1_donor_90_r0,PQ031145.1,SAR/other protist,base,False,False,174.0000,
+PQ213023.1_L1_donor_90_r0,PQ213023.1,SAR/other protist,base,False,False,153.0000,
+PQ791840.1_L1_donor_90_r0,PQ791840.1,SAR/other protist,base,True,False,1494.0000,
+PQ791846.1_L1_donor_90_r0,PQ791846.1,SAR/other protist,base,False,False,582.0000,
+PV575775.1_L1_donor_90_r0,PV575775.1,Brown algae,base,False,True,,
+PV999901.1_L1_donor_90_r0,PV999901.1,Green algae,base,False,False,189.0000,
+PV999913.1_L1_donor_90_r0,PV999913.1,Green algae,base,False,True,,
+PX743792.1_L1_donor_90_r0,PX743792.1,Monocots,base,True,False,1440.0000,
+PX743818.1_L1_donor_90_r0,PX743818.1,Other angiosperms,base,True,False,1449.0000,
+PX743828.1_L1_donor_90_r0,PX743828.1,Other angiosperms,base,True,False,1449.0000,
+PX743839.1_L1_donor_90_r0,PX743839.1,Other angiosperms,base,True,False,1428.0000,
+PX743843.1_L1_donor_90_r0,PX743843.1,Other angiosperms,base,True,False,1476.0000,
+PX743855.1_L1_donor_90_r0,PX743855.1,Eudicots,base,True,False,1440.0000,
+PX743950.1_L1_donor_90_r0,PX743950.1,Eudicots,base,True,False,1428.0000,
+PX743996.1_L1_donor_90_r0,PX743996.1,Eudicots,base,True,False,1428.0000,
+PX743998.1_L1_donor_90_r0,PX743998.1,Eudicots,base,True,False,1428.0000,
+PX744014.1_L1_donor_90_r0,PX744014.1,Eudicots,base,True,False,1428.0000,
+PX744018.1_L1_donor_90_r0,PX744018.1,Eudicots,base,False,False,249.0000,
+PX744022.1_L1_donor_90_r0,PX744022.1,Eudicots,base,True,False,1428.0000,
+PX744047.1_L1_donor_90_r0,PX744047.1,Eudicots,base,True,False,1440.0000,
+PX744060.1_L1_donor_90_r0,PX744060.1,Eudicots,base,True,False,1440.0000,
+PX744100.1_L1_donor_90_r0,PX744100.1,Eudicots,base,False,False,963.0000,
+PX744121.1_L1_donor_90_r0,PX744121.1,Eudicots,base,True,False,1428.0000,
+PX744240.1_L1_donor_90_r0,PX744240.1,Eudicots,base,True,False,1449.0000,
+PX744248.1_L1_donor_90_r0,PX744248.1,Eudicots,base,False,True,,
+PX744249.1_L1_donor_90_r0,PX744249.1,Eudicots,base,True,False,1428.0000,
+PX744267.1_L1_donor_90_r0,PX744267.1,Eudicots,base,True,False,1434.0000,
+PX744315.1_L1_donor_90_r0,PX744315.1,Eudicots,base,True,False,1449.0000,
+PX744322.1_L1_donor_90_r0,PX744322.1,Eudicots,base,True,False,1428.0000,
+PX924757.1_L1_donor_90_r0,PX924757.1,Eudicots,base,True,False,1428.0000,
+PZ584713.1_L1_donor_90_r0,PZ584713.1,SAR/other protist,base,False,False,357.0000,

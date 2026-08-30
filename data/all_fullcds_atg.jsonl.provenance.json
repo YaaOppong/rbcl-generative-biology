@@ -1,0 +1,15 @@
+{
+  "arm": "derived",
+  "derived_from": "data/all_fullcds.jsonl",
+  "derived_from_sha256": "6deadfe0934414ffc73b201b5908f2682491e54c9ca3ee41f1a901dd61347827",
+  "filter": "start_codon",
+  "source_records": 6946,
+  "written": 2937,
+  "rejected_no_start_codon": 4009,
+  "start_codon_required": true,
+  "total_nt": 4230864,
+  "unique_sequences": 2937,
+  "species_taxids": 2557,
+  "clades": 17,
+  "source": "filtered from data/all_fullcds.jsonl"
+}

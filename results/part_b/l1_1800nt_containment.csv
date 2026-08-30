@@ -1,0 +1,13 @@
+arm,corpus,n,mean,median,frac_over_90pct,own_corpus
+all_fullcds,all_fullcds,120,0.8062,0.9231,0.5250,True
+all_fullcds_atg,all_fullcds,119,0.7999,0.9072,0.5042,False
+b1_sparse_clade,all_fullcds,119,0.7663,0.7895,0.1849,False
+base,all_fullcds,114,0.4939,0.3221,0.3860,False
+all_fullcds,all_fullcds_atg,120,0.7640,0.8672,0.4667,False
+all_fullcds_atg,all_fullcds_atg,119,0.7672,0.8881,0.4958,True
+b1_sparse_clade,all_fullcds_atg,119,0.7232,0.7616,0.1765,False
+base,all_fullcds_atg,114,0.4832,0.3221,0.3509,False
+all_fullcds,b1_sparse_clade,120,0.3926,0.1274,0.1667,False
+all_fullcds_atg,b1_sparse_clade,119,0.3888,0.1188,0.1429,False
+b1_sparse_clade,b1_sparse_clade,119,0.7162,0.7437,0.1681,True
+base,b1_sparse_clade,114,0.0907,0.0804,0.0000,False

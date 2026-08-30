@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rbcl-evo2-generative-biology"
+version = "0.1.0"
+description = "Prompt-conditioned generation and LoRA finetuning of Evo 2 on rbcL"
+requires-python = ">=3.10"
+dependencies = [
+    "biopython>=1.81",
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.4"]
+# Evo 2 and torch are installed separately -- they need a bf16-capable GPU and
+# their own install path. See README.
+train = ["torch>=2.2"]
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint.per-file-ignores]
+# Part A's generation script is preserved exactly as executed -- the results in
+# results/part_a/ came from this code. Style is not worth breaking provenance for.
+# runner.py is deliberately NOT excused: it is live shared code.
+"src/generate/generate_corpus.py" = ["C408", "SIM115"]
+
+# Live runners: job scripts run in a remote sandbox where an unclosed handle at
+# process exit is harmless, and a bare `except` must never be what fails a
+# 1.3-hour GPU run before its results are written.
+# Launchers: they set sys.path before importing src, so imports cannot come
+# first, and a pre-flight probe must never itself fail (BLE001).
+"scripts/run_on_modal.py" = ["E402", "PLW1510"]
+"scripts/run_generate_on_modal.py" = ["E402"]
+"scripts/check_modal_setup.py" = ["E402", "BLE001"]
+# The current entry points: finetune.py trains and generate_ab.py generates
+# (both paper parts -- the base arm is the same work in each), launched as a
+# remote job process. Same
+# rationale as above -- an unclosed handle at process exit is harmless, and a
+# bare `except` around checkpoint loading must not be what fails a half-hour GPU
+# run before its record is written. Imports are grouped after the HF_HOME
+# environment defaults, which must be set before torch or evo2 is imported at
+# all, so I001 cannot be satisfied here.
+"scripts/finetune.py" = ["SIM115", "BLE001", "E401", "I001"]
+"scripts/generate_ab.py" = ["SIM115", "BLE001", "E401", "I001"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

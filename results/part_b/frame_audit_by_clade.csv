@@ -1,0 +1,15 @@
+clade,n,annot_pct,naive_pct,fixed_pct,recov
+Conifers,150,100.0,26.7,98.7,0
+Ferns,150,88.7,26.7,99.3,17
+Diatoms,150,100.0,34.7,100.0,0
+Magnoliids,150,72.0,41.3,98.0,41
+Other angiosperms,150,80.0,46.0,81.3,27
+Red algae,150,100.0,52.7,100.0,0
+Brown algae,150,100.0,59.3,100.0,0
+Other SAR/protist,133,98.5,63.2,89.5,0
+Eudicots,150,4.0,86.7,87.3,125
+Lycophytes,32,100.0,87.5,100.0,0
+Liverworts,150,99.3,90.7,99.3,0
+Green algae,150,100.0,97.3,98.0,0
+Monocots,150,78.0,97.3,98.7,31
+Mosses,150,98.7,98.7,98.7,0

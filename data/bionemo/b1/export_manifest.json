@@ -1,0 +1,28 @@
+{
+  "source": "data/b1.jsonl",
+  "seed": 0,
+  "splits": {
+    "train": {
+      "records": 2881,
+      "species": 1850,
+      "nt": 4112964,
+      "fasta": "data/bionemo/b1/train.fasta",
+      "config": "data/bionemo/b1/preproc_train.yaml"
+    },
+    "val_seen": {
+      "records": 360,
+      "species": 360,
+      "nt": 514920,
+      "fasta": "data/bionemo/b1/val_seen.fasta",
+      "config": "data/bionemo/b1/preproc_val_seen.yaml"
+    },
+    "val_novel": {
+      "records": 366,
+      "species": 229,
+      "nt": 522147,
+      "fasta": "data/bionemo/b1/val_novel.fasta",
+      "config": "data/bionemo/b1/preproc_val_novel.yaml"
+    }
+  },
+  "leaked_species": 0
+}

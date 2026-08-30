@@ -1,0 +1,6 @@
+level_name,n,no_inframe_stop,full_length,median_cds_len,pass_rate
+L0_shared_seed,360,0,350,1428.0000,0.9722
+L1_donor_90,360,25,178,1428.0000,0.4944
+L2_donor_210,360,8,307,1428.0000,0.8528
+L3_donor_450,360,3,354,1428.0000,0.9833
+L4_donor_900,360,3,353,1428.0000,0.9806

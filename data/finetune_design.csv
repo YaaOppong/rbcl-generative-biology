@@ -1,0 +1,30 @@
+arm,clade,records,species,total_nt
+B1_sparse_clade,Brown algae,321,171,455625
+B1_sparse_clade,Diatoms,1266,511,1831949
+B1_sparse_clade,Liverworts,411,241,592901
+B1_sparse_clade,Mosses,706,382,1008464
+B1_sparse_clade,Red algae,2259,754,3248851
+B2_balanced,ANA-grade,28,20,39574
+B2_balanced,Brown algae,321,171,455625
+B2_balanced,Charophytes,8,4,11424
+B2_balanced,Conifers,259,154,370960
+B2_balanced,Cycads,13,9,18509
+B2_balanced,Diatoms,780,285,1126342
+B2_balanced,Dinoflagellates,1,1,1461
+B2_balanced,Eudicots,752,439,1080666
+B2_balanced,Ferns,208,95,297295
+B2_balanced,Ginkgo,5,1,7137
+B2_balanced,Gnetophytes,5,5,7139
+B2_balanced,Green algae,268,77,382369
+B2_balanced,Haptophytes,11,2,15962
+B2_balanced,Hornworts,2,2,2880
+B2_balanced,Liverworts,411,241,592901
+B2_balanced,Lycophytes,32,20,45729
+B2_balanced,Magnoliids,452,370,645845
+B2_balanced,Monocots,773,160,1107829
+B2_balanced,Mosses,706,382,1008464
+B2_balanced,Other SAR/protist,133,86,193317
+B2_balanced,Other angiosperms,252,205,357993
+B2_balanced,Other green,2,2,2815
+B2_balanced,Red algae,720,229,1032600
+B2_balanced,Unassigned,4,4,5703

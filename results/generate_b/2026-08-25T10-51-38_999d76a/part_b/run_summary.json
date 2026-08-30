@@ -1,0 +1,82 @@
+{
+  "stage": "generate_ab",
+  "part": "B",
+  "t_start": 1787655132.8912,
+  "torch": "2.7.1+cu126",
+  "commit": "999d76abd0d3adeff95a667398e628f8ea6816ab",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "arms": [
+    "base",
+    "all_fullcds",
+    "all_fullcds_atg",
+    "b1_sparse_clade"
+  ],
+  "adapters": {
+    "all_fullcds": {
+      "tag": "all_fullcds",
+      "path": "/weights/adapters/all_fullcds_adapter_best.pt",
+      "sha256": "b618a5c288fc3ad5994d8d34e24feadb654dd856add21bc0ca095c6784ac6c5b",
+      "verified": true,
+      "lora_config_from": "configs/all_fullcds.yaml"
+    },
+    "all_fullcds_atg": {
+      "tag": "all_fullcds_atg",
+      "path": "/weights/adapters/all_fullcds_atg_adapter_best.pt",
+      "sha256": "9fb3e9bf5e938e7dc8a2067c7b7a246c2b91207868011106d145a8f3e0a50f1e",
+      "verified": true,
+      "lora_config_from": "configs/all_fullcds_atg.yaml"
+    },
+    "b1_sparse_clade": {
+      "tag": "b1_sparse_clade",
+      "path": "/weights/adapters/b1_sparse_clade_adapter_best.pt",
+      "sha256": "8f737d1714ce3566b14f027a51e02b623c95b0f80cf0840bdab29358c19484df",
+      "verified": true,
+      "lora_config_from": "configs/b1_sparse_clade.yaml"
+    }
+  },
+  "adapter_verified": true,
+  "total_len": 1800,
+  "levels_run": [
+    "L1_donor_90"
+  ],
+  "replicates_run": [
+    0
+  ],
+  "n_prompts": 120,
+  "load_info": {
+    "model_name": "evo2_7b",
+    "fp8_patch_applied": false,
+    "self_healing_gate": true
+  },
+  "model": "evo2_7b",
+  "fell_back": false,
+  "generate_base_s": 896.1,
+  "base_rows": 120,
+  "adapter_load": {
+    "all_fullcds": {
+      "tensors": 266,
+      "lora_sites_in_model": 266,
+      "fully_covered": true,
+      "path": "/weights/adapters/all_fullcds_adapter_best.pt"
+    },
+    "all_fullcds_atg": {
+      "tensors": 266,
+      "lora_sites_in_model": 266,
+      "fully_covered": true,
+      "path": "/weights/adapters/all_fullcds_atg_adapter_best.pt"
+    },
+    "b1_sparse_clade": {
+      "tensors": 266,
+      "lora_sites_in_model": 266,
+      "fully_covered": true,
+      "path": "/weights/adapters/b1_sparse_clade_adapter_best.pt"
+    }
+  },
+  "generate_all_fullcds_s": 1330.9,
+  "all_fullcds_rows": 120,
+  "generate_all_fullcds_atg_s": 1336.6,
+  "all_fullcds_atg_rows": 120,
+  "generate_b1_sparse_clade_s": 1330.7,
+  "b1_sparse_clade_rows": 120,
+  "t_total_s": 4931.6
+}

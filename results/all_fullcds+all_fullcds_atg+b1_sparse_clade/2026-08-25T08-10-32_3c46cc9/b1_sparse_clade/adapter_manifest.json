@@ -1,0 +1,1864 @@
+{
+  "blocks.0.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.0.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.0.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.0.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.0.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.0.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.0.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.0.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.1.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.1.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.1.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.1.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.1.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.1.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.1.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.1.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.2.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.2.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.2.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.2.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.2.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.2.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.2.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.2.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.3.inner_mha_cls.Wqkv.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.3.inner_mha_cls.Wqkv.b.weight": {
+    "shape": [
+      12288,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.3.inner_mha_cls.out_proj.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.3.inner_mha_cls.out_proj.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.3.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.3.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.3.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.3.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.3.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.3.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.4.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.4.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.4.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.4.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.4.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.4.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.4.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.4.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.5.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.5.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.5.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.5.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.5.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.5.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.5.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.5.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.6.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.6.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.6.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.6.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.6.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.6.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.6.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.6.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.7.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.7.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.7.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.7.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.7.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.7.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.7.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.7.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.8.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.8.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.8.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.8.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.8.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.8.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.8.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.8.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.9.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.9.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.9.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.9.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.9.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.9.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.9.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.9.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.10.inner_mha_cls.Wqkv.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.10.inner_mha_cls.Wqkv.b.weight": {
+    "shape": [
+      12288,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.10.inner_mha_cls.out_proj.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.10.inner_mha_cls.out_proj.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.10.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.10.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.10.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.10.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.10.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.10.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.11.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.11.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.11.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.11.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.11.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.11.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.11.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.11.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.12.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.12.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.12.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.12.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.12.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.12.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.12.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.12.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.13.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.13.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.13.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.13.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.13.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.13.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.13.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.13.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.14.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.14.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.14.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.14.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.14.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.14.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.14.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.14.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.15.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.15.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.15.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.15.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.15.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.15.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.15.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.15.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.16.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.16.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.16.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.16.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.16.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.16.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.16.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.16.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.17.inner_mha_cls.Wqkv.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.17.inner_mha_cls.Wqkv.b.weight": {
+    "shape": [
+      12288,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.17.inner_mha_cls.out_proj.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.17.inner_mha_cls.out_proj.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.17.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.17.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.17.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.17.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.17.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.17.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.18.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.18.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.18.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.18.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.18.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.18.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.18.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.18.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.19.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.19.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.19.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.19.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.19.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.19.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.19.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.19.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.20.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.20.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.20.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.20.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.20.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.20.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.20.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.20.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.21.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.21.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.21.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.21.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.21.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.21.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.21.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.21.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.22.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.22.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.22.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.22.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.22.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.22.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.22.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.22.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.23.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.23.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.23.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.23.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.23.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.23.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.23.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.23.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.24.inner_mha_cls.Wqkv.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.24.inner_mha_cls.Wqkv.b.weight": {
+    "shape": [
+      12288,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.24.inner_mha_cls.out_proj.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.24.inner_mha_cls.out_proj.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.24.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.24.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.24.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.24.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.24.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.24.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.25.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.25.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.25.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.25.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.25.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.25.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.25.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.25.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.26.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.26.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.26.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.26.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.26.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.26.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.26.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.26.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.27.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.27.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.27.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.27.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.27.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.27.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.27.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.27.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.28.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.28.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.28.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.28.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.28.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.28.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.28.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.28.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.29.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.29.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.29.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.29.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.29.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.29.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.29.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.29.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.30.out_filter_dense.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.30.out_filter_dense.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.30.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.30.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.30.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.30.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.30.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.30.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.31.inner_mha_cls.Wqkv.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.31.inner_mha_cls.Wqkv.b.weight": {
+    "shape": [
+      12288,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.31.inner_mha_cls.out_proj.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.31.inner_mha_cls.out_proj.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.31.mlp.l1.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.31.mlp.l1.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.31.mlp.l2.a.weight": {
+    "shape": [
+      16,
+      4096
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.31.mlp.l2.b.weight": {
+    "shape": [
+      11264,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.31.mlp.l3.a.weight": {
+    "shape": [
+      16,
+      11264
+    ],
+    "dtype": "torch.bfloat16"
+  },
+  "blocks.31.mlp.l3.b.weight": {
+    "shape": [
+      4096,
+      16
+    ],
+    "dtype": "torch.bfloat16"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "model_name": "evo2_7b",
+  "fp8_patch_applied": false,
+  "self_healing_gate": true,
+  "inference_tensors_converted": 40
+}

@@ -1,0 +1,2198 @@
+[
+  {
+    "datapaths": [
+      "data/bionemo/b1/val_seen.fasta"
+    ],
+    "output_dir": "data/bionemo/b1",
+    "output_prefix": "rbcl_val_seen",
+    "train_split": 1.0,
+    "valid_split": 0.0,
+    "test_split": 0.0,
+    "overwrite": true,
+    "embed_reverse_complement": true,
+    "random_reverse_complement": 0.0,
+    "random_lineage_dropout": 0.0,
+    "transcribe": null,
+    "force_uppercase": true,
+    "indexed_dataset_dtype": "uint8",
+    "append_eod": true,
+    "enforce_sample_length": null,
+    "ftfy": false,
+    "tokenizer_type": "Byte-Level",
+    "vocab_file": null,
+    "vocab_size": null,
+    "merges_file": null,
+    "tokenizer_model_name": null,
+    "pretrained_tokenizer_model": null,
+    "special_tokens": null,
+    "fast_hf_tokenizer": true,
+    "workers": 4,
+    "preproc_concurrency": 100000,
+    "chunksize": 25,
+    "drop_empty_sequences": true,
+    "nnn_filter": true,
+    "seed": 0,
+    "taxonomy_data": {
+      "LC600445.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Dictyosiphon",
+        "species": "asiaticus"
+      },
+      "AY996361.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Petrospongium",
+        "species": "rugosum"
+      },
+      "AB102866.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Asterocladon",
+        "species": "interjectum"
+      },
+      "LC075249.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Neoagarum",
+        "species": "oharaense"
+      },
+      "LC742791.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Sporochnus",
+        "species": "anomalus"
+      },
+      "JX442491.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Costaria",
+        "species": "costata"
+      },
+      "AB035790.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Pseudochorda",
+        "species": "gracilis"
+      },
+      "AB102867.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Asterocladon",
+        "species": "rhodochortonoides"
+      },
+      "LC472376.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Myelophycus",
+        "species": "caespitosus"
+      },
+      "LC742794.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Sporochnus",
+        "species": "bolleanus"
+      },
+      "FN667660.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Saccharina",
+        "species": "japonica"
+      },
+      "AB035793.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Thalassiophyllum",
+        "species": "clathrus"
+      },
+      "LC493753.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Eisenia",
+        "species": "nipponica"
+      },
+      "KF985958.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Colpomenia",
+        "species": "bullosa"
+      },
+      "AB022233.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Hydroclathrus",
+        "species": "clathratus"
+      },
+      "LC472399.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Melanosiphon",
+        "species": "intestinalis"
+      },
+      "LC490561.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Planosiphon",
+        "species": "nakamurae"
+      },
+      "LC493749.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Ecklonia",
+        "species": "arborea"
+      },
+      "LC382523.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Mesogloia",
+        "species": "japonica"
+      },
+      "AB022242.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Petalonia",
+        "species": "zosterifolia"
+      },
+      "AB035781.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Chorda",
+        "species": "filum"
+      },
+      "LC016519.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Saundersella",
+        "species": "crassa"
+      },
+      "PV575315.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Dictyota",
+        "species": "coriacea"
+      },
+      "AB035792.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Kjellmaniella",
+        "species": "crassifolia"
+      },
+      "LC201557.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Ochrophyta",
+        "genus": "Eudesme",
+        "species": "borealis"
+      },
+      "KC736605.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Nitzschia",
+        "species": "draveillensis"
+      },
+      "AB430659.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Aulacoseira",
+        "species": "granulata"
+      },
+      "OP169187.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Ulnaria",
+        "species": "acus"
+      },
+      "OP169180.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Fragilaria",
+        "species": "radians"
+      },
+      "MT766303.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Thalassiosira",
+        "species": "sp."
+      },
+      "AB430662.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Rhizosolenia",
+        "species": "setigera"
+      },
+      "KX120588.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Campylodiscus",
+        "species": "samoensis"
+      },
+      "DQ813820.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Pseudo-nitzschia",
+        "species": "cuspidata"
+      },
+      "PP240671.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Nitzschia",
+        "species": "siwaschica"
+      },
+      "KY320294.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Navicula",
+        "species": "sp."
+      },
+      "KY320301.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Navicula",
+        "species": "ramosissima"
+      },
+      "DQ514768.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Porosira",
+        "species": "pseudodenticulata"
+      },
+      "JX033018.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Cymatopleura",
+        "species": "solea"
+      },
+      "KX120613.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Surirella",
+        "species": "brightwellii"
+      },
+      "MN718759.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Nitzschia",
+        "species": "cf."
+      },
+      "HQ912467.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Navicula",
+        "species": "cryptocephala"
+      },
+      "LC822794.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Gomphonemopsis",
+        "species": "sp."
+      },
+      "MW562869.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Epithemia",
+        "species": "pelagica"
+      },
+      "HQ912474.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Denticula",
+        "species": "kuetzingii"
+      },
+      "DQ514800.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Thalassiosira",
+        "species": "weissflogii"
+      },
+      "KM407459.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Chaetoceros",
+        "species": "dayaensis"
+      },
+      "KJ011805.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Cymbella",
+        "species": "janischii"
+      },
+      "JN050304.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Pseudo-nitzschia",
+        "species": "hasleana"
+      },
+      "JN050302.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Pseudo-nitzschia",
+        "species": "fryxelliana"
+      },
+      "HE978358.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Haslea",
+        "species": "sp."
+      },
+      "MN718751.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Nitzschia",
+        "species": "linearis"
+      },
+      "MZ571559.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Microcostatus",
+        "species": "sp."
+      },
+      "KC736590.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Amphora",
+        "species": "montana"
+      },
+      "DQ514817.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Skeletonema",
+        "species": "grethae"
+      },
+      "MN718753.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Nitzschia",
+        "species": "acidoclinata"
+      },
+      "AB430680.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Nanofrustulum",
+        "species": "shiloi"
+      },
+      "DQ813819.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Pseudo-nitzschia",
+        "species": "arenysensis"
+      },
+      "EF423516.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Pseudo-nitzschia",
+        "species": "delicatissima"
+      },
+      "DQ514774.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Cyclotella",
+        "species": "meneghiniana"
+      },
+      "DQ514803.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Thalassiosira",
+        "species": "minuscula"
+      },
+      "KX120630.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Surirella",
+        "species": "cf."
+      },
+      "KY320324.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Nitzschia",
+        "species": "sigma"
+      },
+      "OP169181.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Ulnaria",
+        "species": "danica"
+      },
+      "HQ912472.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Gomphonema",
+        "species": "affine"
+      },
+      "KX120574.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Entomoneis",
+        "species": "pulchra"
+      },
+      "HQ912463.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Eunotia",
+        "species": "bilunaris"
+      },
+      "KX120607.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Petrodictyon",
+        "species": "gemma"
+      },
+      "JX971013.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Cylindrotheca",
+        "species": "sp."
+      },
+      "AB430679.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Licmophora",
+        "species": "paradoxa"
+      },
+      "DQ514839.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Stephanodiscus",
+        "species": "minutulus"
+      },
+      "DQ514790.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Thalassiosira",
+        "species": "guillardii"
+      },
+      "KX120545.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Halamphora",
+        "species": "sp."
+      },
+      "HQ912491.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Bacillaria",
+        "species": "paxillifer"
+      },
+      "PV262178.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Climaconeis",
+        "species": "scalaris"
+      },
+      "KX120616.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Surirella",
+        "species": "sp."
+      },
+      "KC801039.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Pseudo-nitzschia",
+        "species": "pseudodelicatissima"
+      },
+      "DQ514842.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Stephanodiscus",
+        "species": "hantzschii"
+      },
+      "FM207547.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Pseudo-nitzschia",
+        "species": "pungens"
+      },
+      "DQ514805.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Thalassiosira",
+        "species": "rotula"
+      },
+      "HQ912487.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Campylosira",
+        "species": "cymbelliformis"
+      },
+      "HQ912509.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Cylindrotheca",
+        "species": "closterium"
+      },
+      "MW417228.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Minutocellus",
+        "species": "polymorphus"
+      },
+      "HF563525.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Haslea",
+        "species": "ostrearia"
+      },
+      "MF000628.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Entomoneis",
+        "species": "infula"
+      },
+      "HF675109.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Nitzschia",
+        "species": "pusilla"
+      },
+      "KX120573.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Entomoneis",
+        "species": "paludosa"
+      },
+      "KC853433.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Fragilariopsis",
+        "species": "kerguelensis"
+      },
+      "EF423498.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Nitzschia",
+        "species": "frustulum"
+      },
+      "HQ912490.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Lemnicola",
+        "species": "hungarica"
+      },
+      "KU687463.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Achnanthidium",
+        "species": "sp."
+      },
+      "HQ912422.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Chaetoceros",
+        "species": "muellerii"
+      },
+      "MH407520.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Pinnularia",
+        "species": "borealis"
+      },
+      "DQ514783.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Thalassiosira",
+        "species": "pseudonana"
+      },
+      "KJ658389.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Planothidium",
+        "species": "lanceolatum"
+      },
+      "MW893341.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Chaetoceros",
+        "species": "socialis"
+      },
+      "JX033004.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Surirella",
+        "species": "sp.1"
+      },
+      "KU687461.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Achnanthidium",
+        "species": "digitatum"
+      },
+      "HF675064.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Nitzschia",
+        "species": "cf."
+      },
+      "EF423502.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Pseudo-nitzschia",
+        "species": "fraudulenta"
+      },
+      "KX120637.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Surirella",
+        "species": "striatula"
+      },
+      "MH273074.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Eunotia",
+        "species": "sp."
+      },
+      "KC736606.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Nitzschia",
+        "species": "inconspicua"
+      },
+      "HQ912420.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Phaeodactylum",
+        "species": "tricornutum"
+      },
+      "DQ514765.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Lithodesmium",
+        "species": "undulatum"
+      },
+      "PV536177.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Nitzschia",
+        "species": "traheaformis"
+      },
+      "KC954575.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Amphora",
+        "species": "pediculus"
+      },
+      "PV262173.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Climaconeis",
+        "species": "sp."
+      },
+      "HQ912398.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Campylodiscus",
+        "species": "clypeus"
+      },
+      "KY320319.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Nitzschia",
+        "species": "cf."
+      },
+      "HE978356.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Haslea",
+        "species": "pseudostrearia"
+      },
+      "EF423504.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Pseudo-nitzschia",
+        "species": "americana"
+      },
+      "KY320326.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Nitzschia",
+        "species": "sp."
+      },
+      "KX120557.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Epithemia",
+        "species": "parallela"
+      },
+      "KU565365.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Pinnularia",
+        "species": "catenaborealis"
+      },
+      "MF000633.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Entomoneis",
+        "species": "gracilis"
+      },
+      "KX120570.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Entomoneis",
+        "species": "sp."
+      },
+      "KX120606.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Petrodictyon",
+        "species": "sp."
+      },
+      "KX120546.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Halamphora",
+        "species": "coffeiformis"
+      },
+      "HQ912459.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Gomphonema",
+        "species": "parvulum"
+      },
+      "DQ514767.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Porosira",
+        "species": "glacialis"
+      },
+      "MF000631.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Entomoneis",
+        "species": "cf."
+      },
+      "AB430671.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Asterionella",
+        "species": "formosa"
+      },
+      "HQ912523.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Cymatopleura",
+        "species": "elliptica"
+      },
+      "HQ912477.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Asterionellopsis",
+        "species": "glacialis"
+      },
+      "MF000637.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Entomoneis",
+        "species": "vilicicii"
+      },
+      "HQ912436.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Triceratium",
+        "species": "dubium"
+      },
+      "KX120589.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Campylodiscus",
+        "species": "sp."
+      },
+      "DQ514798.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Bacterosira",
+        "species": "sp."
+      },
+      "KF959649.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bacillariophyta",
+        "genus": "Achnanthidium",
+        "species": "minutissimum"
+      },
+      "AY877391.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Pleurozia",
+        "species": "purpurea"
+      },
+      "KF943583.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Solenostoma",
+        "species": "orbiculatum"
+      },
+      "HQ446987.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Fossombronia",
+        "species": "japonica"
+      },
+      "JF513462.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Nardia",
+        "species": "scalaris"
+      },
+      "AY507398.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Fossombronia",
+        "species": "angulosa"
+      },
+      "KF943556.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Nardia",
+        "species": "compressa"
+      },
+      "AB476584.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Mizutania",
+        "species": "riccardioides"
+      },
+      "LC924771.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Acrolejeunea",
+        "species": "sandvicensis"
+      },
+      "KF943570.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Solenostoma",
+        "species": "appressifolium"
+      },
+      "KF943614.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Solenostoma",
+        "species": "gracillimum"
+      },
+      "AB453730.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Haplomitrium",
+        "species": "mnioides"
+      },
+      "HM005733.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Pellia",
+        "species": "endiviifolia"
+      },
+      "KF943553.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Solenostoma",
+        "species": "hyalinum"
+      },
+      "LC885969.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Plicanthus",
+        "species": "hirtellus"
+      },
+      "LC732088.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Calypogeia",
+        "species": "japonica"
+      },
+      "HQ446986.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Fossombronia",
+        "species": "pusilla"
+      },
+      "AB476570.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Jubula",
+        "species": "hutchinsiae"
+      },
+      "JF513465.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Cephalozia",
+        "species": "bicuspidata"
+      },
+      "AB751580.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Trichocolea",
+        "species": "pluma"
+      },
+      "KF943554.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Nardia",
+        "species": "geoscyphus"
+      },
+      "LC732076.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Asperifolia",
+        "species": "indosinica"
+      },
+      "AB535644.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Metzgeria",
+        "species": "lindbergii"
+      },
+      "LC924760.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Solenostoma",
+        "species": "truncatum"
+      },
+      "AB476551.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Aneura",
+        "species": "pinguis"
+      },
+      "HQ446981.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Fossombronia",
+        "species": "foveolata"
+      },
+      "JF513455.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Metacalypogeia",
+        "species": "alternifolia"
+      },
+      "HQ446994.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Fossombronia",
+        "species": "wondraczekii"
+      },
+      "AY507392.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Austrofossombronia",
+        "species": "australis"
+      },
+      "KF943555.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Gymnomitrion",
+        "species": "corallioides"
+      },
+      "KF943552.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Solenostoma",
+        "species": "obovatum"
+      },
+      "AB476572.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Jungermannia",
+        "species": "subulata"
+      },
+      "AB476556.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Marchantiophyta",
+        "genus": "Calycularia",
+        "species": "crispula"
+      },
+      "LC183771.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Weissia",
+        "species": "parajaponica"
+      },
+      "LC924845.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Hyophila",
+        "species": "involuta"
+      },
+      "L13485.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Sphagnum",
+        "species": "palustre"
+      },
+      "LC270444.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Rhizomnium",
+        "species": "tuomikoskii"
+      },
+      "HQ660406.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Plagiothecium",
+        "species": "euryphyllum"
+      },
+      "AB050994.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Entodon",
+        "species": "luridus"
+      },
+      "AB332299.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Ctenidium",
+        "species": "hastile"
+      },
+      "LC270409.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Pohlia",
+        "species": "fauriei"
+      },
+      "AY320234.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Isopterygium",
+        "species": "albescens"
+      },
+      "LC924823.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Glyphomitrium",
+        "species": "humillimum"
+      },
+      "AB100954.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Dixonia",
+        "species": "thamnioides"
+      },
+      "LC702097.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Entodon",
+        "species": "challengeri"
+      },
+      "AB125579.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Grimmia",
+        "species": "pilifera"
+      },
+      "AB095270.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Cratoneuron",
+        "species": "filicinum"
+      },
+      "LC270381.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Plagiomnium",
+        "species": "vesicatum"
+      },
+      "LC270377.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Plagiomnium",
+        "species": "confertidens"
+      },
+      "HQ660416.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Plagiothecium",
+        "species": "nemorale"
+      },
+      "AB332295.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Ectropothecium",
+        "species": "zollingeri"
+      },
+      "LC924887.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Bryum",
+        "species": "argenteum"
+      },
+      "HM625840.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Plagiomnium",
+        "species": "acutum"
+      },
+      "HQ660399.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Pseudotaxiphyllum",
+        "species": "pohliicarpum"
+      },
+      "LC924956.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Leskeella",
+        "species": "pusilla"
+      },
+      "AY320243.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Acroporium",
+        "species": "stramineum"
+      },
+      "HQ660421.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Plagiothecium",
+        "species": "piliferum"
+      },
+      "AB853076.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Luisierella",
+        "species": "barbula"
+      },
+      "KT804658.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Filibryum",
+        "species": "deguchianum"
+      },
+      "LC183777.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Weissia",
+        "species": "kiiensis"
+      },
+      "LC270365.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Epipterygium",
+        "species": "tozeri"
+      },
+      "LC924884.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Brachymenium",
+        "species": "exile"
+      },
+      "LC924860.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Weissia",
+        "species": "controversa"
+      },
+      "AB332244.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Hypnum",
+        "species": "calcicola"
+      },
+      "LC270436.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Pohlia",
+        "species": "wahlenbergii"
+      },
+      "LC270372.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Mnium",
+        "species": "orientale"
+      },
+      "AB332250.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Leptocladiella",
+        "species": "psilura"
+      },
+      "HQ660413.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Plagiothecium",
+        "species": "neckeroideum"
+      },
+      "AB125583.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Schistidium",
+        "species": "strictum"
+      },
+      "AB039789.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Pylaisiadelpha",
+        "species": "tenuirostris"
+      },
+      "LC270411.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Pohlia",
+        "species": "flexuosa"
+      },
+      "AB739643.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Leucobryum",
+        "species": "javense"
+      },
+      "LC924951.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Taxiphyllum",
+        "species": "taxirameum"
+      },
+      "AB124781.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Leucobryum",
+        "species": "aduncum"
+      },
+      "AB739658.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Leucobryum",
+        "species": "scabrum"
+      },
+      "AB469554.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Pohlia",
+        "species": "drummondii"
+      },
+      "LC924834.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Scopelophila",
+        "species": "cataractae"
+      },
+      "AB332264.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Bryophyta",
+        "genus": "Hypnum",
+        "species": "lindbergii"
+      },
+      "AF099691.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Eucheuma",
+        "species": "isiforme"
+      },
+      "EU349110.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gloiopeltis",
+        "species": "tenax"
+      },
+      "KY927752.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Laurencia",
+        "species": "glomerata"
+      },
+      "AB243206.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Porphyra",
+        "species": "tenera"
+      },
+      "DQ813607.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Porphyra",
+        "species": "sp."
+      },
+      "OM326898.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Solieria",
+        "species": "tenuis"
+      },
+      "AF305803.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Ptilophora",
+        "species": "diversifolia"
+      },
+      "AF259498.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Bryocladia",
+        "species": "cuspidata"
+      },
+      "AY049394.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "viellardii"
+      },
+      "AY049332.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "lacinulata"
+      },
+      "AY049348.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "secunda"
+      },
+      "DQ374333.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Centroceras",
+        "species": "rodmanii"
+      },
+      "AF488818.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Grateloupia",
+        "species": "turuturu"
+      },
+      "LT904909.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Liagora",
+        "species": "albicans"
+      },
+      "MN481536.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Pyropia",
+        "species": "meridionalis"
+      },
+      "AY253661.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Martensia",
+        "species": "lewisiae"
+      },
+      "JN787104.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Porphyra",
+        "species": "linearis"
+      },
+      "FJ817089.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Porphyra",
+        "species": "rosengurttii"
+      },
+      "KM896874.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Kallymenia",
+        "species": "crouaniorum"
+      },
+      "AF465813.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Laurencia",
+        "species": "complanata"
+      },
+      "MT597100.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Vertebrata",
+        "species": "curta"
+      },
+      "MG648021.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Lithophyllum",
+        "species": "sp."
+      },
+      "MG926674.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Pyropia",
+        "species": "retorta"
+      },
+      "AY150316.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Caloglossa",
+        "species": "leprieurii"
+      },
+      "U04028.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Mastocarpus",
+        "species": "papillatus"
+      },
+      "U00448.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gelidium",
+        "species": "pulchellum"
+      },
+      "DQ869113.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Chondracanthus",
+        "species": "exasperatus"
+      },
+      "AF522359.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Ptilophora",
+        "species": "hildebrandtii"
+      },
+      "AY648008.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Capreolia",
+        "species": "implexa"
+      },
+      "AF465814.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Laurencia",
+        "species": "brongniartii"
+      },
+      "GQ252455.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Ceramium",
+        "species": "gardneri"
+      },
+      "GQ252449.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Campylaephora",
+        "species": "californica"
+      },
+      "AY294400.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Carpopeltis",
+        "species": "maillardii"
+      },
+      "U01889.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Pterocladiella",
+        "species": "capillacea"
+      },
+      "KY927728.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Laurencia",
+        "species": "corymbosa"
+      },
+      "DQ837008.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Porphyra",
+        "species": "sp."
+      },
+      "KU566549.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Osmundea",
+        "species": "cf."
+      },
+      "AY591923.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Antithamnionella",
+        "species": "spirographidis"
+      },
+      "U00103.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gelidium",
+        "species": "caulacantheum"
+      },
+      "AF452441.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Porphyra",
+        "species": "pseudolinearis"
+      },
+      "KY924625.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gymnogongrus",
+        "species": "durvillei"
+      },
+      "JX315330.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Corallina",
+        "species": "caespitosa"
+      },
+      "AY049334.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "flabelliforme"
+      },
+      "DQ630034.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Porphyra",
+        "species": "katadae"
+      },
+      "KR090584.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Eutrichosiphonia",
+        "species": "confusa"
+      },
+      "JQ843357.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "cornea"
+      },
+      "GQ252538.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Acanthophora",
+        "species": "spicifera"
+      },
+      "JN703282.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Porphyra",
+        "species": "dioica"
+      },
+      "GQ427202.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Porphyra",
+        "species": "haitanensis"
+      },
+      "KP019333.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Martensia",
+        "species": "albida"
+      },
+      "HQ728201.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Porphyra",
+        "species": "suborbiculata"
+      },
+      "KY927737.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Laurencia",
+        "species": "multiclavata"
+      },
+      "KX962022.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gelidium",
+        "species": "lingulatum"
+      },
+      "JQ843365.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilariopsis",
+        "species": "mclachlanii"
+      },
+      "AF521805.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Ceramium",
+        "species": "tenerrimum"
+      },
+      "GQ252477.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Microcladia",
+        "species": "borealis"
+      },
+      "AF388560.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Ahnfeltiopsis",
+        "species": "vermicularis"
+      },
+      "AB243204.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Porphyra",
+        "species": "yezoensis"
+      },
+      "GQ252542.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Antithamnion",
+        "species": "nipponicum"
+      },
+      "AF465816.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Laurencia",
+        "species": "natalensis"
+      },
+      "KY924629.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gymnogongrus",
+        "species": "flabelliformis"
+      },
+      "HM629843.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Acanthopeltis",
+        "species": "longiramulosa"
+      },
+      "MG066747.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Ptilophora",
+        "species": "spongiophila"
+      },
+      "JQ843363.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilariopsis",
+        "species": "lemaneiformis"
+      },
+      "JX624010.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Eucheuma",
+        "species": "denticulatum"
+      },
+      "AY049362.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "tikvahiae"
+      },
+      "GQ179794.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Ceramium",
+        "species": "codicola"
+      },
+      "JQ843358.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "domingensis"
+      },
+      "JQ843360.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "gracilis"
+      },
+      "FJ415858.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Callithamnion",
+        "species": "biseriatum"
+      },
+      "AF388554.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Ahnfeltiopsis",
+        "species": "complicata"
+      },
+      "HM775452.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Caloglossa",
+        "species": "sp."
+      },
+      "KY927759.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Laurencia",
+        "species": "griseaviolacea"
+      },
+      "JF781523.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Osmundea",
+        "species": "truncata"
+      },
+      "AF522366.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Ptilophora",
+        "species": "coppejansii"
+      },
+      "MN990103.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Ramicrusta",
+        "species": "paradoxa"
+      },
+      "KR090580.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Eutrichosiphonia",
+        "species": "paniculata"
+      },
+      "OQ136643.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Caulacanthus",
+        "species": "sp."
+      },
+      "GQ252458.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Ceramium",
+        "species": "japonicum"
+      },
+      "HM775437.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Caloglossa",
+        "species": "sp."
+      },
+      "KM609433.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Neosiphonia",
+        "species": "echinata"
+      },
+      "JQ768770.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "vermiculophylla"
+      },
+      "JQ843362.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Hydropuntia",
+        "species": "rangiferina"
+      },
+      "KF367787.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Rhodymenia",
+        "species": "pseudopalmata"
+      },
+      "MK375251.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "birdiae"
+      },
+      "AY253663.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Martensia",
+        "species": "formosana"
+      },
+      "MT676205.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Polysiphonia",
+        "species": "scopulorum"
+      },
+      "GQ252571.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Pterosiphonia",
+        "species": "bipinnata"
+      },
+      "MT597081.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Savoiea",
+        "species": "robusta"
+      },
+      "AF305805.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Pterocladiella",
+        "species": "caerulescens"
+      },
+      "MT597105.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Vertebrata",
+        "species": "hendryi"
+      },
+      "OL347706.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Palmaria",
+        "species": "sp."
+      },
+      "AF452424.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Porphyra",
+        "species": "aestivalis"
+      },
+      "DQ374339.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Centroceras",
+        "species": "hyalacanthum"
+      },
+      "KT936200.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Pyropia",
+        "species": "unabbottiae"
+      },
+      "KY120339.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Corynecladia",
+        "species": "elata"
+      },
+      "GQ252460.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Ceramium",
+        "species": "kondoi"
+      },
+      "PV956277.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Polysiphonia",
+        "species": "sertularioides"
+      },
+      "AF452434.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Porphyra",
+        "species": "mumfordii"
+      },
+      "KC209055.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "salicornia"
+      },
+      "KY573969.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Wilsonosiphonia",
+        "species": "howei"
+      },
+      "AB017680.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gelidium",
+        "species": "vagum"
+      },
+      "FJ868815.2": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Predaea",
+        "species": "goffiana"
+      },
+      "EU349109.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gloiopeltis",
+        "species": "furcata"
+      },
+      "AY049329.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "apiculata"
+      },
+      "AY049388.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "changii"
+      },
+      "KY927757.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Laurencia",
+        "species": "pumila"
+      },
+      "JX623998.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Kappaphycus",
+        "species": "striatum"
+      },
+      "U00116.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gelidium",
+        "species": "latifolium"
+      },
+      "KC209054.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Congracilaria",
+        "species": "babae"
+      },
+      "AF488823.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Grateloupia",
+        "species": "dichotoma"
+      },
+      "GU953247.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Thorea",
+        "species": "bachmannii"
+      },
+      "U00106.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gelidium",
+        "species": "floridanum"
+      },
+      "U16830.2": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gelidium",
+        "species": "elegans"
+      },
+      "JF781525.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Laurencia",
+        "species": "caduciramulosa"
+      },
+      "AY168660.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Botryocladia",
+        "species": "occidentalis"
+      },
+      "KM363769.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Bangia",
+        "species": "atropurpurea"
+      },
+      "GQ252565.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Polysiphonia",
+        "species": "pacifica"
+      },
+      "JQ843356.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "caudata"
+      },
+      "AB366139.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Porphyra",
+        "species": "kinositae"
+      },
+      "MZ852276.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Acrosorium",
+        "species": "flabellatum"
+      },
+      "MF083581.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Calliblepharis",
+        "species": "saidana"
+      },
+      "LC884816.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Cyanidiococcus",
+        "species": "sp."
+      },
+      "JQ405736.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilariopsis",
+        "species": "chorda"
+      },
+      "MT482433.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Galaxaura",
+        "species": "rugosa"
+      },
+      "KT373792.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Ochtodes",
+        "species": "secundiramea"
+      },
+      "KU566567.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Osmundea",
+        "species": "prudhommevanreinei"
+      },
+      "HM629815.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gelidium",
+        "species": "sp."
+      },
+      "AF385639.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Grateloupia",
+        "species": "intestinalis"
+      },
+      "AY737446.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "punctata"
+      },
+      "PP003469.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Dichotomaria",
+        "species": "elegans"
+      },
+      "HM240513.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Centroceras",
+        "species": "gasparrinii"
+      },
+      "MH884604.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Madagascaria",
+        "species": "erythrocladioides"
+      },
+      "MH200849.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Melanothamnus",
+        "species": "sp."
+      },
+      "MN990097.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Ramicrusta",
+        "species": "fujiiana"
+      },
+      "AY737441.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "spinulosa"
+      },
+      "GQ252471.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Corallophila",
+        "species": "eatoniana"
+      },
+      "AF465815.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Laurencia",
+        "species": "flexuosa"
+      },
+      "JN845514.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Caloglossa",
+        "species": "intermedia"
+      },
+      "JN847274.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Wildemania",
+        "species": "amplissima"
+      },
+      "AY049365.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilaria",
+        "species": "cervicornis"
+      },
+      "PQ338007.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Bryocladia",
+        "species": "subtilissima"
+      },
+      "MZ852282.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Acrosorium",
+        "species": "sp."
+      },
+      "JF330223.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gelidium",
+        "species": "indonesianum"
+      },
+      "AF501284.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Onikusa",
+        "species": "foliacea"
+      },
+      "AY294361.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Halymenia",
+        "species": "floridana"
+      },
+      "U00105.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gelidium",
+        "species": "coulteri"
+      },
+      "EF136612.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Hypnea",
+        "species": "flexicaulis"
+      },
+      "JQ843367.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gracilariopsis",
+        "species": "tenuifrons"
+      },
+      "DQ374335.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Centroceras",
+        "species": "micracanthum"
+      },
+      "KU234723.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Pyropia",
+        "species": "acanthophora"
+      },
+      "U27018.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Gymnogongrus",
+        "species": "turquetii"
+      },
+      "KC152488.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Polysiphonia",
+        "species": "morrowii"
+      },
+      "MZ852288.1": {
+        "kingdom": "Eukaryota",
+        "phylum": "Rhodophyta",
+        "genus": "Acrosorium",
+        "species": "venulosum"
+      }
+    }
+  }
+]

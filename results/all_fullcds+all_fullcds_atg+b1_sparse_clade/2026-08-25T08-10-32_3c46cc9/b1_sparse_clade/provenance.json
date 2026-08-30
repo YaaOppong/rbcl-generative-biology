@@ -1,0 +1,75 @@
+{
+  "written_utc": "2026-08-24T22:58:57.148634+00:00",
+  "git": {
+    "commit": "3e7946cc5e008655b08130c40088e4769b13551c",
+    "commit_short": "3e7946c",
+    "branch": "main",
+    "describe": "3e7946c",
+    "remote": "https://github.com/YaaOppong/rbcl-generative-biology.git",
+    "dirty": false,
+    "dirty_file_count": 0,
+    "dirty_files": [],
+    "in_git_checkout": false,
+    "source": "launcher"
+  },
+  "config": {
+    "model": "evo2_7b",
+    "data": "data/b1.jsonl",
+    "max_length": 1600,
+    "batch_size": 4,
+    "grad_accum": 8,
+    "lr": 0.0001,
+    "epochs": 3,
+    "warmup_ratio": 0.03,
+    "seed": 0,
+    "val_fraction": 0.2,
+    "novel_share": 0.5,
+    "early_stopping_patience": 2,
+    "out_dir": "out/b1_sparse_clade/train",
+    "lora": {
+      "rank": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_modules": [
+        "inner_mha_cls.Wqkv",
+        "inner_mha_cls.out_proj",
+        "mlp.l1",
+        "mlp.l2",
+        "mlp.l3",
+        "out_filter_dense"
+      ]
+    }
+  },
+  "config_sha256": "1d15af07b5f2b137cbf07ed601113bca718d94fea5abd2bf8988a6f9b510f3f8",
+  "inputs": [
+    {
+      "path": "data/b1.jsonl",
+      "size_bytes": 3915554,
+      "mtime_utc": "2026-08-24T17:09:17.786830+00:00",
+      "sha256": "12b7c5b41097f8b9ba075bccffa08e8f4d8d6642b555d72c0150ffc2c118f25a"
+    }
+  ],
+  "packages": {
+    "evo2": "0.5.5",
+    "torch": "2.7.1",
+    "vortex": null,
+    "transformer_engine": null,
+    "flash_attn": "2.8.0.post2",
+    "numpy": "2.5.2",
+    "biopython": "1.88"
+  },
+  "python": "3.12.1",
+  "platform": "Linux-4.19.0-gvisor-x86_64-with-glibc2.35",
+  "gpu": {
+    "cuda_available": true,
+    "device_count": 1,
+    "device_name": "NVIDIA H100 80GB HBM3",
+    "cuda_version": "12.6"
+  },
+  "compute_job_id": "sb-3ol6ujcJ4ujVkCaMCUBcKR",
+  "hostname_masked": true,
+  "stage": "finetune",
+  "tag": "b1_sparse_clade",
+  "entrypoint": "scripts/finetune.py",
+  "seed": 0
+}

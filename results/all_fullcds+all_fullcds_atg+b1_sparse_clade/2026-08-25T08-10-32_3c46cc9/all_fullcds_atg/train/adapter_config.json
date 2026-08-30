@@ -1,0 +1,28 @@
+{
+  "trainable_params": 29097984,
+  "total_params": 6610820864,
+  "trainable_frac": 0.004402,
+  "n_injection_sites": 133,
+  "lora": {
+    "rank": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "target_modules": [
+      "inner_mha_cls.Wqkv",
+      "inner_mha_cls.out_proj",
+      "mlp.l1",
+      "mlp.l2",
+      "mlp.l3",
+      "out_filter_dense"
+    ]
+  },
+  "optimizer": {
+    "lr": 0.0001,
+    "batch_size": 4,
+    "grad_accum": 8,
+    "epochs": 3,
+    "max_length": 1600,
+    "warmup_ratio": 0.03,
+    "early_stopping_patience": 2
+  }
+}

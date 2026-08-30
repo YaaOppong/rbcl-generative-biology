@@ -1,0 +1,131 @@
+# rbcL / Evo 2 — generative biology on a taxonomically structured gene family
+
+Prompt-conditioned generation and LoRA finetuning of
+[Evo 2](https://github.com/ArcInstitute/evo2) on *rbcL*, the plastid gene
+encoding the large subunit of Rubisco.
+
+**Status.** Part A is complete and independently reproduced. Part B has run at
+the L1 prompt level across four arms.
+
+## 📄 The two documents that matter
+
+| | |
+|---|---|
+| **[RESULTS.md](RESULTS.md)** | Every finding, with the table it comes from and the command that rebuilds it. |
+| **[METHODS.md](METHODS.md)** | Every procedure and parameter, the reproduction commands, and an explicit account of what is *not* reproducible here. |
+
+This README carries neither. Two statements of one number means one of them goes
+stale, so findings live in RESULTS.md and method lives in METHODS.md — each once.
+
+## The finding, in three sentences
+
+Finetuning repairs Part A's failure completely: at a 90 nt prompt, full-length
+generation goes from roughly half to near-total, paired across 120 donors. But it
+does **not** repair it by supplying missing coverage — an adapter trained on a
+corpus containing no green algae at all fixes green algae anyway, and three
+corpora differing three-fold in size and four-fold in clade breadth give
+identical results to four decimal places. So a short lineage-specific prompt
+appears to destroy the model's ability to commit to a coherent output, and any
+in-domain finetuning restores it — a reading that is testable, and whose
+falsifying experiment has not been run.
+
+Numbers, tables and statistics: **[RESULTS.md](RESULTS.md)**.
+
+158 tests. CPU-only; the torch-dependent modules skip cleanly without it.
+
+---
+
+## Why this gene
+
+*rbcL* is a single-copy, ~1,430 nt plastid coding sequence, deeply conserved and
+densely sampled across green plants and algae. That combination makes it a useful
+probe: sequence validity is checkable without an assay (length, frame, stop
+codons, structure-derived active-site residues), and the taxonomic structure is
+strong enough that a model's lineage bias is measurable rather than inferred.
+
+It is also a barcode gene, which turns out to matter. Evo 2's organelle training
+data is 100% RefSeq — one curated genome per species. The GenBank *rbcL*
+submissions that carry collection locality and voucher metadata are almost
+entirely outside it. The coverage gap is structured by curation policy, not
+biology.
+
+## The two parts
+
+Each isolates one variable. This is a factorial design, not accumulated
+experiments.
+
+| part | varies | held fixed | status |
+|---|---|---|---|
+| **A** — generation | prompt length | base model, no finetuning | complete |
+| **B** — finetuning | training corpus | prompt protocol from A | run at L1, four arms |
+
+**The hinge.** Part A ends on a failure: a short authentic prompt is *worse* than
+a generic seed, and the failure is clade-structured — pass rate falls to zero in
+four algal groups while land plants are barely affected.
+
+Part B was the proposed explanation for that observation:
+
+- **B said** the model never saw these clades: fix coverage, fix the failure.
+  **B's own results contradict this** — a corpus with none of the failing clades
+  fixes them anyway. What survives is the weaker, better-supported claim that
+  finetuning restores the ability to produce a complete CDS from a short prompt,
+  independent of which lineages it trained on.
+
+One observation, one shared evaluation harness, and a hypothesis that did not
+survive contact with its own experiment.
+
+---
+
+## Install
+
+```bash
+git clone https://github.com/YaaOppong/rbcl-generative-biology
+cd rbcl-generative-biology
+pip install -e ".[dev]"
+pytest -q                      # CPU-only, no GPU needed
+```
+
+Evo 2 itself needs a GPU with bf16 support and is installed separately per its
+own instructions.
+
+## Reproduce
+
+Sequences are **not** committed: `data/` holds accession manifests and the build
+script fetches from GenBank, so provenance stays auditable.
+
+Every command — data build, table regeneration, training, generation — is listed
+once in **[METHODS §11](METHODS.md#11-reproduction)**. All seven Part A tables and
+all four Part B tables regenerate byte-identically from committed inputs.
+
+## Layout
+
+```
+RESULTS.md        every finding, with its table and rebuild command
+METHODS.md        every procedure, parameter and limitation
+docs/DESIGN.md    scientific rationale, pre-registered predictions, known risks
+configs/          experiment parameterisation (one YAML per arm)
+src/data/         GenBank fetch + species-level leakage control
+src/generate/     the decoding procedure shared by both parts (runner.py),
+                  Part A's original corpus script
+src/train/        Part B: LoRA adapters, causal-LM objective
+src/eval/         shared harness — pass rate, containment, active-site constraint
+src/analysis/     table generators — every results table is rebuilt from here
+src/modal_env.py  the pinned image, volume and adapter naming — one authority
+src/modal_job.py  remote job dispatch: pack, launch, harvest, ledger
+scripts/          entry points (see scripts/README.md); NOT tests
+tests/            pytest suite, 158 tests, CPU-only
+results/part_a/   7 tables, all regenerated by src/analysis/
+results/part_b/   corpus composition, pass rate, transfer, containment
+results/archive/  superseded runs, with a README stating why — do not cite
+RUNS.md           append-only, machine-written run ledger
+```
+
+## Data and licences
+
+Sequence data from NCBI GenBank / RefSeq. Barcode records carry collection
+locality and voucher metadata contributed by their original submitters; the
+accession manifests preserve that attribution chain. Evo 2 weights and the
+NVIDIA BioNeMo recipe carry their own licence terms — check them before reuse.
+
+Code in this repository: MIT (see `LICENSE`). An associated manuscript is in
+preparation; this repository is the computational record, not the paper.

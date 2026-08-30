@@ -1,0 +1,18 @@
+clade,records,species,sp_in_og2,sp_novel,pct_novel,grp,refseq_genomes,rbcl_fullcds,novel_per_seen,rel_increment_pct
+Mosses,780,396,14,382,96.5,FOCAL,51,780,7.49,749.0
+Liverworts,448,252,23,229,90.9,FOCAL,44,448,5.2,520.0
+Diatoms,1266,511,50,461,90.2,FOCAL,98,1266,4.7,470.0
+Red algae,2338,764,74,690,90.3,FOCAL,232,2338,2.97,297.0
+Brown algae,354,178,33,145,81.5,FOCAL,68,354,2.13,213.0
+Magnoliids,456,372,42,330,88.7,other,451,456,0.73,73.0
+Eudicots,6462,5060,757,4303,85.0,DOMINANT,9141,6462,0.47,47.0
+Conifers,261,156,57,99,63.5,other,219,261,0.45,45.0
+Ferns,212,99,8,91,91.9,other,222,212,0.41,41.0
+Dinoflagellates,1,1,0,1,100.0,other,3,1,0.33,33.0
+Green algae,284,86,23,63,73.3,other,201,284,0.31,31.0
+Lycophytes,32,20,2,18,90.0,other,63,32,0.29,29.0
+Monocots,1862,1105,193,912,82.5,DOMINANT,3218,1862,0.28,28.0
+Hornworts,2,2,1,1,50.0,other,4,2,0.25,25.0
+Cycads,13,9,5,4,44.4,other,30,13,0.13,13.0
+Gnetophytes,5,5,4,1,20.0,other,12,5,0.08,8.0
+Haptophytes,11,2,2,0,0.0,other,15,2,0.0,0.0

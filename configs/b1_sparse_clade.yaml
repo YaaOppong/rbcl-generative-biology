@@ -1,0 +1,36 @@
+# Arm B1 -- sparse-clade finetune.
+# The five clades with >=5x headroom: full-CDS rbcL records available in
+# GenBank per plastid genome Evo 2 trained on (within clade).
+#   Mosses 15.3x | Diatoms 12.9x | Liverworts 10.2x | Red algae 10.1x | Brown algae 5.2x
+# 4,963 records / 2,059 species / 7.14 M nt after species-level donor holdout.
+# 7B, matching Part A (generate_corpus.py hardcodes Evo2("evo2_7b")).
+# NOT 1B: Part A's entire baseline -- 1,800 sequences and the per-clade
+# failure rates this arm is tested against -- is 7B, so a 1B finetune would
+# entangle the finetuning effect with model scale. The earlier 1B plan came
+# from NVIDIA's LoRA tutorial being published for 1B, which is method
+# convenience, not a reason to forfeit the control.
+model: evo2_7b
+data: data/b1.jsonl
+max_length: 1600        # longest rbcL CDS is ~1,500 nt; headroom for BOS/EOS
+batch_size: 4
+grad_accum: 8           # effective batch 32
+lr: 1.0e-4
+epochs: 3
+warmup_ratio: 0.03
+seed: 0                 # run seeds 0,1,2 -- see DESIGN.md "Three seeds"
+val_fraction: 0.2         # total held back
+novel_share: 0.5          # half to val_novel (species-disjoint), half to val_seen
+early_stopping_patience: 2
+out_dir: results/b1_seed0
+lora:
+  rank: 16
+  alpha: 32
+  dropout: 0.05
+  # Target names verified against ArcInstitute/evo2 -> Zymrael/vortex
+  # StripedHyena source (vortex/model/{model,layers,attention}.py):
+  #   attention blocks: inner_mha_cls.{Wqkv, out_proj}
+  #   all blocks:       mlp.{l1, l2, l3}   (gated MLP: l1/l2 up, l3 down)
+  #   hyena blocks:     out_filter_dense
+  # blocks.N.projections is TELinear, which subclasses nn.Module (not
+  # nn.Linear) and returns (out, bias) -- deliberately excluded.
+  target_modules: [inner_mha_cls.Wqkv, inner_mha_cls.out_proj, mlp.l1, mlp.l2, mlp.l3, out_filter_dense]

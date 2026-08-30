@@ -1,0 +1,59 @@
+{
+  "stage": "finetune",
+  "tag": "b1_sparse_clade",
+  "t_start": 1787612337.2352676,
+  "torch": "2.7.1+cu126",
+  "seed": 0,
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "commit": "3e7946cc5e008655b08130c40088e4769b13551c",
+  "config": "configs/b1_sparse_clade.yaml",
+  "load_info": {
+    "model_name": "evo2_7b",
+    "fp8_patch_applied": false,
+    "self_healing_gate": true
+  },
+  "model": "evo2_7b",
+  "train_s": 1115.5,
+  "train_exit": 0,
+  "train_tail": "            \n                    INFO     StripedHyena - INFO - Parameter count  model.py:704\n                             for block 29: 205606912                            \n                    INFO     StripedHyena - INFO - Assigned         model.py:703\n                             layer_idx=30 to device='cuda:0'                    \n                    INFO     StripedHyena - INFO - Parameter count  model.py:704\n                             for block 30: 205705216                            \n                    INFO     StripedHyena - INFO - Assigned         model.py:703\n                             layer_idx=31 to device='cuda:0'                    \n                    INFO     StripedHyena - INFO - Parameter count  model.py:704\n                             for block 31: 205533184                            \n                    INFO     StripedHyena - INFO - Initialized      model.py:723\n                             model                                              \n                    INFO     vortex.model.utils - INFO - Loading     utils.py:92\n                             /__modal/volumes/vo-dVhLf1OAouKA9hSdEnl            \n                             k6N/hub/models--arcinstitute--evo2_7b/s            \n                             napshots/bda0089f92582d5baabf0f22d9fc85            \n                             f3588f6b58/evo2_7b.pt                              \nExtra keys in state_dict: {'unembed.weight', 'blocks.10.mixer.attn._extra_state', 'blocks.24.mixer.attn._extra_state', 'blocks.31.mixer.attn._extra_state', 'blocks.24.mixer.dense._extra_state', 'blocks.19.projections._extra_state', 'blocks.29.projections._extra_state', 'blocks.14.projections._extra_state', 'blocks.16.mixer.mixer.filter.t', 'blocks.16.projections._extra_state', 'blocks.26.projections._extra_state', 'blocks.15.projections._extra_state', 'blocks.25.projections._extra_state', 'blocks.31.mixer.dense._extra_state', 'blocks.8.projections._extra_state', 'blocks.9.projections._extra_state', 'blocks.0.projections._extra_state', 'blocks.1.projections._extra_state', 'blocks.2.projections._extra_state', 'blocks.4.projections._extra_state', 'blocks.5.projections._extra_state', 'blocks.6.projections._extra_state', 'blocks.7.projections._extra_state', 'blocks.3.mixer.dense._extra_state', 'blocks.11.projections._extra_state', 'blocks.21.projections._extra_state', 'blocks.17.mixer.attn._extra_state', 'blocks.3.mixer.attn._extra_state', 'blocks.2.mixer.mixer.filter.t', 'blocks.6.mixer.mixer.filter.t', 'blocks.9.mixer.mixer.filter.t', 'blocks.18.projections._extra_state', 'blocks.28.projections._extra_state', 'blocks.23.mixer.mixer.filter.t', 'blocks.13.mixer.mixer.filter.t', 'blocks.23.projections._extra_state', 'blocks.13.projections._extra_state', 'blocks.20.projections._extra_state', 'blocks.30.projections._extra_state', 'blocks.12.projections._extra_state', 'blocks.22.projections._extra_state', 'blocks.27.projections._extra_state', 'blocks.17.mixer.dense._extra_state', 'blocks.10.mixer.dense._extra_state', 'blocks.20.mixer.mixer.filter.t', 'blocks.30.mixer.mixer.filter.t', 'blocks.27.mixer.mixer.filter.t'}\n[08/24/26 22:59:11] INFO     StripedHyena - INFO - Adjusting Wqkv  model.py:1008\n                             for column split (permuting rows)                  \ntrainable 29,097,984 / 6,610,820,864 params (0.44%)\nepoch -1 val_seen 0.3443 val_novel 0.3476 (base model, no adapters trained)\nepoch 0 val_seen 0.1904 val_novel 0.2038 gap -0.0134\nepoch 1 val_seen 0.1633 val_novel 0.1836 gap -0.0203\nepoch 2 val_seen 0.1579 val_novel 0.1813 gap -0.0233\n/usr/local/lib/python3.12/site-packages/evo2/models.py:282: UserWarning: Transformer Engine not installed. Falling back to bf16 projections (use_fp8_input_projections=False). \n  warnings.warn(\n\n  0%|          | 0/32 [00:00<?, ?it/s]\n  3%|\u258e         | 1/32 [00:00<00:03,  9.44it/s]\n 12%|\u2588\u258e        | 4/32 [00:00<00:01, 19.95it/s]\n 56%|\u2588\u2588\u2588\u2588\u2588\u258b    | 18/32 [00:00<00:00, 59.43it/s]\n100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 32/32 [00:00<00:00, 73.41it/s]\n",
+  "history": [
+    {
+      "epoch": -1,
+      "val_seen": 0.3443215984074461,
+      "val_novel": 0.3476350160982551
+    },
+    {
+      "epoch": 0,
+      "val_seen": 0.19040666796818018,
+      "val_novel": 0.20379747350027333,
+      "memorisation_gap": -0.013390805532093153
+    },
+    {
+      "epoch": 1,
+      "val_seen": 0.16332457399155495,
+      "val_novel": 0.18360808673763956,
+      "memorisation_gap": -0.020283512746084614
+    },
+    {
+      "epoch": 2,
+      "val_seen": 0.15794959471436662,
+      "val_novel": 0.1812735922408457,
+      "memorisation_gap": -0.023323997526479068
+    }
+  ],
+  "adapter_source": "trained this run",
+  "adapter_path": "/weights/adapters/b1_sparse_clade_adapter_best.pt",
+  "adapter": {
+    "path": "/weights/adapters/b1_sparse_clade_adapter_best.pt",
+    "size_bytes": 58279739,
+    "mtime_utc": "2026-08-24T23:17:40.557656+00:00",
+    "sha256": "8f737d1714ce3566b14f027a51e02b623c95b0f80cf0840bdab29358c19484df",
+    "n_tensors": 266,
+    "n_params": 29097984,
+    "dtypes": [
+      "torch.bfloat16"
+    ],
+    "tag": "b1_sparse_clade"
+  },
+  "t_total_s": 1124.2
+}

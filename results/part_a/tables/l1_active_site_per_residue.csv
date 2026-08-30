@@ -1,0 +1,23 @@
+population,pos,aa,correct,n,frac,role
+full_length,175,K,176,178,0.9888,"active site (Lys, RuBP)"
+full_length,177,K,175,178,0.9831,active site (Lys)
+full_length,201,K,177,178,0.9944,"carbamylated Lys (Mg²⁺, activation)"
+full_length,203,D,176,178,0.9888,Mg²⁺ coordination (Asp)
+full_length,204,E,177,178,0.9944,Mg²⁺ coordination (Glu)
+full_length,294,H,173,178,0.9719,active site (His)
+full_length,295,R,174,178,0.9775,"active site (Arg, RuBP P1)"
+full_length,327,H,172,178,0.9663,active site (His)
+full_length,334,K,173,178,0.9719,"active site (Lys, loop 6)"
+full_length,379,S,174,178,0.9775,active site (Ser)
+full_length,380,G,174,178,0.9775,active site (Gly)
+scorable,175,K,180,193,0.9326,"active site (Lys, RuBP)"
+scorable,177,K,178,193,0.9223,active site (Lys)
+scorable,201,K,181,193,0.9378,"carbamylated Lys (Mg²⁺, activation)"
+scorable,203,D,180,193,0.9326,Mg²⁺ coordination (Asp)
+scorable,204,E,181,193,0.9378,Mg²⁺ coordination (Glu)
+scorable,294,H,177,193,0.9171,active site (His)
+scorable,295,R,177,193,0.9171,"active site (Arg, RuBP P1)"
+scorable,327,H,177,193,0.9171,active site (His)
+scorable,334,K,180,193,0.9326,"active site (Lys, loop 6)"
+scorable,379,S,175,193,0.9067,active site (Ser)
+scorable,380,G,176,193,0.9119,active site (Gly)
