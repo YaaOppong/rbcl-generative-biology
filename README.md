@@ -1,4 +1,4 @@
-# rbcL / Evo 2 — generative biology on a taxonomically structured gene family
+# Generations of _rbcL_, a taxonomically structured gene family
 
 Prompt-conditioned generation and LoRA finetuning of
 [Evo 2](https://github.com/ArcInstitute/evo2) on *rbcL*, the plastid gene
@@ -17,24 +17,6 @@ the L1 prompt level across four arms.
 This README carries neither. Two statements of one number means one of them goes
 stale, so findings live in RESULTS.md and method lives in METHODS.md — each once.
 
-## The finding, in three sentences
-
-Finetuning repairs Part A's failure completely: at a 90 nt prompt, full-length
-generation goes from roughly half to near-total, paired across 120 donors. But it
-does **not** repair it by supplying missing coverage — an adapter trained on a
-corpus containing no green algae at all fixes green algae anyway, and three
-corpora differing three-fold in size and four-fold in clade breadth give
-identical results to four decimal places. So a short lineage-specific prompt
-appears to destroy the model's ability to commit to a coherent output, and any
-in-domain finetuning restores it — a reading that is testable, and whose
-falsifying experiment has not been run.
-
-Numbers, tables and statistics: **[RESULTS.md](RESULTS.md)**.
-
-158 tests. CPU-only; the torch-dependent modules skip cleanly without it.
-
----
-
 ## Why this gene
 
 *rbcL* is a single-copy, ~1,430 nt plastid coding sequence, deeply conserved and
@@ -43,7 +25,7 @@ probe: sequence validity is checkable without an assay (length, frame, stop
 codons, structure-derived active-site residues), and the taxonomic structure is
 strong enough that a model's lineage bias is measurable rather than inferred.
 
-It is also a barcode gene, which turns out to matter. Evo 2's organelle training
+It is also a barcode gene. Evo 2's organelle training
 data is 100% RefSeq — one curated genome per species. The GenBank *rbcL*
 submissions that carry collection locality and voucher metadata are almost
 entirely outside it. The coverage gap is structured by curation policy, not
@@ -59,22 +41,6 @@ experiments.
 | **A** — generation | prompt length | base model, no finetuning | complete |
 | **B** — finetuning | training corpus | prompt protocol from A | run at L1, four arms |
 
-**The hinge.** Part A ends on a failure: a short authentic prompt is *worse* than
-a generic seed, and the failure is clade-structured — pass rate falls to zero in
-four algal groups while land plants are barely affected.
-
-Part B was the proposed explanation for that observation:
-
-- **B said** the model never saw these clades: fix coverage, fix the failure.
-  **B's own results contradict this** — a corpus with none of the failing clades
-  fixes them anyway. What survives is the weaker, better-supported claim that
-  finetuning restores the ability to produce a complete CDS from a short prompt,
-  independent of which lineages it trained on.
-
-One observation, one shared evaluation harness, and a hypothesis that did not
-survive contact with its own experiment.
-
----
 
 ## Install
 
