@@ -242,7 +242,7 @@ shared L1 prompts, **all 120 sequences are byte-identical**
 (`src/analysis/determinism.py`). This is what licenses the paired comparisons
 above.
 
-**Table regeneration.** All eight Part A tables and all four Part B tables
+**Table regeneration.** All seven Part A tables and all four Part B tables
 regenerate **byte-identically** from committed inputs.
 
 **Scorer discrepancy.** The Part A corpus carries a stored `full_length` column

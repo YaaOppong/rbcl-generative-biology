@@ -535,8 +535,9 @@ python scripts/run_generate_on_modal.py --part B --arms base,b1_sparse_clade \
     --expect-sha b1_sparse_clade=<sha256>
 ```
 
-All eight Part A tables and all four Part B tables regenerate **byte-identically**
-from committed inputs.
+All seven Part A tables and all four Part B tables regenerate **byte-identically**
+from committed inputs. That claim covers the analysis path only — the GPU
+environment cannot be rebuilt from this repository (§12).
 
 ## 12. What is *not* reproducible
 
@@ -573,6 +574,37 @@ Validated against the deleted originals before they were removed: on all 285
 shared sequences `aa_len` and `n_correct` are identical and `identity` differs by
 0.00e+00, and restricting the per-residue table to the original's population
 reproduces all eleven of its counts exactly.
+
+### The GPU environment
+
+**The analysis path reproduces from committed inputs; the GPU path does not.**
+`src/modal_env.py` pins the remote environment by identifier —
+`IMAGE_ID = "im-ObsG9qtru3aZlO314k92Mv"` — and that identifier is scoped to the
+account the work ran in. The image is referenced, not built here, so no
+recipe for it exists in this repository and nobody else can reconstruct it
+byte-for-byte.
+
+Practically: everything under `src/analysis/` runs anywhere, and the tables it
+writes are byte-identical from a fresh clone. Training (`scripts/finetune.py`)
+and generation (`scripts/generate_ab.py`) need an equivalent environment
+rebuilt by hand. The constraints that environment must satisfy are recorded in
+`src/evo2_loader.py` rather than in a build file:
+
+- CUDA with bf16 support
+- `evo2` 0.5.5 specifically — the installed `load_evo2_model` signature differs
+  from the one on GitHub main, and passing `use_kernels` to the released version
+  raises `TypeError`
+- `vortex` (StripedHyena) for the model implementation
+- flash-attn at most 2.6.3, the ceiling imposed by Transformer Engine 1.13
+- **Transformer Engine deliberately absent**: its import-time CUDA
+  initialisation hangs during the image-save phase. Its omission is why
+  `needs_fp8_patch` exists (§2) — non-7B checkpoints must be handed a config
+  with `use_fp8_input_projections: false`, because evo2's own fallback is gated
+  on a literal `"7b"` substring in the model name.
+
+A Dockerfile encoding these constraints would close the gap and has not been
+written. Until it is, the reproducibility claim in §11 covers the analysis, not
+the GPU work.
 
 ## 13. Known limitations
 
